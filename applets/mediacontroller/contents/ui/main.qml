@@ -286,6 +286,7 @@ Item {
             'source': mpris2Source.multiplexSource
         }]
 
+        var plasmaBrowserIntegPIDs = [];
         var sources = mpris2Source.sources
         for (var i = 0, length = sources.length; i < length; ++i) {
             var source = sources[i]
@@ -304,7 +305,14 @@ Item {
                 'icon': playerData["Desktop Icon Name"] || playerData["DesktopEntry"] || "emblem-music-symbolic",
                 'source': source
             });
+
+            if (source == "plasma-browser-integration" && "kde:pid" in playerData["Metadata"]) {
+                plasmaBrowserIntegPIDs.push(playerData["Metadata"]["kde:pid"]);
+            }
         }
+
+        // prefer plasma-browser-integration controls over browser built-in controls
+        model = model.filter( item => !(plasmaBrowserIntegPIDs.includes(mpris2Source.data[item["source"]]["InstancePid"])) )
 
         root.mprisSourcesModel = model;
     }
