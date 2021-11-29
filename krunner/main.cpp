@@ -21,6 +21,7 @@
 #include <KDBusService>
 
 #include <KQuickAddons/QtQuickSettings>
+#include <LayerShellQt/Shell>
 #include <kdeclarative/qmlobject.h>
 
 #include <kworkspace.h>
@@ -34,6 +35,8 @@ int main(int argc, char **argv)
         qunsetenv("QT_DEVICE_PIXEL_RATIO");
         QCoreApplication::setAttribute(Qt::AA_DisableHighDpiScaling);
     }
+    const QByteArray oldShellIntegration = qgetenv("QT_WAYLAND_SHELL_INTEGRATION");
+    LayerShellQt::Shell::useLayerShell();
 
     const bool qpaVariable = qEnvironmentVariableIsSet("QT_QPA_PLATFORM");
     KWorkSpace::detectPlatform(argc, argv);
@@ -100,6 +103,8 @@ int main(int argc, char **argv)
     };
 
     updateVisibility();
+    qDebug() << oldShellIntegration;
+    qputenv("QT_WAYLAND_SHELL_INTEGRATION", oldShellIntegration);
 
     QObject::connect(&service, &KDBusService::activateRequested, &view, [&](const QStringList &arguments, const QString &workingDirectory) {
         Q_UNUSED(workingDirectory)
