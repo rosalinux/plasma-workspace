@@ -32,33 +32,33 @@ AbstractButton {
     background: Item {
         id: background
 
-        property int state: {
+        property /*MenuDelegate.State*/int state: {
             if (controlRoot.down) {
-                return MenuDelegate.State.Down
+                return MenuDelegate.State.Down;
             } else if (controlRoot.hovered) {
-                return MenuDelegate.State.Hover
+                return MenuDelegate.State.Hover;
             }
-            return MenuDelegate.State.Rest
+            return MenuDelegate.State.Rest;
         }
 
         PlasmaCore.FrameSvgItem {
             id: rest
             anchors.fill: parent
-            visible: background.state == MenuDelegate.State.Rest
+            visible: background.state === MenuDelegate.State.Rest
             imagePath: "widgets/menubaritem"
             prefix: "normal"
         }
         PlasmaCore.FrameSvgItem {
             id: hover
             anchors.fill: parent
-            visible: background.state == MenuDelegate.State.Hover
+            visible: background.state === MenuDelegate.State.Hover
             imagePath: "widgets/menubaritem"
             prefix: "hover"
         }
         PlasmaCore.FrameSvgItem {
             id: down
             anchors.fill: parent
-            visible: background.state == MenuDelegate.State.Down
+            visible: background.state === MenuDelegate.State.Down
             imagePath: "widgets/menubaritem"
             prefix: "pressed"
         }
