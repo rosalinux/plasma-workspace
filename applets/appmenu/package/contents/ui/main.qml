@@ -69,7 +69,6 @@ Item {
 
             // using a Connections {} doesn't work for some reason in Qt >= 5.8
             plasmoid.nativeInterface.requestActivateIndex.connect(index => {
-                const idx = Math.max(0, Math.min(buttonRepeater.count - 1, index));
                 const button = buttonRepeater.itemAt(index);
                 if (button) {
                     button.clicked();
