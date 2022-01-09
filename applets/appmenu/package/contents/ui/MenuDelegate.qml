@@ -66,5 +66,6 @@ AbstractButton {
 
     contentItem: PC3.Label {
         text: controlRoot.Kirigami.MnemonicData.richTextLabel
+        textFormat: PC3.Label.RichText
     }
 }
