@@ -41,6 +41,15 @@ AbstractButton {
         Down
     }
 
+    property /*MenuDelegate.MenuState*/int menuState: {
+        if (down) {
+            return MenuDelegate.MenuState.Down;
+        } else if (hovered) {
+            return MenuDelegate.MenuState.Hover;
+        }
+        return MenuDelegate.MenuState.Rest;
+    }
+
     Kirigami.MnemonicData.controlType: Kirigami.MnemonicData.SecondaryControl
     Kirigami.MnemonicData.label: controlRoot.text
 
@@ -52,20 +61,11 @@ AbstractButton {
     background: Item {
         id: background
 
-        property /*MenuDelegate.MenuState*/int menuState: {
-            if (controlRoot.down) {
-                return MenuDelegate.MenuState.Down;
-            } else if (controlRoot.hovered) {
-                return MenuDelegate.MenuState.Hover;
-            }
-            return MenuDelegate.MenuState.Rest;
-        }
-
         PlasmaCore.FrameSvgItem {
             id: rest
             anchors.fill: parent
             imagePath: "widgets/menubaritem"
-            prefix: switch (background.menuState) {
+            prefix: switch (controlRoot.menuState) {
                 case MenuDelegate.MenuState.Down: return "pressed";
                 case MenuDelegate.MenuState.Hover: return "hover";
                 case MenuDelegate.MenuState.Rest: return "normal";
