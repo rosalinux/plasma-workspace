@@ -35,7 +35,7 @@ AbstractButton {
     // other "outside of the menu" click event.
     onPressed: activated()
 
-    enum State {
+    enum MenuState {
         Rest,
         Hover,
         Down
@@ -52,23 +52,23 @@ AbstractButton {
     background: Item {
         id: background
 
-        property /*MenuDelegate.State*/int state: {
+        property /*MenuDelegate.MenuState*/int menuState: {
             if (controlRoot.down) {
-                return MenuDelegate.State.Down;
+                return MenuDelegate.MenuState.Down;
             } else if (controlRoot.hovered) {
-                return MenuDelegate.State.Hover;
+                return MenuDelegate.MenuState.Hover;
             }
-            return MenuDelegate.State.Rest;
+            return MenuDelegate.MenuState.Rest;
         }
 
         PlasmaCore.FrameSvgItem {
             id: rest
             anchors.fill: parent
             imagePath: "widgets/menubaritem"
-            prefix: switch (background.state) {
-                case MenuDelegate.State.Down: return "pressed";
-                case MenuDelegate.State.Hover: return "hover";
-                case MenuDelegate.State.Rest: return "normal";
+            prefix: switch (background.menuState) {
+                case MenuDelegate.MenuState.Down: return "pressed";
+                case MenuDelegate.MenuState.Hover: return "hover";
+                case MenuDelegate.MenuState.Rest: return "normal";
             }
         }
     }
