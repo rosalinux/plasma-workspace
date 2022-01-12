@@ -125,10 +125,7 @@ Item {
                 visible: text !== ""
 
                 menuIsOpen: plasmoid.nativeInterface.currentIndex !== -1
-                onActivated: {
-                    plasmoid.nativeInterface.trigger(this, index);
-                    checked = Qt.binding(() => plasmoid.nativeInterface.currentIndex === index);
-                }
+                onActivated: plasmoid.nativeInterface.trigger(this, index)
             }
         }
     }
