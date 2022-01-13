@@ -53,23 +53,18 @@ AbstractButton {
     Kirigami.MnemonicData.controlType: Kirigami.MnemonicData.SecondaryControl
     Kirigami.MnemonicData.label: controlRoot.text
 
-    leftPadding: rest.margins.left
-    topPadding: rest.margins.top
-    rightPadding: rest.margins.right
-    bottomPadding: rest.margins.bottom
+    leftPadding: background.margins.left
+    topPadding: background.margins.top
+    rightPadding: background.margins.right
+    bottomPadding: background.margins.bottom
 
-    background: Item {
-        id: background
-
-        PlasmaCore.FrameSvgItem {
-            id: rest
-            anchors.fill: parent
-            imagePath: "widgets/menubaritem"
-            prefix: switch (controlRoot.menuState) {
-                case MenuDelegate.MenuState.Down: return "pressed";
-                case MenuDelegate.MenuState.Hover: return "hover";
-                case MenuDelegate.MenuState.Rest: return "normal";
-            }
+    background: PlasmaCore.FrameSvgItem {
+        anchors.fill: parent
+        imagePath: "widgets/menubaritem"
+        prefix: switch (controlRoot.menuState) {
+            case MenuDelegate.MenuState.Down: return "pressed";
+            case MenuDelegate.MenuState.Hover: return "hover";
+            case MenuDelegate.MenuState.Rest: return "normal";
         }
     }
 
