@@ -74,6 +74,25 @@ KCM.GridViewKCM {
         }
     }
 
+    actions.main: NewStuff.Action {
+        text: i18n("Get New Color Schemes…")
+        configFile: "colorschemes.knsrc"
+        onEntryEvent: function (entry, event) {
+            if (event == 1) { // StatusChangedEvent
+                kcm.knsEntryChanged(entry)
+            } else if (event == 2) { // AdoptedEvent
+                kcm.loadSelectedColorScheme()
+            }
+        }
+    }
+
+    actions.right: Kirigami.Action {
+        text: i18n("Install from File…")
+        icon.name: "document-import"
+        onTriggered: fileDialogLoader.active = true
+    }
+
+
     // putting the InlineMessage as header item causes it to show up initially despite visible false
     header: ColumnLayout {
         Kirigami.InlineMessage {
@@ -476,29 +495,6 @@ KCM.GridViewKCM {
                     notInstalledWarning.visible = false;
                 }
             }
-        }
-
-        Kirigami.ActionToolBar {
-            flat: false
-            alignment: Qt.AlignRight
-            actions: [
-                Kirigami.Action {
-                    text: i18n("Install from File…")
-                    icon.name: "document-import"
-                    onTriggered: fileDialogLoader.active = true
-                },
-                NewStuff.Action {
-                    text: i18n("Get New Color Schemes…")
-                    configFile: "colorschemes.knsrc"
-                    onEntryEvent: function (entry, event) {
-                        if (event == 1) { // StatusChangedEvent
-                            kcm.knsEntryChanged(entry)
-                        } else if (event == 2) { // AdoptedEvent
-                            kcm.loadSelectedColorScheme()
-                        }
-                    }
-                }
-            ]
         }
     }
 

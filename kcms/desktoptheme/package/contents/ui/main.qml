@@ -55,7 +55,23 @@ KCM.GridViewKCM {
         }
         onDropped: kcm.installThemeFromFile(drop.urls[0])
     }
-     header: RowLayout {
+
+
+    actions.main: NewStuff.Action {
+        text: i18n("Get New Plasma Styles…")
+        configFile: "plasma-themes.knsrc"
+        onEntryEvent: function (entry, event) {
+            kcm.load();
+        }
+    }
+
+    actions.left: Kirigami.Action {
+        text: i18n("Install from File…")
+        icon.name: "document-import"
+        onTriggered: fileDialogLoader.active = true
+    }
+
+    header: RowLayout {
         Layout.fillWidth: true
 
         Kirigami.SearchField {
@@ -164,25 +180,6 @@ KCM.GridViewKCM {
                     infoLabel.visible = true;
                 }
             }
-        }
-
-        Kirigami.ActionToolBar {
-            flat: false
-            alignment: Qt.AlignRight
-            actions: [
-                Kirigami.Action {
-                    text: i18n("Install from File…")
-                    icon.name: "document-import"
-                    onTriggered: fileDialogLoader.active = true
-                },
-                NewStuff.Action {
-                    text: i18n("Get New Plasma Styles…")
-                    configFile: "plasma-themes.knsrc"
-                    onEntryEvent: function (entry, event) {
-                        kcm.load();
-                    }
-                }
-            ]
         }
     }
 

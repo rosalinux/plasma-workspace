@@ -48,6 +48,23 @@ KCM.GridViewKCM {
         onDropped: kcm.installThemeFromFile(drop.urls[0])
     }
 
+    actions.main: NewStuff.Action {
+        text: i18n("&Get New Cursors…")
+        configFile: "xcursor.knsrc"
+        onEntryEvent: function (entry, event) {
+            if (event == 1) { // StatusChangedEvent
+                kcm.ghnsEntryChanged(entry);
+            }
+        }
+    }
+
+    actions.left: Kirigami.Action {
+        text: i18n("&Install from File…")
+        icon.name: "document-import"
+        onTriggered: fileDialogLoader.active = true
+        enabled: kcm.canInstall
+    }
+
     footer: ColumnLayout {
         id: footerLayout
 
@@ -125,27 +142,6 @@ KCM.GridViewKCM {
                         }
                     }
                 }
-            }
-            Kirigami.ActionToolBar {
-                flat: false
-                alignment: Qt.AlignRight
-                actions: [
-                    Kirigami.Action {
-                        text: i18n("&Install from File…")
-                        icon.name: "document-import"
-                        onTriggered: fileDialogLoader.active = true
-                        enabled: kcm.canInstall
-                    },
-                    NewStuff.Action {
-                        text: i18n("&Get New Cursors…")
-                        configFile: "xcursor.knsrc"
-                        onEntryEvent: function (entry, event) {
-                            if (event == 1) { // StatusChangedEvent
-                                kcm.ghnsEntryChanged(entry);
-                            }
-                        }
-                    }
-                ]
             }
         }
     }

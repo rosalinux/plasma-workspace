@@ -25,6 +25,18 @@ KCM.GridViewKCM {
         settingName: "lookAndFeelPackage"
     }
 
+    actions.main: NewStuff.Action {
+        configFile: "lookandfeel.knsrc"
+        text: i18n("Get New Global Themes…")
+        onEntryEvent: function (entry, event) {
+            if (event == 1) { // StatusChangedEvent
+                kcm.knsEntryChanged(entry);
+            } else if (event == 2) { // AdoptedEvent
+                kcm.reloadConfig();
+            }
+        }
+    }
+
     view.delegate: KCM.GridDelegate {
         id: delegate
 
@@ -75,24 +87,6 @@ KCM.GridViewKCM {
                 checked: kcm.resetDefaultLayout
                 text: i18n("Use desktop layout from theme")
                 onCheckedChanged: kcm.resetDefaultLayout = checked;
-            }
-
-            Kirigami.ActionToolBar {
-                flat: false
-                alignment: Qt.AlignRight
-                actions: [
-                    NewStuff.Action {
-                        configFile: "lookandfeel.knsrc"
-                        text: i18n("Get New Global Themes…")
-                        onEntryEvent: function (entry, event) {
-                            if (event == 1) { // StatusChangedEvent
-                                kcm.knsEntryChanged(entry);
-                            } else if (event == 2) { // AdoptedEvent
-                                kcm.reloadConfig();
-                            }
-                        }
-                    }
-                ]
             }
         }
     }

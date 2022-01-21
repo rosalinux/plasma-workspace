@@ -34,6 +34,32 @@ KCM.GridViewKCM {
         view.implicitCellHeight = Kirigami.Units.gridUnit * 15;
     }
 
+    actions.main: Kirigami.Action {
+        visible: kcm.gtkConfigKdedModuleLoaded
+        text: i18n("Configure GNOME/GTK Application Style…")
+        icon.name: "configure"
+        onTriggered: root.openGtkStyleSettings()
+    }
+
+    actions.left: Kirigami.Action {
+        id: effectSettingsButton
+        text: i18n("Configure Icons and Toolbars")
+        icon.name: "configure-toolbars" // proper icon?
+        onTriggered: {
+            effectSettingsPopupLoader.active = true;
+            effectSettingsPopupLoader.item.open();
+        }
+    }
+
+    Loader {
+        id: effectSettingsPopupLoader
+        active: false
+        sourceComponent: EffectSettingsPopup {
+            parent: effectSettingsButton.parent
+            x: root.width - implicitWidth 
+        }
+    }
+
     // putting the InlineMessage as header item causes it to show up initially despite visible false
     header: ColumnLayout {
         Kirigami.InlineMessage {
@@ -104,46 +130,6 @@ KCM.GridViewKCM {
         }
         onDoubleClicked: {
             kcm.save();
-        }
-    }
-
-    footer: ColumnLayout {
-        RowLayout {
-            Layout.alignment: Qt.AlignLeft
-
-            QtControls.ToolButton {
-                id: effectSettingsButton
-                text: i18n("Configure Icons and Toolbars")
-                icon.name: "configure-toolbars" // proper icon?
-                flat: false
-                checkable: true
-                checked: effectSettingsPopupLoader.item && effectSettingsPopupLoader.item.opened
-                onClicked: {
-                    effectSettingsPopupLoader.active = true;
-                    effectSettingsPopupLoader.item.open();
-                }
-            }
-            Kirigami.ActionToolBar {
-                flat: false
-                alignment: Qt.AlignRight
-                actions: [
-                    Kirigami.Action {
-                        visible: kcm.gtkConfigKdedModuleLoaded
-                        text: i18n("Configure GNOME/GTK Application Style…")
-                        icon.name: "configure"
-                        onTriggered: root.openGtkStyleSettings()
-                    }
-                ]
-            }
-        }
-    }
-
-    Loader {
-        id: effectSettingsPopupLoader
-        active: false
-        sourceComponent: EffectSettingsPopup {
-            parent: effectSettingsButton
-            y: -height
         }
     }
 }

@@ -40,6 +40,47 @@ KCM.GridViewKCM {
         onDropped: kcm.installThemeFromFile(drop.urls[0])
     }
 
+
+
+    actions.contextualActions: Kirigami.Action {
+        id: iconSizesButton
+        text: i18n("Configure Icon Sizes")
+        icon.name: "transform-scale" // proper icon?
+        onTriggered: {
+            iconSizePopupLoader.active = true;
+            iconSizePopupLoader.item.open();
+        }
+    }
+
+    Loader {
+        id: iconSizePopupLoader
+        active: false
+        sourceComponent: IconSizePopup {
+            parent: iconSizesButton.parent
+            x: root.width - implicitWidth
+        }
+    }
+
+
+    actions.left: Kirigami.Action {
+        enabled: root.view.enabled
+        text: i18n("Install from File…")
+        icon.name: "document-import"
+        onTriggered: fileDialogLoader.active = true
+    }
+
+    actions.main: NewStuff.Action {
+        text: i18n("Get New Icons…")
+        configFile: "icons.knsrc"
+        onEntryEvent: function (entry, event) {
+            if (event == 1) { // StatusChangedEvent
+                kcm.ghnsEntriesChanged();
+            } else if (event == 2) { // AdoptedEvent
+                kcm.reloadConfig();
+            }
+        }
+    }
+
     view.delegate: KCM.GridDelegate {
         id: delegate
 
@@ -216,59 +257,6 @@ KCM.GridViewKCM {
                     progressRow.visible = false;
                 }
             }
-        }
-
-        RowLayout {
-            Layout.fillWidth: true
-            // Using a non-flat toolbutton here, so it matches the items in the actiontoolbar
-            // (a Button is just ever so slightly smaller than a ToolButton, and it would look
-            // kind of silly if the buttons aren't the same size)
-            QtControls.ToolButton {
-                id: iconSizesButton
-                text: i18n("Configure Icon Sizes")
-                icon.name: "transform-scale" // proper icon?
-                display: QtControls.ToolButton.TextBesideIcon
-                flat: false
-                checkable: true
-                checked: iconSizePopupLoader.item && iconSizePopupLoader.item.opened
-                onClicked: {
-                    iconSizePopupLoader.active = true;
-                    iconSizePopupLoader.item.open();
-                }
-            }
-
-            Kirigami.ActionToolBar {
-                flat: false
-                alignment: Qt.AlignRight
-                actions: [
-                    Kirigami.Action {
-                        enabled: root.view.enabled
-                        text: i18n("Install from File…")
-                        icon.name: "document-import"
-                        onTriggered: fileDialogLoader.active = true
-                    },
-                    NewStuff.Action {
-                        text: i18n("Get New Icons…")
-                        configFile: "icons.knsrc"
-                        onEntryEvent: function (entry, event) {
-                            if (event == 1) { // StatusChangedEvent
-                                kcm.ghnsEntriesChanged();
-                            } else if (event == 2) { // AdoptedEvent
-                                kcm.reloadConfig();
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    }
-
-    Loader {
-        id: iconSizePopupLoader
-        active: false
-        sourceComponent: IconSizePopup {
-            parent: iconSizesButton
-            y: -height
         }
     }
 
