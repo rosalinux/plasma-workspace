@@ -36,7 +36,7 @@ KCM.GridViewKCM {
 
     actions.main: Kirigami.Action {
         visible: kcm.gtkConfigKdedModuleLoaded
-        text: i18n("Configure GNOME/GTK Application Style…")
+        text: i18n("Configure for GNOME/GTK…")
         icon.name: "configure"
         onTriggered: root.openGtkStyleSettings()
     }
@@ -56,7 +56,7 @@ KCM.GridViewKCM {
         active: false
         sourceComponent: EffectSettingsPopup {
             parent: effectSettingsButton.parent
-            x: root.width - implicitWidth 
+            x: root.width - implicitWidth
         }
     }
 

@@ -48,8 +48,63 @@ KCM.GridViewKCM {
         onDropped: kcm.installThemeFromFile(drop.urls[0])
     }
 
-    actions.main: NewStuff.Action {
-        text: i18n("&Get New Cursors…")
+    actions.main: Kirigami.Action {
+        displayComponent: RowLayout {
+            id: row1
+
+            QtControls.Label {
+                text: i18n("Size:")
+            }
+
+            QtControls.ComboBox {
+                id: sizeCombo
+                model: kcm.sizesModel
+                Accessible.description: i18n("Icon size")
+                textRole: "display"
+                currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize);
+                onActivated: {
+                    kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
+                    kcm.preferredSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
+                }
+
+                KCM.SettingStateBinding {
+                    configObject: kcm.cursorThemeSettings
+                    settingName: "cursorSize"
+                    extraEnabledConditions: kcm.canResize
+                }
+
+                delegate: QtControls.ItemDelegate {
+                    id: sizeComboDelegate
+
+                    readonly property int size: parseInt(model.display)
+
+                    width: parent.width
+                    highlighted: ListView.isCurrentItem
+                    text: model.display
+
+                    contentItem: RowLayout {
+                        Kirigami.Icon {
+                            source: model.decoration
+                            smooth: true
+                            Layout.preferredWidth: sizeComboDelegate.size / Screen.devicePixelRatio
+                            Layout.preferredHeight: sizeComboDelegate.size / Screen.devicePixelRatio
+                            visible: valid && sizeComboDelegate.size > 0
+                        }
+
+                        QtControls.Label {
+                            Layout.fillWidth: true
+                            color: sizeComboDelegate.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
+                            text: model[sizeCombo.textRole]
+                            elide: Text.ElideRight
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    actions.right: NewStuff.Action {
+        text: i18nc("@action:button", "&Get New…")
         configFile: "xcursor.knsrc"
         onEntryEvent: function (entry, event) {
             if (event == 1) { // StatusChangedEvent
@@ -90,57 +145,6 @@ KCM.GridViewKCM {
                     infoLabel.type = Kirigami.MessageType.Error;
                     infoLabel.text = message;
                     infoLabel.visible = true;
-                }
-            }
-        }
-
-        RowLayout {
-            id: row1
-
-            QtControls.Label {
-                text: i18n("Size:")
-            }
-            QtControls.ComboBox {
-                id: sizeCombo
-                model: kcm.sizesModel
-                textRole: "display"
-                currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize);
-                onActivated: {
-                    kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
-                    kcm.preferredSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
-                }
-
-                KCM.SettingStateBinding {
-                    configObject: kcm.cursorThemeSettings
-                    settingName: "cursorSize"
-                    extraEnabledConditions: kcm.canResize
-                }
-
-                delegate: QtControls.ItemDelegate {
-                    id: sizeComboDelegate
-
-                    readonly property int size: parseInt(model.display)
-
-                    width: parent.width
-                    highlighted: ListView.isCurrentItem
-                    text: model.display
-
-                    contentItem: RowLayout {
-                        Kirigami.Icon {
-                            source: model.decoration
-                            smooth: true
-                            Layout.preferredWidth: sizeComboDelegate.size / Screen.devicePixelRatio
-                            Layout.preferredHeight: sizeComboDelegate.size / Screen.devicePixelRatio
-                            visible: valid && sizeComboDelegate.size > 0
-                        }
-
-                        QtControls.Label {
-                            Layout.fillWidth: true
-                            color: sizeComboDelegate.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
-                            text: model[sizeCombo.textRole]
-                            elide: Text.ElideRight
-                        }
-                    }
                 }
             }
         }

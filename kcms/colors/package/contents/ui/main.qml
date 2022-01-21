@@ -75,7 +75,7 @@ KCM.GridViewKCM {
     }
 
     actions.main: NewStuff.Action {
-        text: i18n("Get New Color Schemes…")
+        text: i18nc("@action:button", "&Get New…")
         configFile: "colorschemes.knsrc"
         onEntryEvent: function (entry, event) {
             if (event == 1) { // StatusChangedEvent

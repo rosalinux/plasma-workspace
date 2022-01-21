@@ -44,7 +44,7 @@ KCM.GridViewKCM {
 
     actions.contextualActions: Kirigami.Action {
         id: iconSizesButton
-        text: i18n("Configure Icon Sizes")
+        text: i18nc("@action:button", "Configure Sizes")
         icon.name: "transform-scale" // proper icon?
         onTriggered: {
             iconSizePopupLoader.active = true;
@@ -70,7 +70,7 @@ KCM.GridViewKCM {
     }
 
     actions.main: NewStuff.Action {
-        text: i18n("Get New Icons…")
+        text: i18n("&Get New…")
         configFile: "icons.knsrc"
         onEntryEvent: function (entry, event) {
             if (event == 1) { // StatusChangedEvent

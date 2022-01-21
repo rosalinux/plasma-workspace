@@ -27,7 +27,7 @@ KCM.GridViewKCM {
 
     actions.main: NewStuff.Action {
         configFile: "lookandfeel.knsrc"
-        text: i18n("Get New Global Themes…")
+        text: i18nc("@action:button", "&Get New…")
         onEntryEvent: function (entry, event) {
             if (event == 1) { // StatusChangedEvent
                 kcm.knsEntryChanged(entry);

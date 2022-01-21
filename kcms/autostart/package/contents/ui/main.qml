@@ -35,11 +35,11 @@ KCM.ScrollViewKCM {
 
     actions.main: Kirigami.Action {
         icon.name: "list-add"
-        text: i18n("Add…")
+        text: i18nc("@action:button", "Add…")
 
         checkable: true
         checked: menu.opened
-        onClicked: menu.opened? menu.close() : menu.open()
+        onTriggered: menu.opened? menu.close() : menu.open()
 
         Menu {
             id: menu

@@ -58,7 +58,7 @@ KCM.GridViewKCM {
 
 
     actions.main: NewStuff.Action {
-        text: i18n("Get New Plasma Styles…")
+        text: i18nc("@action:button", "Get New…")
         configFile: "plasma-themes.knsrc"
         onEntryEvent: function (entry, event) {
             kcm.load();
@@ -66,7 +66,7 @@ KCM.GridViewKCM {
     }
 
     actions.left: Kirigami.Action {
-        text: i18n("Install from File…")
+        text: i18nc("@action:button", "Install from File…")
         icon.name: "document-import"
         onTriggered: fileDialogLoader.active = true
     }
