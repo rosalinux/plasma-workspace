@@ -17,6 +17,7 @@ Item {
     id: main
 
     property bool isClipboardEmpty: clipboardSource.data["clipboard"]["empty"]
+    property bool editing
 
     signal clearSearchField
 
@@ -56,7 +57,7 @@ Item {
 
         plasmoid.setAction("clearHistory", i18n("Clear History"), "edit-clear-history");
         plasmoid.action("clearHistory").visible = Qt.binding(() => {
-            return !main.isClipboardEmpty;
+            return !main.isClipboardEmpty && !main.editing;
         });
     }
 

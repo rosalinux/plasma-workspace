@@ -35,11 +35,13 @@ ColumnLayout {
     Component.onCompleted: {
         textArea.forceActiveFocus();
         textArea.cursorPosition = textArea.text.length;
+        main.editing = true;
     }
 
     function done() {
         stack.initialItem.view.currentIndex = 0;
         stack.initialItem.view.currentItem.forceActiveFocus();
+        main.editing = false;
     }
 
     PlasmaComponents3.ScrollView {
