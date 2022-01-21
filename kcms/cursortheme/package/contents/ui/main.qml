@@ -7,7 +7,7 @@
 import QtQuick 2.7
 import QtQuick.Window 2.2 // for Screen
 import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.2 as QtControls
+import QtQuick.Controls 2.15 as QtControls
 import QtQuick.Dialogs 1.1 as QtDialogs
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.newstuff 1.81 as NewStuff
@@ -49,56 +49,53 @@ KCM.GridViewKCM {
     }
 
     actions.main: Kirigami.Action {
-        displayComponent: RowLayout {
-            id: row1
+        id: sizeAction
+        readonly property int currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize)
+        text: i18n("Icon size: %1", kcm.sizesModel.data(kcm.sizesModel.index(sizeAction.currentIndex, 0)))
 
-            QtControls.Label {
-                text: i18n("Size:")
-            }
+        property KCM.SettingStateBinding _stateBinding: KCM.SettingStateBinding {
+            configObject: kcm.cursorThemeSettings
+            settingName: "cursorSize"
+            extraEnabledConditions: kcm.canResize
+        }
 
-            QtControls.ComboBox {
-                id: sizeCombo
-                model: kcm.sizesModel
-                Accessible.description: i18n("Icon size")
-                textRole: "display"
-                currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize);
-                onActivated: {
-                    kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
-                    kcm.preferredSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
-                }
+        property Instantiator _instantiator: Instantiator {
+            model: kcm.sizesModel
+            delegate: Kirigami.Action {
+                id: sizeComboDelegate
 
-                KCM.SettingStateBinding {
-                    configObject: kcm.cursorThemeSettings
-                    settingName: "cursorSize"
-                    extraEnabledConditions: kcm.canResize
-                }
+                readonly property int size: parseInt(model.display)
+                property int index
 
-                delegate: QtControls.ItemDelegate {
-                    id: sizeComboDelegate
-
-                    readonly property int size: parseInt(model.display)
-
-                    width: parent.width
-                    highlighted: ListView.isCurrentItem
+                displayComponent: QtControls.MenuItem {
                     text: model.display
+    height: visible ? sizeComboDelegate.size / Screen.devicePixelRatio + topPadding + leftPadding + Kirigami.Units.largeSpacing : 0
 
                     contentItem: RowLayout {
                         Kirigami.Icon {
                             source: model.decoration
                             smooth: true
                             Layout.preferredWidth: sizeComboDelegate.size / Screen.devicePixelRatio
-                            Layout.preferredHeight: sizeComboDelegate.size / Screen.devicePixelRatio
+                            Layout.minimumHeight: sizeComboDelegate.size / Screen.devicePixelRatio
                             visible: valid && sizeComboDelegate.size > 0
                         }
 
                         QtControls.Label {
                             Layout.fillWidth: true
                             color: sizeComboDelegate.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
-                            text: model[sizeCombo.textRole]
+                            text: model.display
                             elide: Text.ElideRight
                         }
                     }
+                    onClicked: {
+                        kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeComboDelegate.index);
+                        kcm.preferredSize = kcm.cursorSizeFromIndex(sizeComboDelegate.index);
+                    }
                 }
+            }
+            onObjectAdded: {
+                object.index = index;
+                sizeAction.children.push(object)
             }
         }
     }
