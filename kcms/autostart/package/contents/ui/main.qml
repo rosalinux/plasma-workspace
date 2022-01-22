@@ -41,31 +41,23 @@ KCM.ScrollViewKCM {
         checked: menu.opened
         onTriggered: menu.opened? menu.close() : menu.open()
 
-        Menu {
-            id: menu
-            y: -height
+        Kirigami.Action {
+            text: i18n("Add Application…")
+            icon.name: "list-add"
 
-            modal: true
-            dim: false
+            onTriggered: kcm.model.showApplicationDialog(root)
+        }
+        Kirigami.Action {
+            text: i18n("Add Login Script…")
+            icon.name: "list-add"
 
-            MenuItem {
-                text: i18n("Add Application…")
-                icon.name: "list-add"
+            onTriggered: loginFileDialogLoader.active = true
+        }
+        Kirigami.Action {
+            text: i18n("Add Logout Script…")
+            icon.name: "list-add"
 
-                onClicked: kcm.model.showApplicationDialog(root)
-            }
-            MenuItem {
-                text: i18n("Add Login Script…")
-                icon.name: "list-add"
-
-                onClicked: loginFileDialogLoader.active = true
-            }
-            MenuItem {
-                text: i18n("Add Logout Script…")
-                icon.name: "list-add"
-
-                onClicked: logoutFileDialogLoader.active = true
-            }
+            onTriggered: logoutFileDialogLoader.active = true
         }
     }
 
