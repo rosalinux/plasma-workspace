@@ -30,7 +30,7 @@ Kirigami.FormLayout {
 
     Kirigami.ShadowedRectangle {
         id: mapRect
-        implicitWidth: Kirigami.Units.gridUnit * 24
+        implicitWidth: Kirigami.Units.gridUnit * 28
         implicitHeight: Kirigami.Units.gridUnit * 15
         radius: Kirigami.Units.smallSpacing
         Kirigami.Theme.inherit: false
