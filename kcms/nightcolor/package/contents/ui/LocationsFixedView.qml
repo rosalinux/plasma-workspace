@@ -14,8 +14,6 @@ import QtLocation 5.15 as QtLoc
 import QtPositioning 5.15 as QtPos
 
 Kirigami.FormLayout {
-    twinFormLayouts: parentLayout
-
     QtLoc.Plugin {
         id: mapPlugin
         // map data provider
@@ -23,9 +21,18 @@ Kirigami.FormLayout {
         name: "esri"
     }
 
+    Kirigami.Label {
+        anchors.bottom: mapRect.top
+        anchors.bottomMargin: Kirigami.Units.smallSpacing
+        anchors.horizontalCenter: mapRect.horizontalCenter
+        text: i18n("Tap to pick your location on the map.")
+        font: Kirigami.Theme.smallFont
+    }
+
     Kirigami.ShadowedRectangle {
-        implicitWidth: Kirigami.Units.gridUnit * 25
-        implicitHeight: Kirigami.Units.gridUnit * 17
+        id: mapRect
+        implicitWidth: Kirigami.Units.gridUnit * 24
+        implicitHeight: Kirigami.Units.gridUnit * 15
         radius: Kirigami.Units.smallSpacing
         Kirigami.Theme.inherit: false
         Kirigami.Theme.colorSet: Kirigami.Theme.View
