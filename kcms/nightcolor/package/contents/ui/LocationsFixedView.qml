@@ -45,6 +45,7 @@ Kirigami.FormLayout {
 
         MapQuickItem {
             id: marker
+            autoFadeIn: false
             anchorPoint.x: image.width/2
             anchorPoint.y: image.height - 4
             coordinate: QtPositioning.coordinate(
@@ -79,6 +80,18 @@ Kirigami.FormLayout {
                 marker.coordinate = coordinate
                 kcm.nightColorSettings.latitudeFixed = coordinate.latitude
                 kcm.nightColorSettings.longitudeFixed = coordinate.longitude
+            }
+
+            onWheel: {
+                var clicks = wheel.angleDelta.y / 120;
+                console.log(clicks);
+                if (map.zoomLevel > 1 || clicks > 0) {
+                    map.zoomLevel += clicks;
+                }
+                else {
+                    map.zoomLevel = 1;
+                }
+                console.log(map.zoomLevel);
             }
         }
     }
