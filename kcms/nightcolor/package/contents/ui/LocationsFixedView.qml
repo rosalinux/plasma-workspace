@@ -16,9 +16,8 @@ import QtPositioning 5.15 as QtPos
 Kirigami.FormLayout {
     QtLoc.Plugin {
         id: mapPlugin
-        // map data provider
-        // available choices are: "esri", "osm" (free) and "here", "itemsoverlay", "mapbox", "mapboxgl" (paid)
-        name: "esri"
+        // map data provider, we use OpenStreetMaps
+        name: "osm"
     }
 
     Kirigami.Label {
