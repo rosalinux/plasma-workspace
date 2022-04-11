@@ -10,24 +10,24 @@ import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.kcm 1.5 as KCM
 
-import QtLocation 5.14
-import QtPositioning 5.14
+import QtLocation 5.15 as QtLoc
+import QtPositioning 5.15 as QtPos
 
 Kirigami.FormLayout {
     twinFormLayouts: parentLayout
-    implicitHeight: 300
 
-    Plugin {
+    QtLoc.Plugin {
         id: mapPlugin
-        name: "esri" // "esri", "here", "itemsoverlay", "mapbox", "mapboxgl",  "osm"
+        // map data provider
+        // available choices are: "esri", "osm" (free) and "here", "itemsoverlay", "mapbox", "mapboxgl" (paid)
+        name: "esri"
     }
 
-    Map {
+    QtLoc.Map {
         id: map
-        Layout.minimumWidth: 450
-        Layout.maximumWidth: 450
-        height: 300
-        implicitHeight: 300
+        Layout.preferredWidth: Kirigami.Units.gridUnit * 25
+        Layout.preferredHeight: Kirigami.Units.gridUnit * 17
+        implicitHeight: Kirigami.Units.gridUnit * 17  // needs to be set so Map gets correct size
         plugin: mapPlugin
         activeMapType: supportedMapTypes[0]
         zoomLevel: 4
@@ -38,28 +38,26 @@ Kirigami.FormLayout {
         gesture.enabled: true
 
         Component.onCompleted: {
-            center = QtPositioning.coordinate(
+            center = QtPos.QtPositioning.coordinate(
                 kcm.nightColorSettings.latitudeFixed,
                 kcm.nightColorSettings.longitudeFixed)
         }
 
-        onCopyrightLinkActivated: {
-            Qt.openUrlExternally(link);
-        }
+        onCopyrightLinkActivated: (link) => Qt.openUrlExternally(link)
 
-        MapQuickItem {
+        QtLoc.MapQuickItem {
             id: marker
             autoFadeIn: false
             anchorPoint.x: image.width/2
             anchorPoint.y: image.height - 4
-            coordinate: QtPositioning.coordinate(
+            coordinate: QtPos.QtPositioning.coordinate(
                 kcm.nightColorSettings.latitudeFixed,
                 kcm.nightColorSettings.longitudeFixed)
 
             sourceItem: Kirigami.Icon {
                 id: image
-                width: 32
-                height: 32
+                width: Kirigami.Units.iconSizes.medium
+                height: Kirigami.Units.iconSizes.medium
                 source: "mark-location"
             }
         }
