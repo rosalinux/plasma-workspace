@@ -24,7 +24,9 @@ Kirigami.FormLayout {
         anchors.bottom: mapRect.top
         anchors.bottomMargin: Kirigami.Units.smallSpacing
         anchors.horizontalCenter: mapRect.horizontalCenter
-        text: i18n("Tap to pick your location on the map.")
+        text: Kirigami.Settings.tabletMode
+            ? i18nc("Tap should be translated to mean touching using a touchscreen", "Tap to choose your location on the map.")
+            : i18nc("Click should be translated to mean clicking using a mouse", "Click to choose your location on the map.")
         font: Kirigami.Theme.smallFont
     }
 
