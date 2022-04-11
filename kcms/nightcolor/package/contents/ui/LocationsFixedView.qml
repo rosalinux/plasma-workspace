@@ -79,9 +79,8 @@ Kirigami.FormLayout {
                     onClicked: {
                         map.zoomLevel++;
                     }
-                    //NOTE: there aren't any global settings where to take "official" tooltip timeouts
-                    QQC2.ToolTip.delay: 1000
-                    QQC2.ToolTip.timeout: 5000
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    QQC2.ToolTip.timeout: Kirigami.Units.veryLongDuration
                     QQC2.ToolTip.visible: Kirigami.Settings.isMobile ? pressed : hovered
                     QQC2.ToolTip.text: i18n("Zoom in")
                 }
@@ -97,9 +96,8 @@ Kirigami.FormLayout {
                             map.zoomLevel--;
                         }
                     }
-                    //NOTE: there aren't any global settings where to take "official" tooltip timeouts
-                    QQC2.ToolTip.delay: 1000
-                    QQC2.ToolTip.timeout: 5000
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                    QQC2.ToolTip.timeout: Kirigami.Units.veryLongDuration
                     QQC2.ToolTip.visible: Kirigami.Settings.isMobile ? pressed : hovered
                     QQC2.ToolTip.text: i18n("Zoom out")
                 }
