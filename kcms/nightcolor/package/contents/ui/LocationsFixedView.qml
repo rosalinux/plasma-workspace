@@ -55,6 +55,50 @@ Kirigami.FormLayout {
 
             onCopyrightLinkActivated: (link) => Qt.openUrlExternally(link)
 
+            RowLayout {
+                anchors {
+                    right: parent.right
+                    rightMargin: Kirigami.Units.smallSpacing
+                    bottom: parent.bottom
+                    bottomMargin: Kirigami.Units.smallSpacing
+                }
+
+                // Always show above thumbnail content
+                z: 9999
+
+                QQC2.Button {
+                    // HACK: using list-add and list-remove for more obvious/standard zoom icons till we change the Breeze ones
+                    icon.name: "list-add"
+                    activeFocusOnTab: false
+                    onClicked: {
+                        map.zoomLevel++;
+                    }
+                    //NOTE: there aren't any global settings where to take "official" tooltip timeouts
+                    QQC2.ToolTip.delay: 1000
+                    QQC2.ToolTip.timeout: 5000
+                    QQC2.ToolTip.visible: Kirigami.Settings.isMobile ? pressed : hovered
+                    QQC2.ToolTip.text: i18n("Zoom in")
+                }
+
+                QQC2.Button {
+                    // HACK: using list-add and list-remove for more obvious/standard zoom icons till we change the Breeze ones
+                    icon.name: "list-remove"
+                    activeFocusOnTab: false
+                    onClicked: {
+                        if (map.zoomLevel > 1) {
+                            // we're not disabling the button for map.zoomLevel <= 1 even if it won't do anything
+                            // since otherwise it won't eat click events and the last click will place the marker there
+                            map.zoomLevel--;
+                        }
+                    }
+                    //NOTE: there aren't any global settings where to take "official" tooltip timeouts
+                    QQC2.ToolTip.delay: 1000
+                    QQC2.ToolTip.timeout: 5000
+                    QQC2.ToolTip.visible: Kirigami.Settings.isMobile ? pressed : hovered
+                    QQC2.ToolTip.text: i18n("Zoom out")
+                }
+            }
+
             QtLoc.MapQuickItem {
                 id: marker
                 autoFadeIn: false
