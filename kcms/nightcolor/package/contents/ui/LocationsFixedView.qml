@@ -96,14 +96,12 @@ Kirigami.FormLayout {
 
                 onWheel: {
                     var clicks = wheel.angleDelta.y / 120;
-                    console.log(clicks);
                     if (map.zoomLevel > 1 || clicks > 0) {
                         map.zoomLevel += clicks;
                     }
                     else {
                         map.zoomLevel = 1;
                     }
-                    console.log(map.zoomLevel);
                 }
             }
         }
