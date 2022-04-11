@@ -6,69 +6,80 @@
 
 import QtQuick 2.1
 import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.5 as QQC2
+import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.kcm 1.5 as KCM
 
+import QtLocation 5.14
+import QtPositioning 5.14
+
 Kirigami.FormLayout {
     twinFormLayouts: parentLayout
+    implicitHeight: 300
 
-
-    NumberField {
-        id: latitudeFixedField
-        // Match combobox width
-        Layout.minimumWidth: modeSwitcher.width
-        Layout.maximumWidth: modeSwitcher.width
-        Kirigami.FormData.label: i18n("Latitude:")
-        validator: DoubleValidator {bottom: -90; top: 90; decimals: 10}
-        backend: kcm.nightColorSettings.latitudeFixed
-        onBackendChanged: {
-            kcm.nightColorSettings.latitudeFixed = backend;
-        }
-        KCM.SettingStateBinding {
-            configObject: kcm.nightColorSettings
-            settingName: "LatitudeFixed"
-            extraEnabledConditions: kcm.nightColorSettings.active
-        }
+    Plugin {
+        id: mapPlugin
+        name: "esri" // "esri", "here", "itemsoverlay", "mapbox", "mapboxgl",  "osm"
     }
 
-    NumberField {
-        id: longitudeFixedField
-        // Match combobox width
-        Layout.minimumWidth: modeSwitcher.width
-        Layout.maximumWidth: modeSwitcher.width
-        Kirigami.FormData.label: i18n("Longitude:")
-        validator: DoubleValidator {bottom: -180; top: 180; decimals: 10}
-        backend: kcm.nightColorSettings.longitudeFixed
-        onBackendChanged: {
-            kcm.nightColorSettings.longitudeFixed = backend;
-        }
-        KCM.SettingStateBinding {
-            configObject: kcm.nightColorSettings
-            settingName: "LongitudeFixed"
-            extraEnabledConditions: kcm.nightColorSettings.active
-        }
-    }
+    Map {
+        id: map
+        Layout.minimumWidth: 450
+        Layout.maximumWidth: 450
+        height: 300
+        implicitHeight: 300
+        plugin: mapPlugin
+        activeMapType: supportedMapTypes[0]
+        zoomLevel: 4
+        bearing: 0
+        tilt: 0
+        copyrightsVisible: true
+        fieldOfView: 0
+        gesture.enabled: true
 
-    QQC2.Button {
-        text: i18n("Detect Location")
-        // Match combobox width
-        Layout.minimumWidth: modeSwitcher.width
-        icon.name: "find-location"
-        onClicked: {
-            startLocator();
-            latitudeFixedField.backend = locator.latitude;
-            longitudeFixedField.backend = locator.longitude;
+        Component.onCompleted: {
+            center = QtPositioning.coordinate(
+                kcm.nightColorSettings.latitudeFixed,
+                kcm.nightColorSettings.longitudeFixed)
         }
-    }
 
-    // Inform about geolocation access on clicking detect
-    QQC2.Label {
-        enabled: activator.checked
-        wrapMode: Text.Wrap
-        Layout.maximumWidth: modeSwitcher.width
-        text: i18n("The device's location will be detected using GPS (if available), or by sending network information to <a href=\"https://location.services.mozilla.com\">Mozilla Location Service</a>.")
-        onLinkActivated: { Qt.openUrlExternally("https://location.services.mozilla.com"); }
-        font: Kirigami.Theme.smallFont
+        MapQuickItem {
+            id: marker
+            anchorPoint.x: image.width/2
+            anchorPoint.y: image.height - 4
+            coordinate: QtPositioning.coordinate(
+                kcm.nightColorSettings.latitudeFixed,
+                kcm.nightColorSettings.longitudeFixed)
+
+            sourceItem: Kirigami.Icon {
+                id: image
+                width: 32
+                height: 32
+                source: "mark-location"
+            }
+        }
+
+        Connections {
+            target: kcm.nightColorSettings
+            function onLatitudeFixedChanged() {
+                marker.coordinate.latitude = kcm.nightColorSettings.latitudeFixed;
+            }
+            function onLongitudeFixedChanged() {
+                marker.coordinate.longitude = kcm.nightColorSettings.longitudeFixed;
+            }
+        }
+
+        MouseArea {
+            acceptedButtons: Qt.LeftButton
+            anchors.fill: map
+            hoverEnabled: true
+            property var coordinate: map.toCoordinate(Qt.point(mouseX, mouseY))
+
+            onClicked: {
+                marker.coordinate = coordinate
+                kcm.nightColorSettings.latitudeFixed = coordinate.latitude
+                kcm.nightColorSettings.longitudeFixed = coordinate.longitude
+            }
+        }
     }
 }
