@@ -4,7 +4,7 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-import QtQuick 2.1
+import QtQuick 2.15
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.15 as QQC2
 import org.kde.kirigami 2.15 as Kirigami
@@ -82,20 +82,18 @@ Kirigami.FormLayout {
                 }
             }
 
-            MouseArea {
-                acceptedButtons: Qt.LeftButton
-                anchors.fill: map
-                hoverEnabled: true
-                property var coordinate: map.toCoordinate(Qt.point(mouseX, mouseY))
-
-                onClicked: {
+            TapHandler {
+                onTapped: {
+                    var coordinate = map.toCoordinate(map.mapFromItem(root, eventPoint.scenePosition))
                     marker.coordinate = coordinate
                     kcm.nightColorSettings.latitudeFixed = coordinate.latitude
                     kcm.nightColorSettings.longitudeFixed = coordinate.longitude
                 }
+            }
 
+            WheelHandler {
                 onWheel: {
-                    var clicks = wheel.angleDelta.y / 120;
+                    let clicks = event.angleDelta.y / 120;
                     if (map.zoomLevel > 1 || clicks > 0) {
                         map.zoomLevel += clicks;
                     }
