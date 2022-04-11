@@ -43,6 +43,10 @@ Kirigami.FormLayout {
                 kcm.nightColorSettings.longitudeFixed)
         }
 
+        onCopyrightLinkActivated: {
+            Qt.openUrlExternally(link);
+        }
+
         MapQuickItem {
             id: marker
             autoFadeIn: false
