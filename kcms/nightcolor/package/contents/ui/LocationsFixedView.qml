@@ -81,7 +81,9 @@ Kirigami.FormLayout {
                         icon.name: "list-add"
                         activeFocusOnTab: false
                         onClicked: {
-                            map.zoomLevel++;
+                            if (map.zoomLevel < 7) {
+                                map.zoomLevel++;
+                            }
                         }
                         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                         QQC2.ToolTip.timeout: Kirigami.Units.veryLongDuration
@@ -147,7 +149,9 @@ Kirigami.FormLayout {
                     onWheel: {
                         let clicks = event.angleDelta.y / 120;
                         if (map.zoomLevel > 1 || clicks > 0) {
-                            map.zoomLevel += clicks;
+                            if (clicks < 0 || map.zoomLevel < 7) {
+                                map.zoomLevel += clicks;
+                            }
                         }
                         else {
                             map.zoomLevel = 1;
