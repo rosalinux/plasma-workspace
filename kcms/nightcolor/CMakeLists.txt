@@ -15,6 +15,11 @@ kcmutils_generate_module_data(
     SETTINGS_CLASSES NightColorSettings
 )
 
+find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED COMPONENTS Positioning Location)
+
+ecm_find_qmlmodule(QtPositioning 5.15)
+ecm_find_qmlmodule(QtLocation 5.15)
+
 kconfig_add_kcfg_files(kcm_nightcolor_SRCS nightcolorsettings.kcfgc GENERATE_MOC)
 
 kcoreaddons_add_plugin(kcm_nightcolor SOURCES ${kcm_nightcolor_SRCS} INSTALL_NAMESPACE "plasma/kcms/systemsettings")
