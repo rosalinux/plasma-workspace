@@ -32,6 +32,8 @@ NightColorSettings *KCMNightColor::nightColorSettings() const
     return m_data->settings();
 }
 
+// FIXME: This was added to work around the nonstandardness of the Breeze zoom icons
+// remove once https://bugs.kde.org/show_bug.cgi?id=435671 is fixed
 bool KCMNightColor::isIconThemeBreeze()
 {
     return QIcon::themeName().contains(QStringLiteral("breeze"));
