@@ -6,6 +6,8 @@
 
 #include "kcm.h"
 
+#include <QIcon>
+
 #include <KLocalizedString>
 #include <KPluginFactory>
 
@@ -30,6 +32,10 @@ NightColorSettings *KCMNightColor::nightColorSettings() const
     return m_data->settings();
 }
 
+bool KCMNightColor::isIconThemeBreeze()
+{
+    return QIcon::themeName().contains(QStringLiteral("breeze"));
+}
 }
 
 #include "kcm.moc"

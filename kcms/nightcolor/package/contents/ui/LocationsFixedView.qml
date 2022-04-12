@@ -78,7 +78,7 @@ Kirigami.FormLayout {
 
                     QQC2.Button {
                         // HACK: using list-add and list-remove for more obvious/standard zoom icons till we change the Breeze ones
-                        icon.name: "list-add"
+                        icon.name: kcm.isIconThemeBreeze() ? "list-add" : "zoom-in"
                         activeFocusOnTab: false
                         onClicked: {
                             if (map.zoomLevel < 7) {
@@ -93,7 +93,7 @@ Kirigami.FormLayout {
 
                     QQC2.Button {
                         // HACK: using list-add and list-remove for more obvious/standard zoom icons till we change the Breeze ones
-                        icon.name: "list-remove"
+                        icon.name: kcm.isIconThemeBreeze() ? "list-remove" : "zoom-out"
                         activeFocusOnTab: false
                         onClicked: {
                             if (map.zoomLevel > 1) {

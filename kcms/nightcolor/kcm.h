@@ -23,6 +23,7 @@ public:
     ~KCMNightColor() override = default;
 
     NightColorSettings *nightColorSettings() const;
+    Q_INVOKABLE bool isIconThemeBreeze();
 
 private:
     NightColorData *const m_data;
