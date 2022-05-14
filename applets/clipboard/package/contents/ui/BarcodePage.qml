@@ -13,6 +13,7 @@ import org.kde.plasma.plasmoid 2.0
 import org.kde.kquickcontrolsaddons 2.0
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 
+import org.kde.plasma.private.clipboard 0.1 as Backend
 import org.kde.prison 1.0 as Prison
 
 ColumnLayout {
@@ -89,6 +90,10 @@ ColumnLayout {
         }
     }
 
+    Backend.DragHelper {
+        id: dragHelper
+    }
+
     Item {
         Layout.fillWidth: parent
         Layout.fillHeight: parent
@@ -101,6 +106,41 @@ ColumnLayout {
             barcodeType: Plasmoid.configuration.barcodeType
             // Cannot set visible to false as we need it to re-render when changing its size
             opacity: valid ? 1 : 0
+
+            MouseArea {
+                anchors.fill: parent
+
+                property int _pressX: -1
+                property int _pressY: -1
+
+                acceptedButtons: Qt.LeftButton
+                cursorShape: pressed ? Qt.ClosedHandCursor : Qt.OpenHandCursor
+                enabled: barcodeItem.valid
+
+                onPressed: {
+                    if (mouse.button === Qt.LeftButton) {
+                        _pressX = mouse.x;
+                        _pressY = mouse.y;
+                    }
+                }
+                onPositionChanged: {
+                    if (_pressX !== -1 && _pressY !== -1 && dragHelper.isDrag(_pressX, _pressY, mouse.x, mouse.y)) {
+                        dragHelper.startDrag(barcodeItem);
+                        _pressX = -1;
+                        _pressY = -1;
+                    }
+                }
+                onReleased: {
+                    _pressX = -1;
+                    _pressY = -1;
+                }
+                onContainsMouseChanged: {
+                    if (!containsMouse) {
+                        _pressX = -1;
+                        _pressY = -1;
+                    }
+                }
+            }
         }
 
         PlasmaComponents3.Label {
