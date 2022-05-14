@@ -10,12 +10,12 @@ add_subdirectory(appmenu)
 add_subdirectory(systemmonitor)
 add_subdirectory(batterymonitor)
 add_subdirectory(calendar)
+add_subdirectory(clipboard)
 add_subdirectory(devicenotifier)
 add_subdirectory(digital-clock)
 add_subdirectory(kicker)
 add_subdirectory(panelspacer)
 
-plasma_install_package(clipboard org.kde.plasma.clipboard)
 
 if(NOT WIN32)
 #    #notifications
