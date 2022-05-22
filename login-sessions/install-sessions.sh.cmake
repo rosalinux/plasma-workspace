@@ -27,7 +27,7 @@ if [ -x /usr/bin/systemd-sysext ]; then
 
   # Make built-from-source sessions appear in login screen
   install --mode=644 -D @CMAKE_CURRENT_BINARY_DIR@/plasmax11-dev.desktop --target-directory=$prefix/usr/share/xsessions
-  install  --mode=644 -D @CMAKE_CURRENT_BINARY_DIR@/plasmawayland-dev.desktop --target-directory=$prefix/usr/share/wayland-sessions
+  install --mode=644 -D @CMAKE_CURRENT_BINARY_DIR@/plasmawayland-dev.desktop --target-directory=$prefix/usr/share/wayland-sessions
 
   # Copy dbus and polkit to /usr. Both hardcode the system prefix.
   # - polkit exclusively looks in the system prefix and has no facilities to change that
