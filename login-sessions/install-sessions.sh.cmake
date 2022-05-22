@@ -38,6 +38,7 @@ if [ -x /usr/bin/systemd-sysext ]; then
   ln -sf @KDE_INSTALL_FULL_DBUSDIR@/ $prefix/usr/share/dbus-1
 
   systemd-sysext refresh
+  systemctl enable systemd-sysext.service
 else # legacy compat
   install @CMAKE_CURRENT_BINARY_DIR@/plasmax11-dev.desktop /usr/share/xsessions/
   install @CMAKE_CURRENT_BINARY_DIR@/plasmawayland-dev.desktop /usr/share/wayland-sessions/
