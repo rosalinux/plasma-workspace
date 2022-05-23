@@ -25,6 +25,7 @@ target_link_libraries(screenpoolmanualtest
             KF5::WindowSystem
             KF5::WaylandClient
             Wayland::Client
+            Libdrm::Libdrm
                         )
 if(HAVE_X11)
     target_link_libraries(screenpoolmanualtest XCB::XCB XCB::RANDR)
