@@ -59,9 +59,9 @@ PlasmaExtras.Representation {
             onDisabledChanged: powerManagementChanged(disabled)
 
             KeyNavigation.tab: if (batteryList.headerItem) {
-                if (isBrightnessAvailable) {
+                if (dialog.isBrightnessAvailable) {
                     return batteryList.headerItem.children[1];
-                } else if (isKeyboardBrightnessAvailable) {
+                } else if (dialog.isKeyboardBrightnessAvailable) {
                     return batteryList.headerItem.children[2];
                 } else if (dialog.profiles.length > 0) {
                     return batteryList.headerItem.children[3];
@@ -101,15 +101,15 @@ PlasmaExtras.Representation {
 
                     icon: "video-display-brightness"
                     label: i18n("Display Brightness")
-                    visible: isBrightnessAvailable
+                    visible: dialog.isBrightnessAvailable
                     value: batterymonitor.screenBrightness
                     maximumValue: batterymonitor.maximumScreenBrightness
-                    KeyNavigation.tab: if (isKeyboardBrightnessAvailable) {
+                    KeyNavigation.tab: if (dialog.isKeyboardBrightnessAvailable) {
                         return keyboardBrightnessSlider;
                     } else if (dialog.profiles.length > 0) {
-                        return powerProfileItem
+                        return powerProfileItem;
                     } else {
-                        return batteryList
+                        return batteryList;
                     }
                     stepSize: batterymonitor.maximumScreenBrightness/100
 
@@ -134,11 +134,11 @@ PlasmaExtras.Representation {
                     showPercentage: false
                     value: batterymonitor.keyboardBrightness
                     maximumValue: batterymonitor.maximumKeyboardBrightness
-                    visible: isKeyboardBrightnessAvailable
+                    visible: dialog.isKeyboardBrightnessAvailable
                     KeyNavigation.tab: if (dialog.profiles.length > 0) {
-                        return powerProfileItem
+                        return powerProfileItem;
                     } else {
-                        return batteryList
+                        return batteryList;
                     }
 
                     onMoved: batterymonitor.keyboardBrightness = value
