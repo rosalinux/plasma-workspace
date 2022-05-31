@@ -52,7 +52,7 @@ RowLayout {
     // could visually look as if it were on the same distance from the bar as
     // they are from the slider.
     property PlasmaComponents3.Slider matchHeightOfSlider: PlasmaComponents3.Slider {}
-    readonly property real extraMargin: Math.max(0, Math.floor((matchHeightOfSlider.height - chargeBar.height) / 2))
+    readonly property real extraMargin: matchHeightOfSlider === null ? 0 : Math.max(0, Math.floor((matchHeightOfSlider.height - chargeBar.height) / 2))
 
     spacing: PlasmaCore.Units.gridUnit
 
