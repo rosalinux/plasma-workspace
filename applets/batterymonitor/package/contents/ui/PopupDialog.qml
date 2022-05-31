@@ -78,6 +78,8 @@ PlasmaExtras.Representation {
 
         // HACK: workaround for https://bugreports.qt.io/browse/QTBUG-83890
         PlasmaComponents3.ScrollBar.horizontal.policy: PlasmaComponents3.ScrollBar.AlwaysOff
+        // HACK: workaround for BUG 454653
+        Keys.onRightPressed: {}
 
         contentItem: ListView {
             id: batteryList
