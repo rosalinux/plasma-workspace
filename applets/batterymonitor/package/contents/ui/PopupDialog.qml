@@ -92,7 +92,7 @@ PlasmaExtras.Representation {
             // header so that it scroll with the content of the ListView
             header: ColumnLayout {
                 spacing: PlasmaCore.Units.smallSpacing * 2
-                width: parent.width
+                width: ListView.view.contentItem.width
 
                 BrightnessItem {
                     id: brightnessSlider
@@ -172,7 +172,7 @@ PlasmaExtras.Representation {
             }
 
             delegate: BatteryItem {
-                width: ListView.view.width - PlasmaCore.Units.smallSpacing * 4
+                width: ListView.view.contentItem.width
 
                 battery: model
                 remainingTime: dialog.remainingTime
