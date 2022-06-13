@@ -18,11 +18,10 @@ import org.kde.draganddrop 2.0 as DragDrop
 MouseArea {
     id: root
 
-    readonly property bool inPanel: (Plasmoid.location === PlasmaCore.Types.TopEdge
-        || Plasmoid.location === PlasmaCore.Types.RightEdge
-        || Plasmoid.location === PlasmaCore.Types.BottomEdge
-        || Plasmoid.location === PlasmaCore.Types.LeftEdge)
-    readonly property bool constrained: Plasmoid.formFactor === PlasmaCore.Types.Vertical || Plasmoid.formFactor === PlasmaCore.Types.Horizontal
+    readonly property bool inPanel: [PlasmaCore.Types.TopEdge, PlasmaCore.Types.RightEdge, PlasmaCore.Types.BottomEdge, PlasmaCore.Types.LeftEdge]
+        .includes(Plasmoid.location)
+    readonly property bool constrained: [PlasmaCore.Types.Vertical, PlasmaCore.Types.Horizontal]
+        .includes(Plasmoid.formFactor)
     property bool containsAcceptableDrag: false
 
     height: Math.round(PlasmaCore.Units.iconSizes.desktop + 2 * PlasmaCore.Theme.mSize(PlasmaCore.Theme.defaultFont).height)
@@ -40,7 +39,7 @@ MouseArea {
         }
     }
     Accessible.name: Plasmoid.title
-    Accessible.description: Plasmoid.nativeInterface.genericName !== mainText ? Plasmoid.nativeInterface.genericName :""
+    Accessible.description: Plasmoid.nativeInterface.genericName !== mainText ? Plasmoid.nativeInterface.genericName : ""
     Accessible.role: Accessible.Button
 
     Layout.minimumWidth: Plasmoid.formFactor === PlasmaCore.Types.Horizontal ? height : PlasmaCore.Units.iconSizes.small
@@ -65,7 +64,7 @@ MouseArea {
     Component.onCompleted: updateActions()
 
     function updateActions() {
-        Plasmoid.clearActions()
+        Plasmoid.clearActions();
 
         Plasmoid.removeAction("configure");
 
@@ -75,13 +74,13 @@ MouseArea {
     }
 
     function action_configure() {
-        Plasmoid.nativeInterface.configure()
+        Plasmoid.nativeInterface.configure();
     }
 
     Connections {
         target: Plasmoid.self
         function onExternalData(mimetype, data) {
-            Plasmoid.nativeInterface.url = data
+            Plasmoid.nativeInterface.url = data;
         }
     }
 
@@ -90,7 +89,7 @@ MouseArea {
         anchors.fill: parent
         preventStealing: true
         onDragEnter: {
-            var acceptable = Plasmoid.nativeInterface.isAcceptableDrag(event);
+            const acceptable = Plasmoid.nativeInterface.isAcceptableDrag(event);
             root.containsAcceptableDrag = acceptable;
 
             if (!acceptable) {
@@ -100,18 +99,18 @@ MouseArea {
         onDragLeave: root.containsAcceptableDrag = false
         onDrop: {
             if (root.containsAcceptableDrag) {
-                Plasmoid.nativeInterface.processDrop(event)
+                Plasmoid.nativeInterface.processDrop(event);
             } else {
                 event.ignore();
             }
 
-            root.containsAcceptableDrag = false
+            root.containsAcceptableDrag = false;
         }
     }
 
     PlasmaCore.IconItem {
         id: icon
-        anchors{
+        anchors {
             left: parent.left
             right: parent.right
             top: parent.top
@@ -144,14 +143,14 @@ MouseArea {
     }
 
     PlasmaComponents3.Label {
-        id : text
-        text : Plasmoid.title
+        id: text
+        text: Plasmoid.title
         anchors {
-            left : parent.left
-            bottom : parent.bottom
-            right : parent.right
+            left: parent.left
+            bottom: parent.bottom
+            right: parent.right
         }
-        horizontalAlignment : Text.AlignHCenter
+        horizontalAlignment: Text.AlignHCenter
         visible: false // rendered by DropShadow
         maximumLineCount: 2
         color: "white"
@@ -163,7 +162,7 @@ MouseArea {
     PlasmaCore.ToolTipArea {
         anchors.fill: parent
         mainText: Plasmoid.title
-        subText: Plasmoid.nativeInterface.genericName !== mainText ? Plasmoid.nativeInterface.genericName :""
+        subText: Plasmoid.nativeInterface.genericName !== mainText ? Plasmoid.nativeInterface.genericName : ""
         textFormat: Text.PlainText
     }
 }
