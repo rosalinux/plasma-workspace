@@ -8,6 +8,7 @@
 
 #include <KRunner/AbstractRunner>
 #include <KService>
+#include <QMutex>
 
 /**
  * This class looks for matches in the set of .desktop files installed by
@@ -32,4 +33,6 @@ protected Q_SLOTS:
 
 protected:
     void setupMatch(const KService::Ptr &service, Plasma::QueryMatch &action);
+    QMutex m_mutex;
+    QList<KService::Ptr> m_services;
 };

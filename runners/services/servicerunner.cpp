@@ -16,6 +16,7 @@
 #include <QDebug>
 #include <QDir>
 #include <QIcon>
+#include <QMutexLocker>
 #include <QStandardPaths>
 #include <QUrl>
 #include <QUrlQuery>
@@ -64,11 +65,9 @@ inline bool contains(const QStringList &results, const QStringList &queryList)
 class ServiceFinder
 {
 public:
-    ServiceFinder(ServiceRunner *runner)
+    ServiceFinder(ServiceRunner *runner, const QList<KService::Ptr> &list)
         : m_runner(runner)
-        , m_services(KApplicationTrader::query([](const KService::Ptr &) {
-            return true;
-        }))
+        , m_services(list)
     {
     }
 
@@ -386,16 +385,25 @@ ServiceRunner::ServiceRunner(QObject *parent, const KPluginMetaData &metaData, c
     setPriority(AbstractRunner::HighestPriority);
 
     addSyntax(Plasma::RunnerSyntax(QStringLiteral(":q:"), i18n("Finds applications whose name or description match :q:")));
+    connect(this, &Plasma::AbstractRunner::teardown, this, [this]() {
+        m_services.clear();
+    });
 }
 
 ServiceRunner::~ServiceRunner() = default;
 
 void ServiceRunner::match(Plasma::RunnerContext &context)
 {
-    // This helper class aids in keeping state across numerous
-    // different queries that together form the matches set.
-    KSycoca::disableAutoRebuild();
-    ServiceFinder finder(this);
+    if (m_services.isEmpty()) {
+        QMutexLocker lock(&m_mutex);
+        // This helper class aids in keeping state across numerous
+        // different queries that together form the matches set.
+        KSycoca::disableAutoRebuild();
+        m_services = KApplicationTrader::query([](const KService::Ptr &) {
+            return true;
+        });
+    }
+    ServiceFinder finder(this, m_services);
     finder.match(context);
 }
 
