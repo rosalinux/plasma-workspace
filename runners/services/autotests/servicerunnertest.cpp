@@ -16,6 +16,7 @@
 
 #include "../servicerunner.h"
 
+#include <KApplicationTrader>
 #include <clocale>
 #include <optional>
 #include <sys/types.h>
@@ -36,6 +37,21 @@ private Q_SLOTS:
     void testCategories();
     void testJumpListActions();
     void testINotifyUsage();
+    void benchmark()
+    {
+        // 12 msec with 3 x KServiceTypeTrader
+        // 14 msec with calling runner
+        QBENCHMARK {
+            ServiceRunner runner(this, KPluginMetaData(), QVariantList());
+            for (int i = 0; i < 5; ++i) {
+                runner.prepare();
+                Plasma::RunnerContext context;
+                context.setQuery(QStringLiteral("firefox")); // virt-manager.desktop
+                runner.match(context);
+                runner.teardown();
+            }
+        }
+    }
 };
 
 void ServiceRunnerTest::initTestCase()
