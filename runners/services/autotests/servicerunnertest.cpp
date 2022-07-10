@@ -43,13 +43,13 @@ private Q_SLOTS:
         // 14 msec with calling runner
         QBENCHMARK {
             ServiceRunner runner(this, KPluginMetaData(), QVariantList());
-            for (int i = 0; i < 5; ++i) {
                 runner.prepare();
-                Plasma::RunnerContext context;
-                context.setQuery(QStringLiteral("firefox")); // virt-manager.desktop
-                runner.match(context);
+                for (int i = 0; i < 5; ++i) {
+                    Plasma::RunnerContext context;
+                    context.setQuery(QStringLiteral("firefox").left(i + 1)); // virt-manager.desktop
+                    runner.match(context);
+                }
                 runner.teardown();
-            }
         }
     }
 };
