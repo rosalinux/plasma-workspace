@@ -151,6 +151,11 @@ bool PlasmaAppletItem::matches(const QString &pattern) const
     return AbstractItem::matches(pattern);
 }
 
+QStringList PlasmaAppletItem::keywords() const
+{
+    return m_info.value(QStringLiteral("X-KDE-Keywords")).split(QLatin1Char(','));
+}
+
 bool PlasmaAppletItem::isLocal() const
 {
     return m_local;
