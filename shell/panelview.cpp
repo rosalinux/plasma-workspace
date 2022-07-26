@@ -4,7 +4,7 @@
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#include <config-plasma.h>
+#include <config-X11.h>
 
 #include "../c_ptr.h"
 #include "debug.h"
@@ -1403,7 +1403,7 @@ void PanelView::refreshStatus(Plasma::Types::ItemStatus status)
         }
     } else if (status == Plasma::Types::AcceptingInputStatus) {
         setFlags(flags() & ~Qt::WindowDoesNotAcceptFocus);
-#ifdef HAVE_X11
+#if HAVE_X11
         if (KWindowSystem::isPlatformX11()) {
             m_previousWId = KWindowSystem::activeWindow();
         }
@@ -1416,7 +1416,7 @@ void PanelView::refreshStatus(Plasma::Types::ItemStatus status)
     } else {
         if (status == Plasma::Types::PassiveStatus) {
             // Restores the previous focus
-#ifdef HAVE_X11
+#if HAVE_X11
             if (KWindowSystem::isPlatformX11() && m_previousWId) {
                 KWindowSystem::forceActiveWindow(m_previousWId);
                 m_previousWId = 0;

@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "config-libkworkspace.h"
+#include "config-X11.h"
 #include "kworkspace.h"
 #include "kworkspace_export.h"
 #include <QByteArray>

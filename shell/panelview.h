@@ -9,7 +9,9 @@
 #include <Plasma/Theme>
 #include <QPointer>
 #include <QTimer>
-#ifdef HAVE_X11
+
+#include "config-X11.h"
+#if HAVE_X11
 #include <QWindow> // For WId
 #endif
 
@@ -288,7 +290,7 @@ private:
     QMetaObject::Connection m_transientWindowVisibleWatcher;
 
     // Used to restore the previous activated window after the panel loses focus
-#ifdef HAVE_X11
+#if HAVE_X11
     WId m_previousWId = 0;
 #endif
     KWayland::Client::PlasmaWindow *m_previousPlasmaWindow = nullptr;
