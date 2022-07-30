@@ -11,6 +11,8 @@
 
 #include "plasma/corona.h"
 
+#include <map>
+
 #include <QDBusContext>
 #include <QDBusVariant>
 #include <QSet>
@@ -186,7 +188,7 @@ public Q_SLOTS:
 
     int panelCount() const
     {
-        return m_panelViews.count();
+        return m_panelViews.size();
     }
 
     void refreshCurrentShell();
@@ -262,7 +264,7 @@ private:
     ScreenPool *m_screenPool;
     QString m_shell;
     KActivities::Controller *m_activityController;
-    QHash<const Plasma::Containment *, PanelView *> m_panelViews;
+    std::map<const Plasma::Containment *, PanelView *> m_panelViews;
     // map from QScreen to desktop view
     QHash<const QScreen *, DesktopView *> m_desktopViewForScreen;
     QHash<const Plasma::Containment *, int> m_pendingScreenChanges;

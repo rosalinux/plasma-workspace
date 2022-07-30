@@ -278,12 +278,12 @@ void ShellCorona::init()
     cyclePanelFocusAction->setText(i18n("Move keyboard focus between panels"));
     KGlobalAccel::self()->setGlobalShortcut(cyclePanelFocusAction, Qt::META | Qt::ALT | Qt::Key_P);
     connect(cyclePanelFocusAction, &QAction::triggered, this, [this]() {
-        if (m_panelViews.isEmpty()) {
+        if (m_panelViews.empty()) {
             return;
         }
         PanelView *activePanel = qobject_cast<PanelView *>(qGuiApp->focusWindow());
         if (!activePanel) {
-            activePanel = m_panelViews.values().first();
+            activePanel = m_panelViews.begin()->second;
         }
 
         if (activePanel->containment()->status() != Plasma::Types::AcceptingInputStatus) {
@@ -487,7 +487,7 @@ QByteArray ShellCorona::dumpCurrentLayoutJS() const
 
         QJsonObject panelJson;
 
-        const PanelView *view = m_panelViews.value(cont);
+        const auto viewIt = m_panelViews.find(cont);
         const auto location = cont->location();
 
         panelJson.insert("location",
@@ -498,10 +498,11 @@ QByteArray ShellCorona::dumpCurrentLayoutJS() const
 
         const qreal height =
             // If we do not have a panel, fallback to 4 units
-            !view ? 4 : (qreal)view->totalThickness() / gridUnit;
+            viewIt == m_panelViews.cend() ? 4 : (qreal)viewIt->second->totalThickness() / gridUnit;
 
         panelJson.insert("height", height);
-        if (view) {
+        if (viewIt != m_panelViews.cend()) {
+            const auto view = viewIt->second;
             const auto alignment = view->alignment();
             panelJson.insert("maximumLength", (qreal)view->maximumLength() / gridUnit);
             panelJson.insert("minimumLength", (qreal)view->minimumLength() / gridUnit);
@@ -730,7 +731,7 @@ void ShellCorona::load()
                 //(this is pretty mucha special case for the systray)
                 // also, make sure we don't have a view already.
                 // this will be true for first startup as the view has already been created at the new Panel JS call
-                if (!m_waitingPanels.contains(containment) && containment->lastScreen() >= 0 && !m_panelViews.contains(containment)) {
+                if (!m_waitingPanels.contains(containment) && containment->lastScreen() >= 0 && !m_panelViews.count(containment)) {
                     m_waitingPanels << containment;
                 }
                 // historically CustomContainments are treated as desktops
@@ -794,7 +795,8 @@ void ShellCorona::primaryScreenChanged(QScreen *oldPrimary, QScreen *newPrimary)
         oldDesktopOfPrimary->show();
     }
 
-    for (PanelView *panel : qAsConst(m_panelViews)) {
+    for (auto &pr : std::as_const(m_panelViews)) {
+        const auto panel = std::get<PanelView *>(pr);
         if (panel->screen() == oldPrimary) {
             panel->setScreenToFollow(newPrimary);
         } else if (panel->screen() == newPrimary) {
@@ -811,7 +813,7 @@ void ShellCorona::screenInvariants() const
 {
     if (m_screenPool->noRealOutputsConnected()) {
         Q_ASSERT(m_desktopViewForScreen.isEmpty());
-        Q_ASSERT(m_panelViews.isEmpty());
+        Q_ASSERT(m_panelViews.empty());
         return;
     }
     const QList<const QScreen *> screenKeys = m_desktopViewForScreen.keys();
@@ -896,8 +898,13 @@ void ShellCorona::unload()
     }
     qDeleteAll(m_desktopViewForScreen);
     m_desktopViewForScreen.clear();
-    qDeleteAll(m_panelViews);
-    m_panelViews.clear();
+
+    auto panelViewIt = m_panelViews.begin();
+    while (panelViewIt != m_panelViews.end()) {
+        delete panelViewIt->second;
+        panelViewIt = m_panelViews.erase(panelViewIt);
+    }
+
     m_waitingPanels.clear();
     m_activityContainmentPlugins.clear();
 
@@ -1051,7 +1058,8 @@ QRegion ShellCorona::_availableScreenRegion(int id) const
         return s ? s->availableGeometry() : QRegion();
     }
 
-    return std::accumulate(m_panelViews.cbegin(), m_panelViews.cend(), QRegion(view->geometry()), [view](const QRegion &a, const PanelView *v) {
+    return std::accumulate(m_panelViews.cbegin(), m_panelViews.cend(), QRegion(view->geometry()), [view](const QRegion &a, const auto &pr) {
+        const auto v = std::get<PanelView *>(pr);
         if (v->isVisible() && view->screen() == v->screen() && v->visibilityMode() != PanelView::AutoHide) {
             // if the panel is being moved around, we still want to calculate it from the edge
             return a - v->geometryByDistance(0);
@@ -1077,7 +1085,8 @@ QRect ShellCorona::_availableScreenRect(int id) const
     }
 
     QRect r = view->geometry();
-    for (PanelView *v : m_panelViews) {
+    for (auto &pr : m_panelViews) {
+        const auto v = std::get<PanelView *>(pr);
         if (v->isVisible() && v->screen() == view->screen() && v->visibilityMode() != PanelView::AutoHide) {
             switch (v->location()) {
             case Plasma::Types::LeftEdge:
@@ -1121,15 +1130,16 @@ void ShellCorona::removeDesktop(DesktopView *desktopView)
     }
     Q_ASSERT(deskIt != m_desktopViewForScreen.end());
 
-    QMutableHashIterator<const Plasma::Containment *, PanelView *> it(m_panelViews);
-    while (it.hasNext()) {
-        it.next();
-        PanelView *panelView = it.value();
+    auto it = m_panelViews.begin();
+    while (it != m_panelViews.end()) {
+        PanelView *panelView = it->second;
 
         if (panelView->containment()->screen() == idx) {
             m_waitingPanels << panelView->containment();
-            it.remove();
+            it = m_panelViews.erase(it);
             panelView->destroy();
+        } else {
+            it++;
         }
     }
 
@@ -1141,7 +1151,8 @@ void ShellCorona::removeDesktop(DesktopView *desktopView)
 
 PanelView *ShellCorona::panelView(Plasma::Containment *containment) const
 {
-    return m_panelViews.value(containment);
+    const auto it = m_panelViews.find(containment);
+    return it == m_panelViews.cend() ? nullptr : it->second;
 }
 
 ///// SLOTS
@@ -1149,9 +1160,12 @@ PanelView *ShellCorona::panelView(Plasma::Containment *containment) const
 QList<PanelView *> ShellCorona::panelsForScreen(QScreen *screen) const
 {
     QList<PanelView *> ret;
-    std::copy_if(m_panelViews.cbegin(), m_panelViews.cend(), std::back_inserter(ret), [screen](const PanelView *v) {
-        return v->screenToFollow() == screen;
-    });
+    for (const auto &pr : std::as_const(m_panelViews)) {
+        const auto panel = std::get<PanelView *>(pr);
+        if (panel->screenToFollow() == screen) {
+            ret.append(panel);
+        }
+    }
     return ret;
 }
 
@@ -1330,8 +1344,11 @@ void ShellCorona::createWaitingPanels()
 
 void ShellCorona::panelContainmentDestroyed(QObject *cont)
 {
-    auto view = m_panelViews.take(static_cast<Plasma::Containment *>(cont));
-    delete view;
+    auto viewIt = m_panelViews.find(static_cast<Plasma::Containment *>(cont));
+    if (viewIt != m_panelViews.cend()) {
+        delete viewIt->second;
+        m_panelViews.erase(viewIt);
+    }
     // don't make things relayout when the application is quitting
     // NOTE: qApp->closingDown() is still false here
     if (!m_closingDown) {
@@ -1796,9 +1813,10 @@ Plasma::Containment *ShellCorona::addPanel(const QString &plugin)
     QList<Plasma::Types::Location> availableLocations;
     availableLocations << Plasma::Types::BottomEdge << Plasma::Types::TopEdge << Plasma::Types::LeftEdge << Plasma::Types::RightEdge;
 
-    for (auto it = m_panelViews.constBegin(); it != m_panelViews.constEnd(); ++it) {
-        if ((*it)->screenToFollow() == wantedScreen) {
-            availableLocations.removeAll((*it)->location());
+    for (auto &pr : std::as_const(m_panelViews)) {
+        const auto panel = std::get<PanelView *>(pr);
+        if (panel->screenToFollow() == wantedScreen) {
+            availableLocations.removeAll(panel->location());
         }
     }
 
@@ -1825,8 +1843,8 @@ Plasma::Containment *ShellCorona::addPanel(const QString &plugin)
     // immediately create the panel here so that we have access to the panel view
     createWaitingPanels();
 
-    if (m_panelViews.contains(panel)) {
-        m_panelViews.value(panel)->setScreenToFollow(wantedScreen);
+    if (auto it = m_panelViews.find(panel); it != m_panelViews.cend()) {
+        it->second->setScreenToFollow(wantedScreen);
     }
 
     return panel;
@@ -1859,21 +1877,21 @@ void ShellCorona::setScreenForContainment(Plasma::Containment *containment, int 
     if (containment->containmentType() == Plasma::Types::PanelContainment || containment->containmentType() == Plasma::Types::CustomPanelContainment) {
         // Panel Case
         containment->reactToScreenChange();
-        auto *panelView = m_panelViews.value(containment);
+        const auto panelViewIt = m_panelViews.find(containment);
         // If newScreen != nullptr we are also assured it won't be redundant
         QScreen *newScreen = m_screenPool->screenForId(newScreenId);
 
-        if (panelView) {
+        if (panelViewIt != m_panelViews.cend()) {
             // There was an existing panel view
             if (newScreen) {
-                panelView->setScreenToFollow(newScreen);
+                panelViewIt->second->setScreenToFollow(newScreen);
             } else {
                 // Not on a connected screen: destroy the panel
                 if (!m_waitingPanels.contains(containment)) {
                     m_waitingPanels << containment;
                 }
-                m_panelViews.remove(containment);
-                panelView->destroy();
+                panelViewIt->second->destroy();
+                m_panelViews.erase(panelViewIt);
             }
         } else {
             // Didn't have a view, createWaitingPanels() will create it if needed
@@ -1960,9 +1978,9 @@ int ShellCorona::screenForContainment(const Plasma::Containment *containment) co
     }
 
     // if the panel views already exist, base upon them
-    PanelView *view = m_panelViews.value(containment);
-    if (view && view->screenToFollow()) {
-        return m_screenPool->id(view->screenToFollow()->name());
+    const auto viewIt = m_panelViews.find(containment);
+    if (viewIt != m_panelViews.cend() && viewIt->second->screenToFollow()) {
+        return m_screenPool->id(viewIt->second->screenToFollow()->name());
     }
 
     // Failed? fallback on lastScreen()
@@ -1991,13 +2009,11 @@ void ShellCorona::grabContainmentPreview(Plasma::Containment *containment)
     QScreen *containmentQScreen = m_screenPool->screenForId(containment->screen());
     if (containment->containmentType() == Plasma::Types::PanelContainment || containment->containmentType() == Plasma::Types::CustomPanelContainment) {
         // Panel Containment
-        auto it = m_panelViews.constBegin();
-        while (it != m_panelViews.constEnd()) {
-            if (it.key() == containment) {
-                viewToGrab = it.value();
-                break;
-            }
-            it++;
+        auto it = std::find_if(m_panelViews.cbegin(), m_panelViews.cend(), [containment](auto &pr) {
+            return pr.first == containment;
+        });
+        if (it != m_panelViews.cend()) {
+            viewToGrab = it->second;
         }
     } else if (containmentQScreen && m_desktopViewForScreen.contains(containmentQScreen)) {
         // Desktop Containment
@@ -2231,8 +2247,8 @@ QString ShellCorona::defaultContainmentPlugin() const
 
 void ShellCorona::updateStruts()
 {
-    for (PanelView *view : qAsConst(m_panelViews)) {
-        view->updateStruts();
+    for (auto &pr : std::as_const(m_panelViews)) {
+        std::get<PanelView *>(pr)->updateStruts();
     }
 }
 
@@ -2256,14 +2272,14 @@ void ShellCorona::activateLauncherMenu()
         return false;
     };
 
-    for (auto it = m_panelViews.constBegin(), end = m_panelViews.constEnd(); it != end; ++it) {
-        const auto applets = it.key()->applets();
+    for (auto &[cont, panel] : std::as_const(m_panelViews)) {
+        const auto applets = cont->applets();
         for (auto applet : applets) {
             if (activateLauncher(applet)) {
                 return;
             }
         }
-        if (activateLauncher((*it)->containment())) {
+        if (activateLauncher(panel->containment())) {
             return;
         }
     }
@@ -2314,18 +2330,18 @@ void ShellCorona::activateTaskManagerEntry(int index)
     // To avoid overly complex configuration, we'll try to get the 90% usecase to work
     // which is activating a task on the task manager on a panel on the primary screen.
 
-    for (auto it = m_panelViews.constBegin(), end = m_panelViews.constEnd(); it != end; ++it) {
-        if (it.value()->screen() != m_screenPool->primaryScreen()) {
+    for (auto &[cont, panel] : std::as_const(m_panelViews)) {
+        if (panel->screen() != m_screenPool->primaryScreen()) {
             continue;
         }
-        if (activateTaskManagerEntryOnContainment(it.key(), index)) {
+        if (activateTaskManagerEntryOnContainment(cont, index)) {
             return;
         }
     }
 
     // we didn't find anything on primary, try all the panels
-    for (auto it = m_panelViews.constBegin(), end = m_panelViews.constEnd(); it != end; ++it) {
-        if (activateTaskManagerEntryOnContainment(it.key(), index)) {
+    for (auto &pr : std::as_const(m_panelViews)) {
+        if (activateTaskManagerEntryOnContainment(pr.first, index)) {
             return;
         }
     }
