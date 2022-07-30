@@ -277,27 +277,7 @@ void ShellCorona::init()
     QAction *cyclePanelFocusAction = actions()->addAction(QStringLiteral("cycle-panels"));
     cyclePanelFocusAction->setText(i18n("Move keyboard focus between panels"));
     KGlobalAccel::self()->setGlobalShortcut(cyclePanelFocusAction, Qt::META | Qt::ALT | Qt::Key_P);
-    connect(cyclePanelFocusAction, &QAction::triggered, this, [this]() {
-        if (m_panelViews.empty()) {
-            return;
-        }
-        PanelView *activePanel = qobject_cast<PanelView *>(qGuiApp->focusWindow());
-        if (!activePanel) {
-            activePanel = m_panelViews.begin()->second;
-        }
-
-        if (activePanel->containment()->status() != Plasma::Types::AcceptingInputStatus) {
-            activePanel->containment()->setStatus(Plasma::Types::AcceptingInputStatus);
-
-            auto nextItem = activePanel->rootObject()->nextItemInFocusChain();
-            if (nextItem) {
-                nextItem->forceActiveFocus();
-            }
-        } else {
-            // Cancel focus
-            activePanel->containment()->setStatus(Plasma::Types::PassiveStatus);
-        }
-    });
+    connect(cyclePanelFocusAction, &QAction::triggered, this, &ShellCorona::slotCyclePanelFocus);
 }
 
 ShellCorona::~ShellCorona()
@@ -928,6 +908,75 @@ void ShellCorona::requestApplicationConfigSync()
     m_appConfigSyncTimer.start();
 }
 
+void ShellCorona::slotCyclePanelFocus()
+{
+    if (m_panelViews.empty()) {
+        return;
+    }
+
+    PanelView *activePanel = qobject_cast<PanelView *>(qGuiApp->focusWindow());
+    if (!activePanel) {
+        // Activate the first panel and save the previous window
+        activePanel = m_panelViews.begin()->second;
+
+#if HAVE_X11
+        if (KWindowSystem::isPlatformX11()) {
+            m_previousWId = KWindowSystem::activeWindow();
+        }
+#endif
+        if (m_waylandWindowManagement) {
+            m_previousPlasmaWindow = m_waylandWindowManagement->activeWindow();
+        }
+    }
+
+    auto setFocus = [](PanelView *view) {
+        view->containment()->setStatus(Plasma::Types::AcceptingInputStatus);
+
+        auto nextItem = view->rootObject()->nextItemInFocusChain();
+        if (nextItem) {
+            nextItem->forceActiveFocus();
+        } else {
+            view->containment()->setStatus(Plasma::Types::PassiveStatus);
+        }
+    };
+
+    if (activePanel->containment()->status() != Plasma::Types::AcceptingInputStatus) {
+        setFocus(activePanel);
+    } else {
+        // Cancel focus on the current panel
+        // Block focus on the panel if it's not the last panel
+        if (activePanel != m_panelViews.crbegin()->second) {
+            m_blockRestorePreviousWindow = true;
+        }
+        activePanel->containment()->setStatus(Plasma::Types::PassiveStatus);
+        m_blockRestorePreviousWindow = false;
+
+        // More than one panel and the current panel is not the last panel,
+        // move focus to next panel.
+        if (activePanel != m_panelViews.crbegin()->second) {
+            auto viewIt = std::find_if(m_panelViews.cbegin(), m_panelViews.cend(), [activePanel](const auto &pr) {
+                return activePanel == std::get<PanelView *>(pr);
+            });
+
+            // Skip destroyed panels
+            viewIt = std::next(viewIt);
+            while (viewIt != m_panelViews.cend()) {
+                if (!viewIt->second->containment()->destroyed()) {
+                    break;
+                }
+
+                viewIt = std::next(viewIt);
+            }
+
+            if (viewIt != m_panelViews.cend()) {
+                setFocus(viewIt->second);
+            } else {
+                restorePreviousWindow();
+            }
+        }
+    }
+}
+
 void ShellCorona::loadDefaultLayout()
 {
     // pre-startup scripts
@@ -1153,6 +1202,25 @@ PanelView *ShellCorona::panelView(Plasma::Containment *containment) const
 {
     const auto it = m_panelViews.find(containment);
     return it == m_panelViews.cend() ? nullptr : it->second;
+}
+
+void ShellCorona::restorePreviousWindow()
+{
+    if (m_blockRestorePreviousWindow) {
+        return;
+    }
+
+#if HAVE_X11
+    if (KWindowSystem::isPlatformX11() && m_previousWId) {
+        KWindowSystem::forceActiveWindow(m_previousWId);
+    }
+#endif
+    if (m_previousPlasmaWindow) {
+        m_previousPlasmaWindow->requestActivate();
+    }
+
+    m_previousWId = 0;
+    m_previousPlasmaWindow = nullptr;
 }
 
 ///// SLOTS
@@ -2219,11 +2287,6 @@ void ShellCorona::setupWaylandIntegration()
 KWayland::Client::PlasmaShell *ShellCorona::waylandPlasmaShellInterface() const
 {
     return m_waylandPlasmaShell;
-}
-
-KWayland::Client::PlasmaWindowManagement *ShellCorona::waylandPlasmaWindowManagementInterface() const
-{
-    return m_waylandWindowManagement;
 }
 
 ScreenPool *ShellCorona::screenPool() const

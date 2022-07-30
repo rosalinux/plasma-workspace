@@ -9,6 +9,7 @@
 
 #pragma once
 
+#include "config-X11.h"
 #include "plasma/corona.h"
 
 #include <map>
@@ -54,6 +55,8 @@ namespace KWayland
 namespace Client
 {
 class PlasmaShell;
+class PlasmaShellSurface;
+class PlasmaWindow;
 class PlasmaWindowManagement;
 }
 }
@@ -89,6 +92,7 @@ public:
     Q_INVOKABLE QStringList availableActivities() const;
 
     PanelView *panelView(Plasma::Containment *containment) const;
+    void restorePreviousWindow();
 
     // This one is a bit of an hack but are just for desktop scripting
     void insertActivity(const QString &id, const QString &plugin);
@@ -103,7 +107,6 @@ public:
     Plasma::Containment *createContainmentForActivity(const QString &activity, int screenNum);
 
     KWayland::Client::PlasmaShell *waylandPlasmaShellInterface() const;
-    KWayland::Client::PlasmaWindowManagement *waylandPlasmaWindowManagementInterface() const;
 
     ScreenPool *screenPool() const;
 
@@ -146,6 +149,11 @@ public Q_SLOTS:
      * Request saving applicationConfig on disk, it's event compressed, not immediate
      */
     void requestApplicationConfigSync();
+
+    /**
+     * Cycle through all panels
+     */
+    void slotCyclePanelFocus();
 
     /**
      * Sets the shell that the corona should display
@@ -276,6 +284,13 @@ private:
     std::unique_ptr<QMenu> m_addPanelsMenu;
     KPackage::Package m_lookAndFeelPackage;
 
+    // Used to restore the previous activated window after the panel loses focus
+    KWayland::Client::PlasmaShellSurface *m_shellSurface = nullptr;
+#if HAVE_X11
+    WId m_previousWId = 0;
+#endif
+    bool m_blockRestorePreviousWindow = false;
+
     QTimer m_waitingPanelsTimer;
     QTimer m_appConfigSyncTimer;
 #ifndef NDEBUG
@@ -284,6 +299,7 @@ private:
     KWayland::Client::PlasmaShell *m_waylandPlasmaShell;
     // For getting the active window on Wayland
     KWayland::Client::PlasmaWindowManagement *m_waylandWindowManagement = nullptr;
+    KWayland::Client::PlasmaWindow *m_previousPlasmaWindow = nullptr;
     bool m_closingDown : 1;
     QString m_testModeLayout;
 
