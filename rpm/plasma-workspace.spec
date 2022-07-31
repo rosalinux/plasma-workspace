@@ -7,7 +7,7 @@
 
 Name: plasma-workspace
 Version: 5.23.5
-Release: 1
+Release: 2
 Source0: plasma-workspace-5.23.5.tar.gz
 Source1: kde.pam
 Source100: %{name}.rpmlintrc
