@@ -1,0 +1,54 @@
+diff -up plasma-workspace-5.21.0/ksplash/ksplashqml/themes/Classic/main.qml.1~ plasma-workspace-5.21.0/ksplash/ksplashqml/themes/Classic/main.qml
+--- plasma-workspace-5.21.0/ksplash/ksplashqml/themes/Classic/main.qml.1~	2021-02-11 13:20:10.000000000 +0100
++++ plasma-workspace-5.21.0/ksplash/ksplashqml/themes/Classic/main.qml	2021-02-14 22:43:51.903785127 +0100
+@@ -52,7 +52,7 @@ Item {
+     Image {
+         id: background
+         anchors.fill: parent
+-        source: "images/background.png"
++        source: "/usr/share/mdk/backgrounds/OpenMandriva-splash.png"
+     }
+ 
+     Image {
+diff -up plasma-workspace-5.21.0/lookandfeel/contents/components/WallpaperFader.qml.1~ plasma-workspace-5.21.0/lookandfeel/contents/components/WallpaperFader.qml
+--- plasma-workspace-5.21.0/lookandfeel/contents/components/WallpaperFader.qml.1~	2021-02-11 13:20:10.000000000 +0100
++++ plasma-workspace-5.21.0/lookandfeel/contents/components/WallpaperFader.qml	2021-02-14 22:43:51.903785127 +0100
+@@ -114,11 +114,11 @@ Item {
+             }
+             PropertyChanges {
+                 target: wallpaperFader
+-                factor: 1
++                factor: 0
+             }
+             PropertyChanges {
+                 target: clock.shadow
+-                opacity: 0
++                opacity: 1
+             }
+             PropertyChanges {
+                 target: clock
+diff -up plasma-workspace-5.21.0/lookandfeel/contents/splash/Splash.qml.1~ plasma-workspace-5.21.0/lookandfeel/contents/splash/Splash.qml
+--- plasma-workspace-5.21.0/lookandfeel/contents/splash/Splash.qml.1~	2021-02-11 13:20:10.000000000 +0100
++++ plasma-workspace-5.21.0/lookandfeel/contents/splash/Splash.qml	2021-02-14 22:53:53.986180815 +0100
+@@ -21,9 +21,10 @@ import QtQuick 2.5
+ import QtQuick.Window 2.2
+ import org.kde.plasma.core 2.0 as PlasmaCore
+ 
+-Rectangle {
++Image {
+     id: root
+-    color: "black"
++    source: "/usr/share/mdk/backgrounds/OpenMandriva-splash.png"
++    fillMode: Image.PreserveAspectCrop
+ 
+     property int stage
+ 
+@@ -57,7 +58,7 @@ Rectangle {
+ 
+             anchors.centerIn: parent
+ 
+-            source: "images/plasma.svgz"
++            source: "/usr/share/icons/openmandriva.svg"
+ 
+             sourceSize.width: size
+             sourceSize.height: size

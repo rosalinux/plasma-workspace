@@ -1,0 +1,232 @@
+#
+# Balazs Nagy <julian7@kva.hu>, 1998.
+# John Zero <johnzero@telnet.hu>, 1998.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2014, 2015, 2019.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
+# Kiszel Kristóf <kiszel.kristof@gmail.com>, 2017, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
+"PO-Revision-Date: 2021-09-29 10:17+0200\n"
+"Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.03.80\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf,Szántó Tamás"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kiszel.kristof@gmail.com,tszanto@interware.hu"
+
+#. i18n: ectx: label, entry (cursorTheme), group (Mouse)
+#: cursorthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current cursor theme"
+msgstr "A jelenlegi kurzortéma neve"
+
+#. i18n: ectx: label, entry (cursorSize), group (Mouse)
+#: cursorthemesettings.kcfg:13
+#, kde-format
+msgid "Current cursor size"
+msgstr "Jelenlegi kurzorméret"
+
+#: kcmcursortheme.cpp:62
+#, kde-format
+msgid "Cursors"
+msgstr "Kurzorok"
+
+#: kcmcursortheme.cpp:66
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr "(C) Fredrik Höglund, 2003-2007."
+
+#: kcmcursortheme.cpp:67
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr "Fredrik Höglund"
+
+#: kcmcursortheme.cpp:68
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcmcursortheme.cpp:311
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"A Plasma munkamenetet újra kell indítani, hogy a módosítások érvényesüljenek."
+
+#: kcmcursortheme.cpp:389
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Nem lehet létrehozni egy ideiglenes fájlt."
+
+#: kcmcursortheme.cpp:400
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Nem lehet letölteni a(z) %1 ikontéma-archívumot."
+
+#: kcmcursortheme.cpp:431
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "A fájl nem ikontéma-archívum."
+
+#: kcmcursortheme.cpp:438
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr "Nem sikerült létrehozni az „icons” mappát."
+
+#: kcmcursortheme.cpp:447
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"Már létezik %1 nevű téma az ikontéma-mappában. Felül szeretné írni az újjal?"
+
+#: kcmcursortheme.cpp:451
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "Felül szeretné írni a témát?"
+
+#: kcmcursortheme.cpp:475
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "A téma sikeresen települt."
+
+#: package/contents/ui/Delegate.qml:54
+#, kde-format
+msgid "Remove Theme"
+msgstr "Téma eltávolítása"
+
+#: package/contents/ui/Delegate.qml:61
+#, kde-format
+msgid "Restore Cursor Theme"
+msgstr "Kurzortéma visszaállítása"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr "Ebben a modulban beállíthatja az egérkurzot témáját és megjelenését."
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Size:"
+msgstr "Méret:"
+
+#: package/contents/ui/main.qml:134
+#, kde-format
+msgid "&Install from File…"
+msgstr "&Telepítés fájlból…"
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "&Get New Cursors…"
+msgstr "Ú&j kurzorok letöltése…"
+
+#: package/contents/ui/main.qml:190
+#, kde-format
+msgid "Open Theme"
+msgstr "Téma megnyitása"
+
+#: package/contents/ui/main.qml:192
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "Kurzortéma-fájlok (*.tar.gz, *.tar.bz2)"
+
+#: plasma-apply-cursortheme.cpp:36
+#, kde-format
+msgid ""
+"This tool allows you to set the mouse cursor theme for the current Plasma "
+"session, without accidentally setting it to one that is either not "
+"available, or which is already set."
+msgstr ""
+"Ez az eszköz lehetővé teszi a jelenlegi Plasma munkamenet kurzortémájának "
+"beállítását anélkül, hogy véletlenül egy nem elérhetőt, vagy már "
+"beállítottat választana ki."
+
+#: plasma-apply-cursortheme.cpp:40
+#, kde-format
+msgid ""
+"The name of the cursor theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+"A Plasma munkamenethez beállítandó kurzortéma neve (teljes elérési út "
+"megadása esetén csak az útvonal utolsó része lesz figyelembe véve)"
+
+#: plasma-apply-cursortheme.cpp:41
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr ""
+"A rendszer összes elérhető témájának megjelenítése (és hogy melyik a "
+"jelenlegi téma)"
+
+#: plasma-apply-cursortheme.cpp:62
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+"A kért „%1” téma már be van állítva, mint aktuálisa téma a jelenlegi Plasma "
+"munkamenetben."
+
+#: plasma-apply-cursortheme.cpp:73
+#, kde-format
+msgid ""
+"Successfully applied the mouse cursor theme %1 to your current Plasma session"
+msgstr ""
+"A(z) %1 kurzortéma sikeresen beállítva a jelenlegi Plasma munkamenethez"
+
+#: plasma-apply-cursortheme.cpp:75
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for your newly applied mouse cursor "
+"theme to display correctly."
+msgstr ""
+"A Plasma munkamenetet újra kell indítani, hogy a beállított új kurzortéma "
+"megfelelően jelenjen meg."
+
+#: plasma-apply-cursortheme.cpp:85
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+"A(z) „%1” téma nem található. A téma a következő opciók egyike kell, hogy "
+"legyen: %2"
+
+#: plasma-apply-cursortheme.cpp:93
+#, kde-format
+msgid "You have the following mouse cursor themes on your system:"
+msgstr "Az alábbi kurzortémák találhatók meg a rendszeren:"
+
+#: xcursor/thememodel.cpp:67
+#, kde-format
+msgid "Name"
+msgstr "Név"
+
+#: xcursor/thememodel.cpp:70
+#, kde-format
+msgid "Description"
+msgstr "Leírás"
+
+#: xcursor/xcursortheme.cpp:56
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "(Elérhető méretek: %1)"

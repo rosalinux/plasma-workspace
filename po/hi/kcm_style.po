@@ -1,0 +1,246 @@
+# translation of kcmstyle.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-25 02:07+0000\n"
+"PO-Revision-Date: 2021-08-21 10:59+0530\n"
+"Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
+"Language-Team: kde-hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.08.0\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "रविशंकर श्रीवास्तव, जी. करूणाकर, राघवेंद्र कामत"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "raviratlami@aol.in, karunakar@indlinux.org, raghu@raghukamath.com"
+
+#: gtkpage.cpp:65
+#, kde-format
+msgid "%1 is not a valid GTK Theme archive."
+msgstr "%1 वैध जीटीके प्रसंग संग्रह नहीं है।"
+
+#: kcmstyle.cpp:79
+#, kde-format
+msgid "Application Style"
+msgstr "अनुप्रयोग शैली"
+
+#: kcmstyle.cpp:83
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik "
+msgstr "(c) २००२ केरॉल स्वेद, डेनियल मॉलकेंटाइन, (c) २०१९ काइ ऊवे ब्रौलिक"
+
+#: kcmstyle.cpp:85
+#, kde-format
+msgid "Karol Szwed"
+msgstr "केरोल स्ज़वेड"
+
+#: kcmstyle.cpp:86
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "डेनियल मॉल्केनटिन"
+
+#: kcmstyle.cpp:87
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "काइ ऊवे ब्रौलिक"
+
+#: kcmstyle.cpp:176 kcmstyle.cpp:183
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "इस शैली के लिए कॉन्फ़िगरेशन संवाद लोड करने में त्रुटि हुई."
+
+#: kcmstyle.cpp:293
+#, kde-format
+msgid "Failed to apply selected style '%1'."
+msgstr "चयनित शैली '%1' लागू करने में विफल।"
+
+#: package/contents/ui/EffectSettingsPopup.qml:32
+#, kde-format
+msgid "Show icons:"
+msgstr "प्रतीक दिखाएँ :"
+
+#: package/contents/ui/EffectSettingsPopup.qml:33
+#, kde-format
+msgid "On buttons"
+msgstr "बटनों पर"
+
+#: package/contents/ui/EffectSettingsPopup.qml:44
+#, kde-format
+msgid "In menus"
+msgstr "मेनुओं में"
+
+#: package/contents/ui/EffectSettingsPopup.qml:56
+#, kde-format
+msgid "Main toolbar label:"
+msgstr "मुख्य औज़ार पट्टी लेबल:"
+
+#: package/contents/ui/EffectSettingsPopup.qml:58
+#, kde-format
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: package/contents/ui/EffectSettingsPopup.qml:59
+#, kde-format
+msgid "Text only"
+msgstr "सिर्फ पाठ"
+
+#: package/contents/ui/EffectSettingsPopup.qml:60
+#, kde-format
+msgid "Beside icons"
+msgstr "प्रतीकों के बाज़ू में"
+
+#: package/contents/ui/EffectSettingsPopup.qml:61
+#, kde-format
+msgid "Below icon"
+msgstr "प्रतीकों के नीचे"
+
+#: package/contents/ui/EffectSettingsPopup.qml:76
+#, kde-format
+msgid "Secondary toolbar label:"
+msgstr "द्वितीयक टूलबार लेबल :"
+
+#: package/contents/ui/GtkStylePage.qml:18
+#, kde-format
+msgid "GNOME/GTK Application Style"
+msgstr "गनोम/जीटीके अनुप्रयोग शैलियाँ"
+
+#: package/contents/ui/GtkStylePage.qml:44
+#, kde-format
+msgid "GTK theme:"
+msgstr "जीटीके प्रसंग :"
+
+#: package/contents/ui/GtkStylePage.qml:76
+#, kde-format
+msgid "Preview…"
+msgstr "पूर्वावलोकन…"
+
+#: package/contents/ui/GtkStylePage.qml:95
+#, kde-format
+msgid "Install from File…"
+msgstr "फाइल से संस्थापित करें..."
+
+#: package/contents/ui/GtkStylePage.qml:100
+#, kde-format
+msgid "Get New GNOME/GTK Application Styles…"
+msgstr "नए गनोम/जीटीके अनुप्रयोग शैलियाँ प्राप्त करें…"
+
+#: package/contents/ui/GtkStylePage.qml:149
+#, kde-format
+msgid "Select GTK Theme Archive"
+msgstr "जीटीके प्रसंग संग्रह चुनें"
+
+#: package/contents/ui/GtkStylePage.qml:151
+#, kde-format
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr "जीटीके प्रसंग संग्रह चुनें (*.tar.xz *.tar.gz *.tar.bz2)"
+
+#: package/contents/ui/main.qml:17
+#, kde-format
+msgid ""
+"This module allows you to modify the visual appearance of applications' user "
+"interface elements."
+msgstr ""
+"यह मॉड्यूल आपको अनुप्रयोग के उपयोक्ता इंटरफेस तत्वों के दृश्य स्वरूप को परिवर्धित करने की "
+"अनुमति देता है।"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Configure Style…"
+msgstr "शैली विन्यस्त करें..."
+
+#: package/contents/ui/main.qml:116
+#, kde-format
+msgid "Configure Icons and Toolbars"
+msgstr "औज़ार पट्टी विन्यस्त करें"
+
+#: package/contents/ui/main.qml:132
+#, kde-format
+msgid "Configure GNOME/GTK Application Style…"
+msgstr "गनोम/जीटीके अनुप्रयोग शैलियाँ विन्यस्त करें…"
+
+#: styleconfdialog.cpp:21
+#, kde-format
+msgid "Configure %1"
+msgstr "विन्यस्त करें %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: stylepreview.ui:33
+#, kde-format
+msgid "Tab 1"
+msgstr "टैब १"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: stylepreview.ui:65
+#, kde-format
+msgid "Push Button"
+msgstr "पुश बटन"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: stylepreview.ui:86
+#, kde-format
+msgid "Combo box"
+msgstr "कॉम्बो बक्सा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: stylepreview.ui:96
+#, kde-format
+msgid "Checkbox"
+msgstr "चेकबॉक्स"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
+#: stylepreview.ui:106 stylepreview.ui:116
+#, kde-format
+msgid "Radio button"
+msgstr "रेडियो बटन"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: stylepreview.ui:133
+#, kde-format
+msgid "Tab 2"
+msgstr "टैब २"
+
+#. i18n: ectx: label, entry (widgetStyle), group (KDE)
+#: stylesettings.kcfg:9
+#, kde-format
+msgid "Application style"
+msgstr "अनुप्रयोग शैली"
+
+#. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
+#: stylesettings.kcfg:13
+#, kde-format
+msgid "Show icons on buttons"
+msgstr "बटनों पर प्रतीक दिखाएँ"
+
+#. i18n: ectx: label, entry (iconsInMenus), group (KDE)
+#: stylesettings.kcfg:17
+#, kde-format
+msgid "Show icons in menus"
+msgstr "मेनुओं में प्रतीक दिखाएँ"
+
+#. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
+#: stylesettings.kcfg:23
+#, kde-format
+msgid "Main toolbar label"
+msgstr "मुख्य औज़ार पट्टी लेबल"
+
+#. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
+#: stylesettings.kcfg:27
+#, kde-format
+msgid "Secondary toolbar label"
+msgstr "द्वितीयक टूलबार लेबल"

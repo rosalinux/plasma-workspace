@@ -1,0 +1,277 @@
+# Translation of plasma_wallpaper_image into Japanese.
+# This file is distributed under the same license as the kdebase package.
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2007.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2007, 2008, 2009.
+# Jumpei Ogawa <phanective@gmail.com>, 2010.
+# Jumpei Ogawa (phanect) <phanective@gmail.com>, 2010.
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_image\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-31 00:22+0000\n"
+"PO-Revision-Date: 2020-01-17 19:18+0900\n"
+"Last-Translator: Tomohiro Hyakutake <tomhioo@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.12.1\n"
+
+#: image.cpp:253
+#, kde-format
+msgid "Recommended wallpaper file"
+msgstr ""
+
+#: image.cpp:414
+#, kde-format
+msgid "Directory with the wallpaper to show slides from"
+msgstr ""
+
+#: image.cpp:716
+#, fuzzy, kde-format
+#| msgid "Open Wallpaper Image"
+msgid "Open Image"
+msgstr "壁紙画像を開く"
+
+#: image.cpp:716
+#, kde-format
+msgid "Image Files"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:98
+#, kde-format
+msgid "Positioning:"
+msgstr "配置:"
+
+#: imagepackage/contents/ui/config.qml:101
+#, kde-format
+msgid "Scaled and Cropped"
+msgstr "拡大/縮小と切り取り"
+
+#: imagepackage/contents/ui/config.qml:105
+#, kde-format
+msgid "Scaled"
+msgstr "拡大/縮小"
+
+# Maxpect
+#: imagepackage/contents/ui/config.qml:109
+#, kde-format
+msgid "Scaled, Keep Proportions"
+msgstr "拡大/縮小 (アスペクト比を保つ)"
+
+#: imagepackage/contents/ui/config.qml:113
+#, kde-format
+msgid "Centered"
+msgstr "中央に表示"
+
+#: imagepackage/contents/ui/config.qml:117
+#, kde-format
+msgid "Tiled"
+msgstr "タイル状に表示"
+
+#: imagepackage/contents/ui/config.qml:146
+#, kde-format
+msgid "Background:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:147
+#, kde-format
+msgid "Blur"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgid "Solid color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:166
+#, kde-format
+msgid "Select Background Color"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:190
+#, kde-format
+msgid "Order:"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:197
+#, kde-format
+msgid "Random"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:201
+#, kde-format
+msgid "A to Z"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:205
+#, kde-format
+msgid "Z to A"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:237
+#, kde-format
+msgid "Group by folders"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:249
+#, fuzzy, kde-format
+#| msgid "C&hange images every:"
+msgid "Change every:"
+msgstr "画像を変更する間隔(&H):"
+
+#: imagepackage/contents/ui/config.qml:259
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:278
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:297
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagepackage/contents/ui/config.qml:310
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Folders"
+msgstr "新しい壁紙を取得..."
+
+#: imagepackage/contents/ui/config.qml:358
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Remove Folder"
+msgstr "新しい壁紙を取得..."
+
+#: imagepackage/contents/ui/config.qml:363
+#, kde-format
+msgid "Open Folder"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:373
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr ""
+
+# ACCELERATOR changed by translator
+#: imagepackage/contents/ui/config.qml:386
+#, fuzzy, kde-format
+#| msgid "&Add Folder..."
+msgid "Add Folder…"
+msgstr "フォルダを追加(&Y)..."
+
+#: imagepackage/contents/ui/config.qml:392
+#: imagepackage/contents/ui/config.qml:486
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Get New Wallpapers…"
+msgstr "新しい壁紙を取得..."
+
+#: imagepackage/contents/ui/config.qml:435
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr ""
+
+# ACCELERATOR changed by translator
+#: imagepackage/contents/ui/config.qml:480
+#, fuzzy, kde-format
+#| msgid "Add Image..."
+msgid "Add Image…"
+msgstr "画像を追加..."
+
+#: imagepackage/contents/ui/main.qml:55
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "壁紙画像を開く"
+
+#: imagepackage/contents/ui/main.qml:56
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "次の壁紙画像"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:34
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "保存フォルダを開く"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:40
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Restore wallpaper"
+msgstr "新しい壁紙を取得..."
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "Get New Wallpapers..."
+msgid "Remove Wallpaper"
+msgstr "新しい壁紙を取得..."
+
+#: plasma-apply-wallpaperimage.cpp:29
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:31
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:45
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:82
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:86
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:88
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr ""
+
+#: plasma-apply-wallpaperimage.cpp:94
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""

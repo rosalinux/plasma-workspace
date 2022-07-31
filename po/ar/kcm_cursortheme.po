@@ -1,0 +1,230 @@
+# translation of kcminput.po to Arabic
+# translation of kcminput.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2021.
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
+"PO-Revision-Date: 2021-06-23 14:29+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#. i18n: ectx: label, entry (cursorTheme), group (Mouse)
+#: cursorthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current cursor theme"
+msgstr "اسم سمة المؤشر الحالية"
+
+#. i18n: ectx: label, entry (cursorSize), group (Mouse)
+#: cursorthemesettings.kcfg:13
+#, kde-format
+msgid "Current cursor size"
+msgstr "حجم المؤشر الحالي"
+
+#: kcmcursortheme.cpp:62
+#, kde-format
+msgid "Cursors"
+msgstr "المؤشرات"
+
+#: kcmcursortheme.cpp:66
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr "(c) 2003-2007 Fredrik Höglund"
+
+#: kcmcursortheme.cpp:67
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr "Fredrik Höglund"
+
+#: kcmcursortheme.cpp:68
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcmcursortheme.cpp:311
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "عليك إعادة تشغيل جلسة بلازما  لتأخذ التغييرات تأثيرها."
+
+#: kcmcursortheme.cpp:389
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "لم يتمكن من إنشاء ملف مؤقت"
+
+#: kcmcursortheme.cpp:400
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "لم يتمكن من تنزيل سمة الأيقونات: %1"
+
+#: kcmcursortheme.cpp:431
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "الملف ليس أرشيف سمة أيقونة صالحًا."
+
+#: kcmcursortheme.cpp:438
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr "فشل في إنشاء مجلد 'الأيقونات'"
+
+#: kcmcursortheme.cpp:447
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr "توجد مسبقا سمة باسم %1 في مجلد سمات الأيقونات, هل تريد استبدالها بهذه؟"
+
+#: kcmcursortheme.cpp:451
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "أطمس السِمة ؟"
+
+#: kcmcursortheme.cpp:475
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "ثبتت السمة بنجاح."
+
+#: package/contents/ui/Delegate.qml:54
+#, kde-format
+msgid "Remove Theme"
+msgstr "أزل السمة"
+
+#: package/contents/ui/Delegate.qml:61
+#, kde-format
+msgid "Restore Cursor Theme"
+msgstr "استعد سِمة المؤشر"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr "هذه الوحدة تجعلك تختار سمة مؤشر الفأرة."
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Size:"
+msgstr "الحجم:"
+
+#: package/contents/ui/main.qml:134
+#, kde-format
+msgid "&Install from File…"
+msgstr "&ثبت من ملف..."
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "&Get New Cursors…"
+msgstr "احصل على مؤشرات جديدة..."
+
+#: package/contents/ui/main.qml:190
+#, kde-format
+msgid "Open Theme"
+msgstr "افتح سمة"
+
+#: package/contents/ui/main.qml:192
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "ملفات سمة المؤشر (*.tar.gz *.tar.bz2)"
+
+#: plasma-apply-cursortheme.cpp:36
+#, kde-format
+msgid ""
+"This tool allows you to set the mouse cursor theme for the current Plasma "
+"session, without accidentally setting it to one that is either not "
+"available, or which is already set."
+msgstr ""
+"تتيح لك هذه الأداة ضبط سمة مؤشر الفأرة لجلسة البلازما الحالية، دون ضبطه عن "
+"طريق الخطأ على نظام إما غير متوفر ، أو تم تعيينه بالفعل."
+
+#: plasma-apply-cursortheme.cpp:40
+#, kde-format
+msgid ""
+"The name of the cursor theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+"اسم سمة المؤشر الذي ترغب في تعيينه لجلسة البلازما الحالية(تمرير مسار كامل "
+"سيستخدم فقط الجزء الأخير من المسار)"
+
+#: plasma-apply-cursortheme.cpp:41
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr "اعرض جميع السمات المتوفرة على النظام (وما السمة الحالية)"
+
+#: plasma-apply-cursortheme.cpp:62
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr "تم بالفعل تعيين السمة المطلوبة \"%1\" كسمة لجلسة البلازما الحالية."
+
+#: plasma-apply-cursortheme.cpp:73
+#, kde-format
+msgid ""
+"Successfully applied the mouse cursor theme %1 to your current Plasma session"
+msgstr "تم بنجاح تطبيق سمة مؤشر الفأرة %1 على جلسة بلازما الحاليةز"
+
+#: plasma-apply-cursortheme.cpp:75
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for your newly applied mouse cursor "
+"theme to display correctly."
+msgstr ""
+"عليك إعادة تشغيل جلسة بلازما لتطبيق سمة المؤشر الجديدة و تعرض بشكل صحيح."
+
+#: plasma-apply-cursortheme.cpp:85
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+"لم يعثر على السمة المطلوبة \"%1\". السمة يجب أن تكون واحدة من الخيارات "
+"التالية: %2"
+
+#: plasma-apply-cursortheme.cpp:93
+#, kde-format
+msgid "You have the following mouse cursor themes on your system:"
+msgstr "لديك سمات المؤشرات التالية على نظامك:"
+
+#: xcursor/thememodel.cpp:67
+#, kde-format
+msgid "Name"
+msgstr "الاسم"
+
+#: xcursor/thememodel.cpp:70
+#, kde-format
+msgid "Description"
+msgstr "الوصف"
+
+#: xcursor/xcursortheme.cpp:56
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "(الأحجام المتوفّرة: %1)"

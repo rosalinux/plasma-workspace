@@ -1,0 +1,731 @@
+# translation of klipper.po to
+# translation of klipper.po to Tamil
+# Copyright (C) 2004 Free Software Foundation, Inc.
+#
+# Vasee Vaseeharan <vasee@ieee.org>, 2004.
+# Ambalam <tamilpc@ambalam.com>, 2004.
+# Kishore G <kishore96@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: klipper\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-10-07 01:46+0000\n"
+"PO-Revision-Date: 2021-12-16 21:38+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.0\n"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReplayActionInHistory)
+#: actionsconfig.ui:17
+#, kde-format
+msgid "Replay actions on an item selected from history"
+msgstr "வரலாற்றிலிருந்து தேர்ந்தெடுக்கப்பட்ட ஒரு உருப்படியின் மீதான செயல்களை மீளச்செய்"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_StripWhiteSpace)
+#: actionsconfig.ui:24
+#, kde-format
+msgid "Remove whitespace when executing actions"
+msgstr "செயல்களை இயக்கும்போது வெற்றிடங்களை நீக்கு"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMagicMimeActions)
+#. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
+#: actionsconfig.ui:31 klipper.kcfg:84
+#, kde-format
+msgid "Enable MIME-based actions"
+msgstr "MIME பொறுத்த செயல்களை இயக்கு"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: actionsconfig.ui:38
+#, kde-format
+msgid "Action list:"
+msgstr "செயல்முறை பட்டியல்:"
+
+#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
+#: actionsconfig.ui:49
+#, kde-format
+msgid "Regular Expression"
+msgstr "சுருங்குறித் தொடர்"
+
+#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
+#: actionsconfig.ui:54 editactiondialog.cpp:211
+#, kde-format
+msgid "Description"
+msgstr "விவரணம்"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
+#: actionsconfig.ui:64
+#, kde-format
+msgid "Add Action..."
+msgstr "செயல்முறையை சேர்..."
+
+#. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
+#: actionsconfig.ui:71
+#, kde-format
+msgid "Edit Action..."
+msgstr "செயல்முறையை திருத்து..."
+
+#. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
+#: actionsconfig.ui:78
+#, kde-format
+msgid "Delete Action"
+msgstr "செயல்முறையை நீக்கு"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
+#: actionsconfig.ui:85
+#, kde-format
+msgid "Advanced..."
+msgstr "மேம்பட்டவை..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: actionsconfig.ui:94
+#, no-c-format, kde-format
+msgid ""
+"Click on a highlighted item's column to change it. \"%s\" in a command will "
+"be replaced with the clipboard contents.<br>For more information about "
+"regular expressions, you could have a look at the <a href=\"https://en."
+"wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
+msgstr ""
+"செயலிலுள்ள உருப்படியை மாற்ற, அதன் நெடுவரிசையை க்ளிக் செய்யவும். ஒவ்வொரு கட்டளையிலும் "
+"\"%s\" என்பதில் பிடிப்புப்பலகையின் உள்ளடக்கம் இடப்படும்.<br>சுருங்குறித் தொடர்களை குறித்து "
+"மேலும் அறிய, <a href=\"https://en.wikipedia.org/wiki/Regular_expression"
+"\">அவற்றை பற்றிய விக்கிப்பீடியா கட்டுரையை</a> நீங்கள் பார்க்கலாம்."
+
+#: configdialog.cpp:24
+#, kde-format
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " நொடி"
+msgstr[1] " நொடிகள்"
+
+#: configdialog.cpp:25
+#, kde-format
+msgid " entry"
+msgid_plural " entries"
+msgstr[0] " பதிவு"
+msgstr[1] " பதிவுகள்"
+
+#: configdialog.cpp:235
+#, kde-format
+msgid "Advanced Settings"
+msgstr "மேம்படுத்தப்பட்ட அமைப்புகள்"
+
+#: configdialog.cpp:259
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr "பொது"
+
+#: configdialog.cpp:259
+#, kde-format
+msgid "General Configuration"
+msgstr "பொது அமைப்பு"
+
+#: configdialog.cpp:260
+#, kde-format
+msgctxt "Actions Config"
+msgid "Actions"
+msgstr "செயல்முறைகள்"
+
+#: configdialog.cpp:260
+#, kde-format
+msgid "Actions Configuration"
+msgstr "செயல்முறைகளுக்கான அமைப்பு"
+
+#: configdialog.cpp:263
+#, kde-format
+msgctxt "Shortcuts Config"
+msgid "Shortcuts"
+msgstr "சுருக்குவழிகள்"
+
+#: configdialog.cpp:263
+#, kde-format
+msgid "Shortcuts Configuration"
+msgstr "சுருக்குவழிகளுக்கான அமைப்பு"
+
+#: configdialog.cpp:321
+#, kde-format
+msgid "D&isable Actions for Windows of Type WM_CLASS"
+msgstr "WM_CLASS எனும் வகைக்கொண்ட சாளரங்களுக்கு செயல்முறைகளை முடக்கு"
+
+#: configdialog.cpp:330
+#, kde-format
+msgid ""
+"<qt>This lets you specify windows in which Klipper should not invoke "
+"\"actions\". Use<br /><br /><center><b>xprop | grep WM_CLASS</b></"
+"center><br />in a terminal to find out the WM_CLASS of a window. Next, click "
+"on the window you want to examine. The first string it outputs after the "
+"equal sign is the one you need to enter here.</qt>"
+msgstr ""
+"<qt>\"செயல்முறைகளை\" க்ளிப்பர் எந்த சாளரங்களில் இயக்கக் கூடாது என்பதை நீங்கள் குறிப்பிட "
+"இது உதவும். ஒரு சாளரத்தின் WM_CLASS-ஐ கண்டுபிடிக்க <br /><br /><center><b>xprop | "
+"grep WM_CLASS</b></center><br /> என்ற கட்டளையை முனையத்தில் இயக்குங்கள். அடுத்தது, "
+"நீங்கள் ஆராய விரும்பும் சாளரத்தை க்ளிக் செய்யுங்கள். கட்டளையின் வெளியீட்டில் '=' என்பதற்கு "
+"பிறகு வரும் முதல் சரத்தை நீங்கள் இங்கு உள்ளிட வேண்டும்.</qt>"
+
+#: editactiondialog.cpp:27
+#, kde-format
+msgid "Ignore"
+msgstr "பொருட்படுத்தாதே"
+
+#: editactiondialog.cpp:29
+#, kde-format
+msgid "Replace Clipboard"
+msgstr "பிடிப்புபலகையின் அடக்கத்திற்கு பதிலாக"
+
+#: editactiondialog.cpp:31
+#, kde-format
+msgid "Add to Clipboard"
+msgstr "பிடிப்புப்பலகைக்கு சேர்"
+
+#: editactiondialog.cpp:207
+#, kde-format
+msgid "Command"
+msgstr "கட்டளை"
+
+#: editactiondialog.cpp:209
+#, kde-format
+msgid "Output Handling"
+msgstr "வெளியீட்டை கையாளுதல்"
+
+#: editactiondialog.cpp:251
+#, kde-format
+msgid "Action Properties"
+msgstr "செயல்முறை பண்புகள்"
+
+#: editactiondialog.cpp:356
+#, kde-format
+msgid "new command"
+msgstr "புதிய கட்டளை"
+
+#: editactiondialog.cpp:356
+#, kde-format
+msgid "Command Description"
+msgstr "கட்டளையின் விவரணம்"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: editactiondialog.ui:20
+#, kde-format
+msgid "Action properties:"
+msgstr "செயல்முறை பண்புகள்:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editactiondialog.ui:42
+#, kde-format
+msgid "Regular expression:"
+msgstr "சுருங்குறித் தொடர்:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editactiondialog.ui:52
+#, kde-format
+msgid "Description:"
+msgstr "விவரணம்"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: editactiondialog.ui:62
+#, kde-format
+msgid "Automatic:"
+msgstr "தானியங்கி:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: editactiondialog.ui:87
+#, kde-format
+msgid "List of commands for this action:"
+msgstr "இந்த செயல்முறைக்கான கட்டளைகளின் பட்டியல்:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
+#: editactiondialog.ui:144
+#, kde-format
+msgid "Add Command"
+msgstr "கட்டளையை சேர்"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
+#: editactiondialog.ui:151
+#, kde-format
+msgid "Remove Command"
+msgstr "கட்டளையை நீக்கு"
+
+#. i18n: ectx: property (toolTip), widget (QTableView, twCommandList)
+#: editactiondialog.ui:176
+#, kde-format
+msgid "Double-click an item to edit"
+msgstr "உருப்படியை திருத்த இரட்டை-க்ளிக் செய்யவும்"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
+#: generalconfig.ui:17
+#, kde-format
+msgid "Save clipboard contents on exit"
+msgstr "வெளியேறும்போது பிடிப்புப்பலகையின் உள்ளடக்கத்தை சேமி"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
+#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
+#: generalconfig.ui:24 klipper.kcfg:16
+#, kde-format
+msgid "Prevent empty clipboard"
+msgstr "பிடிப்புப்பலகை காலியாவதை தவிர்"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
+#. i18n: ectx: label, entry (IgnoreImages), group (General)
+#: generalconfig.ui:31 klipper.kcfg:21
+#, kde-format
+msgid "Ignore images"
+msgstr "படங்களை பொருட்படுத்தாதே"
+
+#. i18n: ectx: property (title), widget (QGroupBox, selection_group)
+#: generalconfig.ui:38
+#, kde-format
+msgid "Selection and Clipboard"
+msgstr "தேர்வு மற்றும் பிடிப்புப்பலகை"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
+#: generalconfig.ui:44
+#, kde-format
+msgid "Ignore selection"
+msgstr "தேர்வை பொருட்படுத்தாதே"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SelectionTextOnly)
+#: generalconfig.ui:51
+#, kde-format
+msgid "Text selection only"
+msgstr "உரைத் தேர்வு மட்டும்"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncClipboards)
+#: generalconfig.ui:58
+#, kde-format
+msgid "Synchronize contents of the clipboard and the selection"
+msgstr "பிடிப்புபலகை மற்றும் தேர்வின் உள்ளடக்கங்களை ஒத்தியக்கு"
+
+#. i18n: ectx: property (text), widget (QLabel, timeout_label)
+#: generalconfig.ui:68
+#, kde-format
+msgid "Timeout for action popups:"
+msgstr "செயல்முறை துப்புகளுக்கான காலாவதி:"
+
+#. i18n: ectx: property (text), widget (QLabel, history_size_label)
+#: generalconfig.ui:82
+#, kde-format
+msgid "Clipboard history size:"
+msgstr "பிடிப்புப்பலகை வரலாற்றின் அளவு:"
+
+#: historyimageitem.cpp:38
+#, kde-format
+msgid "%1x%2 %3bpp"
+msgstr "%1x%2 %3bpp"
+
+#: klipper.cpp:136
+#, kde-format
+msgid "Enable Clipboard Actions"
+msgstr "பிடிப்புப்பலகை செயல்முறைகளை இயக்கு"
+
+#: klipper.cpp:159
+#, kde-format
+msgid "C&lear Clipboard History"
+msgstr "பிடிப்புப்பலகையின் வரலாற்றை &காலியாக்கு"
+
+#: klipper.cpp:166
+#, kde-format
+msgid "&Configure Klipper…"
+msgstr "&க்ளிப்பரை அமை…"
+
+#: klipper.cpp:172
+#, kde-format
+msgctxt "@item:inmenu Quit Klipper"
+msgid "&Quit"
+msgstr "&வெளியேறு"
+
+#: klipper.cpp:177
+#, kde-format
+msgid "Manually Invoke Action on Current Clipboard"
+msgstr "தற்போதைய பிடிப்பில் கைமுறையாக ஒரு செயலை இயக்கு"
+
+#: klipper.cpp:184
+#, kde-format
+msgid "&Edit Contents…"
+msgstr "&உள்ளடக்கங்களை திருத்து…"
+
+#: klipper.cpp:192
+#, kde-format
+msgid "&Show Barcode…"
+msgstr "&பட்டைக்குறியீட்டை காட்டு…"
+
+#: klipper.cpp:200
+#, kde-format
+msgid "Next History Item"
+msgstr "வரலாற்றிலுள்ள அடுத்த உருப்படி"
+
+#: klipper.cpp:204
+#, kde-format
+msgid "Previous History Item"
+msgstr "வரலாற்றிலுள்ள முந்தைய உருப்படி"
+
+#: klipper.cpp:210
+#, kde-format
+msgid "Open Klipper at Mouse Position"
+msgstr "சுட்டிக்குறியின் இருப்பிடத்தில் க்ளிப்பரை திற"
+
+#: klipper.cpp:494
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can enable URL actions later in the <interface>Actions</interface> page "
+"of the Clipboard applet's configuration window"
+msgstr ""
+"முகவரிகளுக்கான செயல்களை நீங்கள் பிடிப்புப்பலகையின் அமைப்புகளில் <interface>செயல்முறைகள்</"
+"interface> என்ற பக்கத்தில் இயக்கலாம்"
+
+#: klipper.cpp:529
+#, kde-format
+msgid "Should Klipper start automatically when you login?"
+msgstr "நீங்கள் நுழையும்போது க்ளிப்பர் தானாக துவக்கப்பட வேண்டுமா?"
+
+#: klipper.cpp:530
+#, kde-format
+msgid "Automatically Start Klipper?"
+msgstr "க்ளிப்பரை தானாகவே துவக்கலாமா?"
+
+#: klipper.cpp:531
+#, kde-format
+msgid "Start"
+msgstr "துவக்கு"
+
+#: klipper.cpp:532
+#, kde-format
+msgid "Do Not Start"
+msgstr "துவக்காதே"
+
+#: klipper.cpp:879
+#, kde-format
+msgid "Edit Contents"
+msgstr "உள்ளடக்கங்களை திருத்து"
+
+#: klipper.cpp:946
+#, kde-format
+msgid "Mobile Barcode"
+msgstr "பட்டைக்குறியீடு"
+
+#: klipper.cpp:993
+#, kde-format
+msgid "Really delete entire clipboard history?"
+msgstr "பிடிப்புப்பலகை வரலாற்றை முழுதாக அழிக்க வேண்டுமா?"
+
+#: klipper.cpp:994
+#, kde-format
+msgid "Delete clipboard history?"
+msgstr "பிடிப்புப்பலகை வரலாற்றை அழிக்கலாமா?"
+
+#: klipper.cpp:1010 klipper.cpp:1019
+#, kde-format
+msgid "Clipboard history"
+msgstr "பிடிப்புப்பலகை வரலாறு"
+
+#: klipper.cpp:1036
+#, kde-format
+msgid "up"
+msgstr "மேலே"
+
+#: klipper.cpp:1043
+#, kde-format
+msgid "current"
+msgstr "தற்போதையது"
+
+#: klipper.cpp:1050
+#, kde-format
+msgid "down"
+msgstr "கீழே"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: klipper.kcfg:9
+#, kde-format
+msgid "Klipper version"
+msgstr "க்ளிப்பர் பதிப்பு"
+
+#. i18n: ectx: label, entry (KeepClipboardContents), group (General)
+#: klipper.kcfg:12
+#, kde-format
+msgid "Keep clipboard contents"
+msgstr "பிடிப்புப்பலகையின் உள்ளடக்கத்தை வைத்திரு"
+
+#. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
+#: klipper.kcfg:18
+#, kde-format
+msgid ""
+"Selecting this option has the effect, that the clipboard can never be "
+"emptied. E.g. when an application exits, the clipboard would usually be "
+"emptied."
+msgstr ""
+"இந்த விருப்பத்தேர்வை தேர்ந்தெடுத்தால், பிடிப்புப் பலகை எப்போதுமே காலியாக இருக்காது. "
+"உதாரணமாக, ஒரு பயன்பாடு ஏற்கெனவே இருந்தால், பிடிப்புப் பலகை அதை வழக்கமாக "
+"காலியாக்கிவிடும்."
+
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: klipper.kcfg:25
+#, kde-format
+msgid "Ignore Selection"
+msgstr "தேர்வை பொருட்படுத்தாதே"
+
+#. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
+#: klipper.kcfg:27
+#, kde-format
+msgid ""
+"When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\".<br/>If this option is set, the selection is not "
+"entered into the clipboard history, though it is still available for pasting "
+"using the middle mouse button."
+msgstr ""
+"சுட்டியையோ விசைப்பலகையையோ கொண்டு தேர்வு செய்யப்பட்ட திரையின் ஒரு பகுதி, \"தேர்வு\" "
+"எனப்படும்.<br/>இந்த விருப்பம் குறிக்கப்பட்டிருந்தால், தேர்வு பிடிப்புப்பலகையின் வரலாற்றில் "
+"இடம்பெறாது. எனினும், அதனை சுட்டியின் நடு பட்டனை கொண்டு ஒட்டலாம்."
+
+#. i18n: ectx: label, entry (SyncClipboards), group (General)
+#: klipper.kcfg:34
+#, kde-format
+msgid "Synchronize clipboard and selection"
+msgstr "பிடிப்புபலகை மற்றும் தேர்வின் உள்ளடக்கங்களை ஒத்தியக்கு"
+
+#. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
+#: klipper.kcfg:36
+#, kde-format
+msgid ""
+"When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\".<br/>If this option is selected, the selection and "
+"the clipboard is kept the same, so that anything in the selection is "
+"immediately available for pasting elsewhere using any method, including the "
+"traditional middle mouse button. Otherwise, the selection is recorded in the "
+"clipboard history, but the selection can only be pasted using the middle "
+"mouse button. Also see the 'Ignore Selection' option."
+msgstr ""
+"சுட்டியையோ விசைப்பலகையையோ கொண்டு தேர்வு செய்யப்பட்ட திரையின் ஒரு பகுதி, \"தேர்வு\" "
+"எனப்படும்.<br/>இந்த விருப்பம் குறிக்கப்பட்டிருந்தால், தேர்வு உடனடியாக பிடிப்புப்பலகைக்கு "
+"நகலெடுக்கப்படும், அதாவது தேர்ந்தெடுத்தவற்றை நடு சுட்டி பட்டன் உட்பட பல வழிகளில் ஒட்டலாம். "
+"குறிக்கப்படவில்லையெனில், தேர்வு பிடிப்புப்பலகை வரலாற்றில் இடம்பெறும், ஆனால் அதனை நடு "
+"சுட்டி பட்டனை கொண்டு மட்டும்தான் ஒட்ட முடியும். 'தேர்வை பொருட்படுத்தாதே' என்ற "
+"விருப்பத்தையும் பாருங்கள்."
+
+#. i18n: ectx: label, entry (SelectionTextOnly), group (General)
+#: klipper.kcfg:39
+#, kde-format
+msgid "Selection text only"
+msgstr "தேரப்பட்ட உரை மட்டும்"
+
+#. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
+#: klipper.kcfg:41
+#, kde-format
+msgid ""
+"When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\".<br/>If this option is selected, only text "
+"selections are stored in the history, while images and other selections are "
+"not."
+msgstr ""
+"சுட்டியையோ விசைப்பலகையையோ கொண்டு தேர்வு செய்யப்பட்ட திரையின் ஒரு பகுதி, \"தேர்வு\" "
+"எனப்படும்.<br/>இந்த விருப்பம் குறிக்கப்பட்டிருந்தால், தேர்வு செய்தவை உரையாக இருந்தால் "
+"மட்டும் வரலாற்றில் இடம்பெறும், அதாவது படங்கள் போன்றவை இடம்பெறாது."
+
+#. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
+#: klipper.kcfg:44
+#, kde-format
+msgid "Use graphical regexp editor"
+msgstr ""
+
+#. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
+#: klipper.kcfg:48
+#, kde-format
+msgid "URL grabber enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
+#: klipper.kcfg:53
+#, kde-format
+msgid "No actions for WM_CLASS"
+msgstr "WM_CLASS-க்கு எந்த செயல்முறையும் இல்லை"
+
+#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
+#: klipper.kcfg:56
+#, fuzzy, kde-format
+#| msgid "Tim&eout for action popups:"
+msgid "Timeout for action popups (seconds)"
+msgstr "செயல் மேல்மீட்புகளுக்கான வெளியேற்ற நேரம்:"
+
+#. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
+#: klipper.kcfg:60
+#, kde-format
+msgid "A value of 0 disables the timeout"
+msgstr "இங்கு 0 எனும் மதிப்பு கால இடைவெளியைச் செயலிழக்கச்செய்யும்"
+
+#. i18n: ectx: label, entry (MaxClipItems), group (General)
+#: klipper.kcfg:63
+#, kde-format
+msgid "Clipboard history size"
+msgstr "பிடிப்புப்பலகை வரலாற்றின் அளவு"
+
+#. i18n: ectx: label, entry (ActionList), group (General)
+#: klipper.kcfg:69
+#, kde-format
+msgid "Dummy entry for indicating changes in an action's tree widget"
+msgstr ""
+
+#. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
+#: klipper.kcfg:75
+#, fuzzy, kde-format
+#| msgid "Remove whitespace when executing actions"
+msgid "Strip whitespace when executing an action"
+msgstr "செயல்படுத்தும் போது வெற்றிடங்களை நீக்கு"
+
+#. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
+#: klipper.kcfg:77
+#, fuzzy, kde-format
+msgid ""
+"Sometimes, the selected text has some whitespace at the end, which, if "
+"loaded as URL in a browser would cause an error. Enabling this option "
+"removes any whitespace at the beginning or end of the selected string (the "
+"original clipboard contents will not be modified)."
+msgstr ""
+"சில சமயம் இந்த உரைகளில் வெற்றிடங்கள் இருக்கலாம், இது வலைமனையாக ஏற்றப்படும்போது பிழை "
+"நேரிடும். இந்த விருப்பத்தேர்வு,  தேர்ந்தெடுக்கப்பட்ட வரியின் ஆரம்பத்திலோ அல்லது முடிவிலோ "
+"உள்ள வெற்றிடங்களை நீக்குகிறது."
+
+#. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
+#: klipper.kcfg:80
+#, kde-format
+msgid "Replay action in history"
+msgstr "வரலாற்றில் செயலை மீளச்செய்"
+
+#: klipperpopup.cpp:60 tray.cpp:25 tray.cpp:41
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "பிடிப்புப்பலகை காலியாக உள்ளது"
+
+#: klipperpopup.cpp:61
+#, kde-format
+msgid "No matches"
+msgstr "பொருத்தங்கள் இல்லை"
+
+#: klipperpopup.cpp:112
+#, kde-format
+msgid "Klipper - Clipboard Tool"
+msgstr "க்ளிப்பர் - பிடிப்புப்பலகை கருவி"
+
+#: klipperpopup.cpp:116
+#, kde-format
+msgid "Search…"
+msgstr "தேடு…"
+
+#: klipperpopup.cpp:125 main.cpp:30
+#, kde-format
+msgid "KDE cut & paste history utility"
+msgstr "வெட்டல் & ஒட்டல் வரலாற்றை வழங்கும் கே.டீ.யீ.யின் நிரல்"
+
+#: main.cpp:28 tray.cpp:22
+#, kde-format
+msgid "Klipper"
+msgstr "க்ளிப்பர்"
+
+#: main.cpp:32
+#, kde-format
+msgid ""
+"(c) 1998, Andrew Stanley-Jones\n"
+"1998-2002, Carsten Pfeiffer\n"
+"2001, Patrick Dubroy"
+msgstr ""
+
+#: main.cpp:35
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:35
+#, kde-format
+msgid "Author"
+msgstr "ஆசிரியர்"
+
+#: main.cpp:37
+#, kde-format
+msgid "Andrew Stanley-Jones"
+msgstr ""
+
+#: main.cpp:37
+#, kde-format
+msgid "Original Author"
+msgstr "மூல ஆசிரியர்"
+
+#: main.cpp:39
+#, kde-format
+msgid "Patrick Dubroy"
+msgstr ""
+
+#: main.cpp:39
+#, kde-format
+msgid "Contributor"
+msgstr "பங்கெடுத்தோர்"
+
+#: main.cpp:41
+#, kde-format
+msgid "Luboš Luňák"
+msgstr ""
+
+#: main.cpp:41
+#, kde-format
+msgid "Bugfixes and optimizations"
+msgstr "பிழைத்திருத்து மற்றும் உகப்பாக்கு"
+
+#: main.cpp:43
+#, kde-format
+msgid "Esben Mose Hansen"
+msgstr ""
+
+#: main.cpp:43
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "முந்தைய பராமரிப்பாளர்"
+
+#: main.cpp:45
+#, kde-format
+msgid "Martin Gräßlin"
+msgstr "மார்ட்டின் கிராஸ்லின்"
+
+#: main.cpp:45
+#, kde-format
+msgid "Maintainer"
+msgstr "மேம்பாட்டாளர்"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "சிவகுமார் சண்முகசுந்தரம்,கோமதி சிவகுமார்,துரையப்பா வசீகரன், பிரபு"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"sshanmu@yahoo.com,gomathiss@hotmail.com,t_vasee@yahoo.com, "
+"prabu_anand2000@yahoo.com"
+
+#: popupproxy.cpp:144
+#, kde-format
+msgid "&More"
+msgstr "&மேலும்"
+
+#: tray.cpp:25
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "பிடிப்புப்பலகையின் உள்ளடக்கம்"
+
+#: urlgrabber.cpp:172
+#, kde-format
+msgid "%1 - Actions For: %2"
+msgstr "%1 - இதற்கான செயல்: %2"
+
+#: urlgrabber.cpp:199
+#, kde-format
+msgid "Disable This Popup"
+msgstr "இந்த மேல்தோன்றும் துப்பை முடக்கு"
+
+#: urlgrabber.cpp:205
+#, kde-format
+msgid "&Cancel"
+msgstr "&ரத்து செய்"

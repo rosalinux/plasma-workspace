@@ -1,0 +1,153 @@
+# translation of kcmlocale.po to Tamil
+# Copyright (C) 2004 Free Software Foundation, Inc.
+#
+# Vasee Vaseeharan <vasee@ieee.org>, 2004.
+# Kishore G <kishore96@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2021-08-10 21:32+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.07.90\n"
+
+#: kcmformats.cpp:33
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>படிவங்கள்</h1>நேரங்கள், தேதிகள், பணத்தொகைகள், மற்றும் பிற எண்களுக்கான படிவங்களை நீங்கள் "
+"இங்கு அமைக்கலாம்."
+
+#: kcmformats.cpp:87
+#, kde-format
+msgid "No change"
+msgstr "மாற்றம் இல்லை"
+
+#: kcmformats.cpp:124
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:126
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:272
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "நீங்கள் அடுத்த முறை நுழையும் போது உங்கள் மாற்றங்கள் செயல்படும்."
+
+#: kcmformats.cpp:273
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "படிவ அமைப்புகள் மாற்றப்பட்டன"
+
+#: kcmformats.cpp:340
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (நெடும் படிவம்)"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (குறுகிய படிவம்)"
+
+#: kcmformats.cpp:346
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "ஆங்கிலேய இம்பீரியல்"
+
+#: kcmformats.cpp:348
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "அமெரிக்க இம்பீரியல்"
+
+#: kcmformats.cpp:350
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "மெட்ரிக்"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "&மண்டலம்:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "&விவரமான அமைப்புகள்"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "&எண்கள்: "
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "&நேரம்: "
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "&செலாவணி:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "&அளவிடும் அலகுகள்:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "தொகுப்பு மற்றும் வரிசைப்படுத்துதல்:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>விவரணம்</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "எண்கள்: "
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "நேரம்: "
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "செலாவணி:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "அளவிடும் அலகுகள்:"

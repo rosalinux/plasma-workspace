@@ -1,0 +1,169 @@
+# Translation of kcm_autostart.po to Catalan (Valencian)
+# Copyright (C) 2008-2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2008, 2010, 2012, 2015, 2016, 2017.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2016, 2017.
+# Alfredo Vicente <alviboi@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2019-07-05 11:43+0200\n"
+"Last-Translator: Alfredo Vicente <alviboi@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.04.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: autostart.cpp:24
+#, kde-format
+msgid "Autostart"
+msgstr ""
+
+#: autostart.cpp:26
+#, kde-format
+msgid "Session Autostart Manager Control Panel Module"
+msgstr ""
+"Mòdul del plafó de control pel gestor de l'inici automàtic de la sessió"
+
+#: autostart.cpp:28
+#, fuzzy, kde-format
+#| msgid "Copyright © 2006–2010 Autostart Manager team"
+msgid "Copyright © 2006–2020 Autostart Manager team"
+msgstr "Copyright © 2006–2010 Autostart Manager team"
+
+#: autostart.cpp:29
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:30
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:30
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantenidor"
+
+#: autostart.cpp:31
+#, kde-format
+msgid "Nicolas Fella"
+msgstr ""
+
+#: autostartmodel.cpp:288
+#, fuzzy, kde-format
+#| msgid "\"%1\" is not an absolute path."
+msgid "\"%1\" is not an absolute url."
+msgstr "«%1» no és cap camí absolut."
+
+#: autostartmodel.cpp:291
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "«%1» no existeix."
+
+#: autostartmodel.cpp:294
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "«%1» no és cap fitxer."
+
+#: autostartmodel.cpp:297
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "«%1» no es pot llegir."
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgid "&Properties..."
+msgid "Properties"
+msgstr "&Propietats..."
+
+#: package/contents/ui/main.qml:68
+#, fuzzy, kde-format
+#| msgid "&Remove"
+msgid "Remove"
+msgstr "&Elimina"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Login Scripts"
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Pre-startup Scripts"
+msgstr ""
+
+#: package/contents/ui/main.qml:88
+#, fuzzy, kde-format
+#| msgid "Logout"
+msgid "Logout Scripts"
+msgstr "Eixida"
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "No user-specified autostart items"
+msgstr ""
+
+#: package/contents/ui/main.qml:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add…</interface> button below to add some"
+msgstr ""
+
+#: package/contents/ui/main.qml:112
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Choose Login Script"
+msgstr "Afig un script..."
+
+#: package/contents/ui/main.qml:133
+#, kde-format
+msgid "Choose Logout Script"
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgid "Add…"
+msgstr ""
+
+#: package/contents/ui/main.qml:177
+#, kde-format
+msgid "Add Application…"
+msgstr ""
+
+#: package/contents/ui/main.qml:183
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Add Login Script…"
+msgstr "Afig un script..."
+
+#: package/contents/ui/main.qml:189
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Add Logout Script…"
+msgstr "Afig un script..."

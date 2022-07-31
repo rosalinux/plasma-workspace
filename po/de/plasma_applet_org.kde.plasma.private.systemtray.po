@@ -1,0 +1,150 @@
+# Burkhard Lück <lueck@hube-lueck.de>, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021.
+# Frederik Schwarzer <schwarzer@kde.org>, 2013, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2021-03-02 12:05+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Allgemein"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Entries"
+msgstr "Einträge"
+
+#: package/contents/ui/ConfigEntries.qml:28
+#, kde-format
+msgid "Always show all entries"
+msgstr "Immer alle Einträge anzeigen"
+
+#: package/contents/ui/ConfigEntries.qml:34
+#, kde-format
+msgid "Application Status"
+msgstr "Anwendungs-Status"
+
+#: package/contents/ui/ConfigEntries.qml:36
+#, kde-format
+msgid "Communications"
+msgstr "Kommunikation"
+
+#: package/contents/ui/ConfigEntries.qml:38
+#, kde-format
+msgid "System Services"
+msgstr "Systemdienste"
+
+#: package/contents/ui/ConfigEntries.qml:40
+#, kde-format
+msgid "Hardware Control"
+msgstr "Geräteüberwachung"
+
+#: package/contents/ui/ConfigEntries.qml:43
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Verschiedenes"
+
+#: package/contents/ui/ConfigEntries.qml:75
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr "Eintrag"
+
+#: package/contents/ui/ConfigEntries.qml:80
+#, kde-format
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: package/contents/ui/ConfigEntries.qml:86
+#, kde-format
+msgid "Keyboard Shortcut"
+msgstr "Tastatur-Kurzbefehl"
+
+#: package/contents/ui/ConfigEntries.qml:220
+#, kde-format
+msgid "Shown when relevant"
+msgstr "Angezeigt, wenn wichtig"
+
+#: package/contents/ui/ConfigEntries.qml:221
+#, kde-format
+msgid "Always shown"
+msgstr "Immer angezeigt"
+
+#: package/contents/ui/ConfigEntries.qml:222
+#, kde-format
+msgid "Always hidden"
+msgstr "Immer ausgeblendet"
+
+#: package/contents/ui/ConfigEntries.qml:223
+#, kde-format
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: package/contents/ui/ConfigGeneral.qml:21
+#, kde-format
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "Symbolgröße der Leiste:"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+#, kde-format
+msgid "Small"
+msgstr "Klein"
+
+#: package/contents/ui/ConfigGeneral.qml:30
+#, kde-format
+msgid "Scale with Panel height"
+msgstr "An Höhe der Leiste anpassen"
+
+#: package/contents/ui/ConfigGeneral.qml:31
+#, kde-format
+msgid "Scale with Panel width"
+msgstr "An Breite der Leiste anpassen"
+
+#: package/contents/ui/ConfigGeneral.qml:37
+#, kde-format
+msgid "Automatically enabled when in tablet mode"
+msgstr ""
+
+#: package/contents/ui/ExpandedRepresentation.qml:74
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Status und Benachrichtigungen"
+
+#: package/contents/ui/ExpandedRepresentation.qml:113
+#, kde-format
+msgid "More actions"
+msgstr "Weitere Aktionen"
+
+#: package/contents/ui/ExpandedRepresentation.qml:159
+#, kde-format
+msgid "Keep Open"
+msgstr "Offen halten"
+
+#: package/contents/ui/ExpanderArrow.qml:20
+#, kde-format
+msgid "Close popup"
+msgstr "Aufklappfenster schließen"
+
+#: package/contents/ui/ExpanderArrow.qml:20
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Ausgeblendete Symbole anzeigen"
+
+#: systemtraymodel.cpp:124
+#, kde-format
+msgctxt ""
+"Suffix added to the applet name if the applet is autoloaded via DBus "
+"activation"
+msgid "%1 (Automatic load)"
+msgstr "%1 (Automatisch laden)"

@@ -1,0 +1,154 @@
+# Vietnamese translation for kcmlocale.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+#
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
+# Lê Hoàng Phương <herophuong93@gmail.com>, 2012, 2013.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2021-08-03 09:53+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.12.2\n"
+
+#: kcmformats.cpp:33
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Dạng thức</h1>Tại đây bạn có thể cấu hình các dạng thức dùng cho thời "
+"gian, ngày tháng, tiền tệ và các loại số khác."
+
+#: kcmformats.cpp:87
+#, kde-format
+msgid "No change"
+msgstr "Không thay đổi"
+
+#: kcmformats.cpp:124
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:126
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:272
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "Các thay đổi sẽ có hiệu lực vào lần tiếp theo bạn đăng nhập."
+
+#: kcmformats.cpp:273
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "Thiết lập dạng thức đã thay đổi"
+
+#: kcmformats.cpp:340
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (dạng thức dài)"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (dạng thức ngắn)"
+
+#: kcmformats.cpp:346
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Hệ Anh Anh"
+
+#: kcmformats.cpp:348
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Hệ Anh Mĩ"
+
+#: kcmformats.cpp:350
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Hệ mét"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "&Vùng:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Thiết lậ&p chi tiết"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "&Số:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "Thời &gian:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "Tiề&n tệ:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "Đơn vị đ&o:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Phân &loại và sắp xếp:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>Mô tả</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Số:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Thời gian:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Tiền tệ:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Đơn vị đo:"

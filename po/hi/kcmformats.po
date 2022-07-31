@@ -1,0 +1,154 @@
+# translation of kcmlocale.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+# G Karunakar <karunakar@indlinux.org>, 2010, 2012, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2020-08-18 02:16+0530\n"
+"Last-Translator: G Karunakar <karunakar@indlinux.org>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: kcmformats.cpp:33
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>फॉर्मेटस</h1> आप कॉन्फ़िगर कर सकते हैं कि समय, तिथि, पैसे व अनय अंको का फॉर्मेट कैसा "
+"होगा"
+
+#: kcmformats.cpp:87
+#, kde-format
+msgid "No change"
+msgstr "कोई परिवर्तन नहीं"
+
+#: kcmformats.cpp:124
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:126
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:272
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "आपके परिवर्तन अगली बार लॉगिन पर असर करेंगे"
+
+#: kcmformats.cpp:273
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "फॉर्मेट सेटिंग बदले"
+
+#: kcmformats.cpp:340
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (लंबा फॉर्मेट)"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (छोटी फार्मेट)"
+
+#: kcmformats.cpp:346
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "इम्पीरियल यूके"
+
+#: kcmformats.cpp:348
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "इम्पीरियल यूएस"
+
+#: kcmformats.cpp:350
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "मेट्रिक तंत्र"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "क्षेत्र:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "विस्तार विन्यास (&t)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "संख्याएँ: (&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "समय (&T):"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "मुद्रा (&y)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "माप तंत्र (&U):"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "क्रमबद्ध व छांटना (&l):"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>वर्णन</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "क्रमांकः"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "समय:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "मुद्रा:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "माप तंत्र:"

@@ -1,0 +1,197 @@
+# Malayalam translations for plasma-desktop package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-05 00:20+0000\n"
+"PO-Revision-Date: 2019-12-12 22:16+0000\n"
+"Last-Translator: Vivek KJ Pazhedath <vivekkj2004@gmail.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
+"org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shijualexonline@gmail.com,snalledam@dataone.in,vivekkj2004@gmail.com"
+
+#: kcm.cpp:20
+#, kde-format
+msgid "Night Color"
+msgstr ""
+
+#: kcm.cpp:21
+#, kde-format
+msgid "Roman Gilg"
+msgstr ""
+
+#: package/contents/ui/LocationsFixedView.qml:36
+#, kde-format
+msgid "Latitude:"
+msgstr ""
+
+#: package/contents/ui/LocationsFixedView.qml:50
+#, kde-format
+msgid "Longitude:"
+msgstr ""
+
+#: package/contents/ui/LocationsFixedView.qml:60
+#, kde-format
+msgid "Detect Location"
+msgstr ""
+
+#: package/contents/ui/LocationsFixedView.qml:76
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr ""
+
+#: package/contents/ui/main.qml:163
+#, kde-format
+msgid "Activate Night Color"
+msgstr ""
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr ""
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr ""
+
+#: package/contents/ui/main.qml:206
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr ""
+
+#: package/contents/ui/main.qml:212
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr ""
+
+#: package/contents/ui/main.qml:225
+#, kde-format
+msgid "Activation time:"
+msgstr ""
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr ""
+
+#: package/contents/ui/main.qml:229
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr ""
+
+#: package/contents/ui/main.qml:230
+#, kde-format
+msgid "Custom time"
+msgstr ""
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Always on"
+msgstr ""
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <a href=\"https://location.services."
+"mozilla.com\">Mozilla Location Service</a>."
+msgstr ""
+
+#: package/contents/ui/main.qml:264
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr ""
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr ""
+
+#: package/contents/ui/main.qml:281 package/contents/ui/main.qml:298
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr ""
+
+#: package/contents/ui/main.qml:290
+#, kde-format
+msgid "Turn off at:"
+msgstr ""
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Transition duration:"
+msgstr ""
+
+#: package/contents/ui/main.qml:317
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/main.qml:324
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr ""
+
+#: package/contents/ui/main.qml:332
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr ""
+
+#: package/contents/ui/main.qml:348
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:35
+#, kde-format
+msgid "Night Color begins at %1"
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Color fully changed at %1"
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:48
+#, kde-format
+msgid "Night Color begins changing back at %1"
+msgstr ""
+
+#: package/contents/ui/TimingsView.qml:52
+#, kde-format
+msgid "Normal coloration restored by %1"
+msgstr ""

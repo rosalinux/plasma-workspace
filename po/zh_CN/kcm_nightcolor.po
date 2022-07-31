@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-05 00:20+0000\n"
+"PO-Revision-Date: 2021-12-22 14:10\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/plasma-workspace/kcm_nightcolor.pot\n"
+"X-Crowdin-File-ID: 6849\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE China,Guo Yunhe"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,i@guoyunhe.me"
+
+#: kcm.cpp:20
+#, kde-format
+msgid "Night Color"
+msgstr "夜间颜色"
+
+#: kcm.cpp:21
+#, kde-format
+msgid "Roman Gilg"
+msgstr "Roman Gilg"
+
+#: package/contents/ui/LocationsFixedView.qml:36
+#, kde-format
+msgid "Latitude:"
+msgstr "纬度："
+
+#: package/contents/ui/LocationsFixedView.qml:50
+#, kde-format
+msgid "Longitude:"
+msgstr "经度："
+
+#: package/contents/ui/LocationsFixedView.qml:60
+#, kde-format
+msgid "Detect Location"
+msgstr "检测地理位置"
+
+#: package/contents/ui/LocationsFixedView.qml:76
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+"将使用 GPS 对设备进行定位 (如果 GPS 可用)，或者通过发送网络信息到 <a href="
+"\"https://location.services.mozilla.com\">Mozilla 位置服务</a>进行定位。"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr "夜间模式会在选定的时间范围内让屏幕颜色变暖，减少视觉疲劳。"
+
+#: package/contents/ui/main.qml:163
+#, kde-format
+msgid "Activate Night Color"
+msgstr "激活夜间颜色"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr "夜间色温："
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr "%1K"
+
+#: package/contents/ui/main.qml:206
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "暖色"
+
+#: package/contents/ui/main.qml:212
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr "冷色"
+
+#: package/contents/ui/main.qml:225
+#, kde-format
+msgid "Activation time:"
+msgstr "激活时间："
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr "从当前自动地理位置的日落到日出"
+
+#: package/contents/ui/main.qml:229
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr "从手工选定地理位置的日落到日出"
+
+#: package/contents/ui/main.qml:230
+#, kde-format
+msgid "Custom time"
+msgstr "自定义时间"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Always on"
+msgstr "总是开启"
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <a href=\"https://location.services."
+"mozilla.com\">Mozilla Location Service</a>."
+msgstr ""
+"将使用 GPS 对设备进行持续定位 (如果 GPS 可用)，或者通过发送网络信息到 <a "
+"href=\"https://location.services.mozilla.com\">Mozilla 位置服务</a>进行持续定"
+"位。"
+
+#: package/contents/ui/main.qml:264
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr "维度：%1°   经度：%2°"
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr "开启时间："
+
+#: package/contents/ui/main.qml:281 package/contents/ui/main.qml:298
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "输入格式：HH:MM"
+
+#: package/contents/ui/main.qml:290
+#, kde-format
+msgid "Turn off at:"
+msgstr "关闭时间："
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Transition duration:"
+msgstr "过渡时长："
+
+#: package/contents/ui/main.qml:317
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟"
+
+#: package/contents/ui/main.qml:324
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "输入分钟，最小为 1，最大为 600"
+
+#: package/contents/ui/main.qml:332
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr "错误：早晨的时刻应早于晚上的时刻。"
+
+#: package/contents/ui/main.qml:348
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "错误：过渡时间重叠。"
+
+#: package/contents/ui/TimingsView.qml:35
+#, kde-format
+msgid "Night Color begins at %1"
+msgstr "夜间颜色开始于 %1"
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Color fully changed at %1"
+msgstr "颜色完全改变于 %1"
+
+#: package/contents/ui/TimingsView.qml:48
+#, kde-format
+msgid "Night Color begins changing back at %1"
+msgstr "夜间颜色于 %1 开始退去"
+
+#: package/contents/ui/TimingsView.qml:52
+#, kde-format
+msgid "Normal coloration restored by %1"
+msgstr "正常颜色恢复于 %1"

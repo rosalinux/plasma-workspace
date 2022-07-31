@@ -1,0 +1,228 @@
+# translation of kcmicons.po to Arabic
+# translation of kcmicons.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Amine Roukh <amineroukh@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2010, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2021-06-23 22:58+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي, محمد سعد"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com,metehyi@free.fr"
+
+#: changeicons.cpp:30
+#, kde-format
+msgid "Icon theme is already used"
+msgstr "سمة الأيقونات مستخدمة بالفعل"
+
+#: iconsizecategorymodel.cpp:14
+#, kde-format
+msgid "Toolbar"
+msgstr "شريط الأدوات"
+
+#: iconsizecategorymodel.cpp:15
+#, kde-format
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: iconsizecategorymodel.cpp:16
+#, kde-format
+msgid "Small Icons"
+msgstr "أيقونات صغيرة"
+
+#: iconsizecategorymodel.cpp:17
+#, kde-format
+msgid "Panel"
+msgstr "اللوحة"
+
+#: iconsizecategorymodel.cpp:18
+#, kde-format
+msgid "Dialogs"
+msgstr "مربعات الحوار"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr "اسم سمة الأيقونات الحالية"
+
+#. i18n: ectx: label, entry (desktopSize), group (DesktopIcons)
+#: iconssettingsbase.kcfg:15
+#, kde-format
+msgid "Desktop icons size"
+msgstr "حجم أيقونات سطح المكتب"
+
+#. i18n: ectx: label, entry (toolbarSize), group (ToolbarIcons)
+#: iconssettingsbase.kcfg:21
+#, kde-format
+msgid "Toolbar icons size"
+msgstr "حجم أيقونة شريط الأدوات"
+
+#. i18n: ectx: label, entry (mainToolbarSize), group (MainToolbarIcons)
+#: iconssettingsbase.kcfg:27
+#, kde-format
+msgid "Main toolbar icons size"
+msgstr "حجم أيقونة شريط الأدوات الرئيس"
+
+#. i18n: ectx: label, entry (smallSize), group (SmallIcons)
+#: iconssettingsbase.kcfg:33
+#, kde-format
+msgid "Small icons size"
+msgstr "حجم الأيقونات صغير"
+
+#. i18n: ectx: label, entry (panelSize), group (PanelIcons)
+#: iconssettingsbase.kcfg:39
+#, kde-format
+msgid "Panel icons size"
+msgstr "حجم أيقونات اللوحة"
+
+#. i18n: ectx: label, entry (dialogSize), group (DialogIcons)
+#: iconssettingsbase.kcfg:45
+#, kde-format
+msgid "Dialog icons size"
+msgstr "حجم أيقونات الحوراي"
+
+#: main.cpp:70
+#, kde-format
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: main.cpp:72
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "وحدة لوحة التحكم بالأيقونات"
+
+#: main.cpp:74
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "(c) 2000-2003 Geert Jansen"
+
+#: main.cpp:75
+#, kde-format
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:76
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "Antonio Larrosa Jimenez"
+
+#: main.cpp:77
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: main.cpp:78
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: main.cpp:79
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: main.cpp:203
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "لم يتمكن من إنشاء ملف مؤقت"
+
+#: main.cpp:214
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "لم يتمكن من تنزيل سمة الأيقونات: %1"
+
+#: main.cpp:228
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "الملف ليس أرشيف سمة أيقونة صالحًا."
+
+#: main.cpp:233
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"هناك مشكلة حدثت أثناء عملية التثبيت; على أية حال, معظم السِمات في الأرشيف قد "
+"تم تثبيتها"
+
+#: main.cpp:237
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "ثبتت السمة بنجاح."
+
+#: main.cpp:340
+#, kde-format
+msgid "Installing icon themes…"
+msgstr "يثبت سِمات الأيقونات..."
+
+#: main.cpp:350
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr "يثبت سمة %1 ..."
+
+#: package/contents/ui/main.qml:21
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr "هذه الوحدة تجعلك تختار أيقونات لسطح مكتبك."
+
+#: package/contents/ui/main.qml:147
+#, kde-format
+msgid "Remove Icon Theme"
+msgstr "أزل سِمة الأيقونات"
+
+#: package/contents/ui/main.qml:154
+#, kde-format
+msgid "Restore Icon Theme"
+msgstr "استعد سمة الأيقونات"
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr "اضبط حجم الأيقونات"
+
+#: package/contents/ui/main.qml:246
+#, kde-format
+msgid "Install from File…"
+msgstr "ثبت من ملف..."
+
+#: package/contents/ui/main.qml:252
+#, kde-format
+msgid "Get New Icons…"
+msgstr "أحصل على أيقونات جديدة..."
+
+#: package/contents/ui/main.qml:311
+#, kde-format
+msgid "Open Theme"
+msgstr "افتح سمة"
+
+#: package/contents/ui/main.qml:313
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "ملفات السمة (*.tar.gz *.tar.bz2)"

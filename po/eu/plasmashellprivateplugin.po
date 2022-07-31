@@ -1,0 +1,111 @@
+# Translation for plasmashellprivateplugin.po to Euskara/Basque (eu).
+# Copyright (C) 2018, The Free Software Foundation, Inc.
+# Copyright (C) 2019-2021, This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2018, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-30 00:18+0000\n"
+"PO-Revision-Date: 2021-07-08 23:26+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "Pantaila giltzatzea gaituta"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "Zehaztutako denbora igarotakoan pantaila giltzatuko den ezartzen du."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "Pantaila-babeslearen denbora-muga"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "Pantaila giltzatzeko minutu kopurua ezartzen du."
+
+#: sessionsprivate/sessionsmodel.cpp:233 sessionsprivate/sessionsmodel.cpp:237
+#, kde-format
+msgid "New Session"
+msgstr "Saio berria"
+
+#: shellprivate/widgetexplorer/kcategorizeditemsviewmodels.cpp:58
+#, kde-format
+msgid "Filters"
+msgstr "Iragazkiak"
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:44
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "Hautatu Plasmoide fitxategia"
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:68
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "Huts egin du %1 paketea instalatzea."
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:68
+#, kde-format
+msgid "Installation Failure"
+msgstr "Instalatze hutsegitea"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:110
+#, kde-format
+msgid "All Widgets"
+msgstr "Trepeta guztiak"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:114
+#, kde-format
+msgid "Running"
+msgstr "Exekutatzen"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:118
+#, kde-format
+msgid "Uninstallable"
+msgstr "Desinstalagaitza"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:122
+#, kde-format
+msgid "Categories:"
+msgstr "Kategoriak: "
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:200
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "Jaitsi Plasma trepeta berriak"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:209
+#, kde-format
+msgid "Install Widget From Local File…"
+msgstr "Instalatu trepeta fitxategi lokal batetik..."

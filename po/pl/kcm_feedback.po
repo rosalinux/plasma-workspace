@@ -1,0 +1,87 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-26 00:18+0000\n"
+"PO-Revision-Date: 2021-09-04 09:53+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: feedback.cpp:50
+#, kde-format
+msgid "User Feedback"
+msgstr "Informacja zwrotna"
+
+#: feedback.cpp:52
+#, kde-format
+msgid "Configure user feedback settings"
+msgstr "Ustawienia informacji zwrotnej"
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid ""
+"User Feedback has been disabled centrally. Please contact your distributor."
+msgstr ""
+"Informacja zwrotna od użytkownika została wyłączona odgórnie. Porozmawiaj ze "
+"swoim dystrybutorem."
+
+#: package/contents/ui/main.qml:38 package/contents/ui/main.qml:63
+#, kde-format
+msgid "Plasma:"
+msgstr "Plazma:"
+
+#: package/contents/ui/main.qml:45
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"You can help KDE improve Plasma by contributing information on how you use "
+"it, so we can focus on things that matter to you.<nl/><nl/>Contributing this "
+"information is optional and entirely anonymous. We never collect your "
+"personal data, files you use, websites you visit, or information that could "
+"identify you.<nl/><nl/>You can read about our privacy policy in the "
+"following link:"
+msgstr ""
+"Możesz pomóc KDE ulepszyć Plazmę poprzez dzielenie się tym jak z niej "
+"korzystasz. Umożliwia nam to skupianie się na rzeczach, które mają dla "
+"ciebie znaczenie.<nl/><nl/>Dzielenie się danymi nt sposobu korzystania z "
+"programów jest dobrowolne i całkowicie anonimowe. Dane te nie zostaną "
+"skojarzone z jakimkolwiek niepowtarzalnym identyfikatorem oraz nigdy nie "
+"będą śledzone dokumenty, które otwierasz, strony które odwiedzasz, czy żadne "
+"inne dane osobiste.<nl/><nl/>Więcej o naszych zasadach prywatności można "
+"poczytać po przejściu z następującego odnośnika:"
+
+#: package/contents/ui/main.qml:99
+#, kde-format
+msgid "Plasma"
+msgstr "Plazma"
+
+#: package/contents/ui/main.qml:117
+#, kde-format
+msgid "The following information will be sent:"
+msgstr "Zostaną wysłane następujące dane:"
+
+#: package/contents/ui/main.qml:162
+#, kde-format
+msgid "View sent data:"
+msgstr "Obejrzyj wysłane dane:"

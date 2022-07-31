@@ -1,0 +1,275 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2014, 2015, 2017, 2018, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-31 00:22+0000\n"
+"PO-Revision-Date: 2021-08-10 10:00+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.04.3\n"
+
+#: image.cpp:253
+#, kde-format
+msgid "Recommended wallpaper file"
+msgstr "Aanbevolen achtergrondbestand"
+
+#: image.cpp:414
+#, kde-format
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Map met de achtergrondafbeelding waar vanaf dia's getoond worden"
+
+#: image.cpp:716
+#, kde-format
+msgid "Open Image"
+msgstr "Afbeelding openen"
+
+#: image.cpp:716
+#, kde-format
+msgid "Image Files"
+msgstr "Afbeeldingsbestanden"
+
+#: imagepackage/contents/ui/config.qml:98
+#, kde-format
+msgid "Positioning:"
+msgstr "Positionering:"
+
+#: imagepackage/contents/ui/config.qml:101
+#, kde-format
+msgid "Scaled and Cropped"
+msgstr "Geschaald en bijgesneden"
+
+#: imagepackage/contents/ui/config.qml:105
+#, kde-format
+msgid "Scaled"
+msgstr "Geschaald"
+
+#: imagepackage/contents/ui/config.qml:109
+#, kde-format
+msgid "Scaled, Keep Proportions"
+msgstr "Geschaald, verhouding behouden"
+
+#: imagepackage/contents/ui/config.qml:113
+#, kde-format
+msgid "Centered"
+msgstr "Gecentreerd"
+
+#: imagepackage/contents/ui/config.qml:117
+#, kde-format
+msgid "Tiled"
+msgstr "In tegelvorm"
+
+#: imagepackage/contents/ui/config.qml:146
+#, kde-format
+msgid "Background:"
+msgstr "Achtergrond:"
+
+#: imagepackage/contents/ui/config.qml:147
+#, kde-format
+msgid "Blur"
+msgstr "Vervagen"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgid "Solid color"
+msgstr "Vlakke kleur"
+
+#: imagepackage/contents/ui/config.qml:166
+#, kde-format
+msgid "Select Background Color"
+msgstr "Achtergrond kleur kiezen"
+
+#: imagepackage/contents/ui/config.qml:190
+#, kde-format
+msgid "Order:"
+msgstr "Volgorde:"
+
+#: imagepackage/contents/ui/config.qml:197
+#, kde-format
+msgid "Random"
+msgstr "Willekeurig"
+
+#: imagepackage/contents/ui/config.qml:201
+#, kde-format
+msgid "A to Z"
+msgstr "A tot Z"
+
+#: imagepackage/contents/ui/config.qml:205
+#, kde-format
+msgid "Z to A"
+msgstr "Z tot A"
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Datum gewijzigd (nieuwste eerst)"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Datum gewijzigd (oudste eerst)"
+
+#: imagepackage/contents/ui/config.qml:237
+#, kde-format
+msgid "Group by folders"
+msgstr "Op mappen groeperen"
+
+#: imagepackage/contents/ui/config.qml:249
+#, kde-format
+msgid "Change every:"
+msgstr "Allen wijzigen:"
+
+#: imagepackage/contents/ui/config.qml:259
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 uur"
+msgstr[1] "%1 uren"
+
+#: imagepackage/contents/ui/config.qml:278
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minuut"
+msgstr[1] "%1 minuten"
+
+#: imagepackage/contents/ui/config.qml:297
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 seconde"
+msgstr[1] "%1 seconden"
+
+#: imagepackage/contents/ui/config.qml:310
+#, kde-format
+msgid "Folders"
+msgstr "Mappen"
+
+#: imagepackage/contents/ui/config.qml:358
+#, kde-format
+msgid "Remove Folder"
+msgstr "Map verwijderen"
+
+#: imagepackage/contents/ui/config.qml:363
+#, kde-format
+msgid "Open Folder"
+msgstr "Map openen"
+
+#: imagepackage/contents/ui/config.qml:373
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "Er zijn geen locaties voor achtergrondafbeeldingen geconfigureerd"
+
+#: imagepackage/contents/ui/config.qml:386
+#, kde-format
+msgid "Add Folder…"
+msgstr "Map toevoegen…"
+
+#: imagepackage/contents/ui/config.qml:392
+#: imagepackage/contents/ui/config.qml:486
+#, kde-format
+msgid "Get New Wallpapers…"
+msgstr "Nieuwe achtergrondafbeeldingen ophalen…"
+
+#: imagepackage/contents/ui/config.qml:435
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr "Er zijn geen achtergrondafbeeldingen in deze diashow"
+
+#: imagepackage/contents/ui/config.qml:480
+#, kde-format
+msgid "Add Image…"
+msgstr "Afbeelding toevoegen…"
+
+#: imagepackage/contents/ui/main.qml:55
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Achtergrondafbeelding openen"
+
+#: imagepackage/contents/ui/main.qml:56
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Volgende achtergrondafbeelding"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:34
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "De map openen waarin het zich bevindt"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:40
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Achtergrondafbeelding herstellen"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Achtergrondafbeelding verwijderen"
+
+#: plasma-apply-wallpaperimage.cpp:29
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+"Dit hulpmiddel biedt u het instellen van een afbeelding als "
+"achtergrondafbeelding voor de Plasma sessie."
+
+#: plasma-apply-wallpaperimage.cpp:31
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"Een afbeeldingsbestand of een geïnstalleerd achtergrondafbeelding uit "
+"kpackage dat u wilt instellen als de achtergrondafbeelding voor uw Plasma "
+"sessie"
+
+#: plasma-apply-wallpaperimage.cpp:45
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"Er is een verdwaald enkel accent in de bestandsnaam van deze "
+"achtergrondafbeelding (') - neem contact op met de auteur van de "
+"achtergrondafbeelding om dit te repareren of hernoem zelf het bestand: %1"
+
+#: plasma-apply-wallpaperimage.cpp:82
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr ""
+"Er deed zich een fout voor tijdens het instellen van de Plasma "
+"achtergrondafbeelding:\n"
+
+#: plasma-apply-wallpaperimage.cpp:86
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"De achtergrondafbeelding voor alle bureaubladen ingesteld op het op KPackage "
+"gebaseerde %1"
+
+#: plasma-apply-wallpaperimage.cpp:88
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr ""
+"De achtergrondafbeelding voor alle bureaubladen ingesteld op de afbeelding %1"
+
+#: plasma-apply-wallpaperimage.cpp:94
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"Het bestand doorgegeven om ingesteld te worden als achtergrondafbeelding "
+"bestaat niet of we kunnen het niet identificeren als een "
+"achtergrondafbeelding: %1"

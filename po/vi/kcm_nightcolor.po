@@ -1,0 +1,203 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-05 00:20+0000\n"
+"PO-Revision-Date: 2021-09-07 15:35+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
+"Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.12.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nguyễn Hùng Phú"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "phu.nguyen@kdemail.net"
+
+#: kcm.cpp:20
+#, kde-format
+msgid "Night Color"
+msgstr "Màu buổi tối"
+
+#: kcm.cpp:21
+#, kde-format
+msgid "Roman Gilg"
+msgstr "Roman Gilg"
+
+#: package/contents/ui/LocationsFixedView.qml:36
+#, kde-format
+msgid "Latitude:"
+msgstr "Vĩ độ:"
+
+#: package/contents/ui/LocationsFixedView.qml:50
+#, kde-format
+msgid "Longitude:"
+msgstr "Kinh độ:"
+
+#: package/contents/ui/LocationsFixedView.qml:60
+#, kde-format
+msgid "Detect Location"
+msgstr "Phát hiện địa điểm"
+
+#: package/contents/ui/LocationsFixedView.qml:76
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+"Vị trí của thiết bị sẽ được xác định bằng GPS (nếu có), hoặc bằng cách gửi "
+"thông tin mạng đến <a href=\"https://location.services.mozilla.com\">Dịch vụ "
+"Vị trí Mozilla</a>."
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr ""
+"\"Màu buổi tối\" khiến màu trên màn hình ấm hơn giúp giảm căng thẳng cho mắt "
+"trong khoảng thời gian do bạn chọn."
+
+#: package/contents/ui/main.qml:163
+#, kde-format
+msgid "Activate Night Color"
+msgstr "Kích hoạt \"Màu buổi tối\""
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr "Nhiệt độ màu buổi tối:"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr "%1K"
+
+#: package/contents/ui/main.qml:206
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Ấm"
+
+#: package/contents/ui/main.qml:212
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr "Mát"
+
+#: package/contents/ui/main.qml:225
+#, kde-format
+msgid "Activation time:"
+msgstr "Thời gian kích hoạt:"
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr "Hoàng hôn đến bình minh ở địa điểm hiện tại"
+
+#: package/contents/ui/main.qml:229
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr "Hoàng hôn đến bình minh ở địa điểm tự chọn"
+
+#: package/contents/ui/main.qml:230
+#, kde-format
+msgid "Custom time"
+msgstr "Thời gian tự chọn"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Always on"
+msgstr "Luôn bật"
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <a href=\"https://location.services."
+"mozilla.com\">Mozilla Location Service</a>."
+msgstr ""
+"Vị trí của thiết bị sẽ được cập nhật định kì bằng GPS (nếu có), hoặc bằng "
+"cách gửi thông tin mạng đến <a href=\"https://location.services.mozilla.com"
+"\">Dịch vụ Vị trí Mozilla</a>."
+
+#: package/contents/ui/main.qml:264
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr "Vĩ độ: %1°   Kinh độ: %2°"
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr "Bật vào lúc:"
+
+#: package/contents/ui/main.qml:281 package/contents/ui/main.qml:298
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "Dạng thức nhập: GG:PP"
+
+#: package/contents/ui/main.qml:290
+#, kde-format
+msgid "Turn off at:"
+msgstr "Tắt vào lúc:"
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Transition duration:"
+msgstr "Thời gian chuyển tiếp:"
+
+#: package/contents/ui/main.qml:317
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 phút"
+
+#: package/contents/ui/main.qml:324
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Nhập số phút - tối thiểu 1, tối đa 600"
+
+#: package/contents/ui/main.qml:332
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr "Lỗi: Buổi sáng trước buổi tối."
+
+#: package/contents/ui/main.qml:348
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "Lỗi: Thời gian chuyển tiếp chồng chéo."
+
+#: package/contents/ui/TimingsView.qml:35
+#, kde-format
+msgid "Night Color begins at %1"
+msgstr "Màu buổi tối bắt đầu lúc %1"
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Color fully changed at %1"
+msgstr "Màu thay đổi hoàn toàn lúc %1"
+
+#: package/contents/ui/TimingsView.qml:48
+#, kde-format
+msgid "Night Color begins changing back at %1"
+msgstr "Màu buổi tối bắt đầu thay đổi trở lại lúc %1"
+
+#: package/contents/ui/TimingsView.qml:52
+#, kde-format
+msgid "Normal coloration restored by %1"
+msgstr "Màu bình thường được khôi phục trước %1"

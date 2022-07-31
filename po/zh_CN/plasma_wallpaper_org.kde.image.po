@@ -1,0 +1,267 @@
+# translation of plasma_wallpaper_image.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2013, 2014.
+# Xuetian Weng <xweng@cs.stonybrook.edu>, 2014.
+# Weng Xuetian <wengxt@gmail.com>, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-31 00:22+0000\n"
+"PO-Revision-Date: 2021-12-22 14:10\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/plasma-workspace/plasma_wallpaper_org."
+"kde.image.pot\n"
+"X-Crowdin-File-ID: 7141\n"
+
+#: image.cpp:253
+#, kde-format
+msgid "Recommended wallpaper file"
+msgstr "推荐的壁纸文件"
+
+#: image.cpp:414
+#, kde-format
+msgid "Directory with the wallpaper to show slides from"
+msgstr "选择幻灯片的壁纸目录"
+
+#: image.cpp:716
+#, kde-format
+msgid "Open Image"
+msgstr "打开图像"
+
+#: image.cpp:716
+#, kde-format
+msgid "Image Files"
+msgstr "图像文件"
+
+#: imagepackage/contents/ui/config.qml:98
+#, kde-format
+msgid "Positioning:"
+msgstr "位置："
+
+#: imagepackage/contents/ui/config.qml:101
+#, kde-format
+msgid "Scaled and Cropped"
+msgstr "缩放并裁剪"
+
+#: imagepackage/contents/ui/config.qml:105
+#, kde-format
+msgid "Scaled"
+msgstr "缩放"
+
+#: imagepackage/contents/ui/config.qml:109
+#, kde-format
+msgid "Scaled, Keep Proportions"
+msgstr "缩放，保持比例"
+
+#: imagepackage/contents/ui/config.qml:113
+#, kde-format
+msgid "Centered"
+msgstr "居中"
+
+#: imagepackage/contents/ui/config.qml:117
+#, kde-format
+msgid "Tiled"
+msgstr "平铺"
+
+#: imagepackage/contents/ui/config.qml:146
+#, kde-format
+msgid "Background:"
+msgstr "背景色："
+
+#: imagepackage/contents/ui/config.qml:147
+#, kde-format
+msgid "Blur"
+msgstr "虚化"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgid "Solid color"
+msgstr "纯色"
+
+#: imagepackage/contents/ui/config.qml:166
+#, kde-format
+msgid "Select Background Color"
+msgstr "选择背景色"
+
+#: imagepackage/contents/ui/config.qml:190
+#, kde-format
+msgid "Order:"
+msgstr "排序："
+
+#: imagepackage/contents/ui/config.qml:197
+#, kde-format
+msgid "Random"
+msgstr "随机"
+
+#: imagepackage/contents/ui/config.qml:201
+#, kde-format
+msgid "A to Z"
+msgstr "A 到 Z"
+
+#: imagepackage/contents/ui/config.qml:205
+#, kde-format
+msgid "Z to A"
+msgstr "Z 到 A"
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "修改日期 (最新在前)"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "修改日期 (最旧在前)"
+
+#: imagepackage/contents/ui/config.qml:237
+#, kde-format
+msgid "Group by folders"
+msgstr "按文件夹分组"
+
+#: imagepackage/contents/ui/config.qml:249
+#, kde-format
+msgid "Change every:"
+msgstr "壁纸更换间隔："
+
+#: imagepackage/contents/ui/config.qml:259
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 小时"
+
+#: imagepackage/contents/ui/config.qml:278
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟"
+
+#: imagepackage/contents/ui/config.qml:297
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: imagepackage/contents/ui/config.qml:310
+#, kde-format
+msgid "Folders"
+msgstr "文件夹"
+
+#: imagepackage/contents/ui/config.qml:358
+#, kde-format
+msgid "Remove Folder"
+msgstr "移除文件夹"
+
+#: imagepackage/contents/ui/config.qml:363
+#, kde-format
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: imagepackage/contents/ui/config.qml:373
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "未配置壁纸位置"
+
+#: imagepackage/contents/ui/config.qml:386
+#, kde-format
+msgid "Add Folder…"
+msgstr "添加文件夹…"
+
+#: imagepackage/contents/ui/config.qml:392
+#: imagepackage/contents/ui/config.qml:486
+#, kde-format
+msgid "Get New Wallpapers…"
+msgstr "获取新壁纸…"
+
+#: imagepackage/contents/ui/config.qml:435
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr "幻灯片尚未包含壁纸"
+
+#: imagepackage/contents/ui/config.qml:480
+#, kde-format
+msgid "Add Image…"
+msgstr "添加图像…"
+
+#: imagepackage/contents/ui/main.qml:55
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "打开壁纸图像"
+
+#: imagepackage/contents/ui/main.qml:56
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "下一张壁纸图像"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:34
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "打开所在文件夹"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:40
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "恢复壁纸"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "移除壁纸"
+
+#: plasma-apply-wallpaperimage.cpp:29
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr "此工具用于为当前 Plasma 会话设置壁纸。"
+
+#: plasma-apply-wallpaperimage.cpp:31
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr "您想要为当前 Plasma 会话设置的壁纸的图像文件或已安装的 kpackage 壁纸包"
+
+#: plasma-apply-wallpaperimage.cpp:45
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"此壁纸的文件名包含一个未封闭的单引号 (') - 请联系壁纸的作者来解决这个问题，或"
+"者自行重命名该文件：%1"
+
+#: plasma-apply-wallpaperimage.cpp:82
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "尝试设置 Plasma 壁纸时出错：\n"
+
+#: plasma-apply-wallpaperimage.cpp:86
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr "已将所有桌面壁纸设置为基于 KPackage 的 %1"
+
+#: plasma-apply-wallpaperimage.cpp:88
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr "已将所有桌面的壁纸设置为图像 %1"
+
+#: plasma-apply-wallpaperimage.cpp:94
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr "要设为壁纸的文件不存在，或者无法识别为壁纸：%1"

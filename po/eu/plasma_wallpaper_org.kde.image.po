@@ -1,0 +1,274 @@
+# Translation for plasma_applet_org.kde.image.po to Euskara/Basque (eu).
+# Copyright (C) 2008-2018, Free Software Foundation.
+# Copyright (C) 2019-2021, This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2008, 2009, 2010, 2011, 2014, 2017, 2018, 2019, 2020, 2021.
+# marcos <marcos@euskalgnu.org>, 2010.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-31 00:22+0000\n"
+"PO-Revision-Date: 2021-08-12 00:48+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.04.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: image.cpp:253
+#, kde-format
+msgid "Recommended wallpaper file"
+msgstr "Gomendatutako horma-paper fitxategia"
+
+#: image.cpp:414
+#, kde-format
+msgid "Directory with the wallpaper to show slides from"
+msgstr "Diapositiba gisa erakutsi behar diren horma-paperak dituen direktorioa"
+
+#: image.cpp:716
+#, kde-format
+msgid "Open Image"
+msgstr "Ireki irudia"
+
+#: image.cpp:716
+#, kde-format
+msgid "Image Files"
+msgstr "Irudi-fitxategiak"
+
+#: imagepackage/contents/ui/config.qml:98
+#, kde-format
+msgid "Positioning:"
+msgstr "Kokatzea:"
+
+#: imagepackage/contents/ui/config.qml:101
+#, kde-format
+msgid "Scaled and Cropped"
+msgstr "Eskalatuta eta moztuta"
+
+#: imagepackage/contents/ui/config.qml:105
+#, kde-format
+msgid "Scaled"
+msgstr "Eskalatuta"
+
+#: imagepackage/contents/ui/config.qml:109
+#, kde-format
+msgid "Scaled, Keep Proportions"
+msgstr "Eskalatuta, mantendu proportzioak"
+
+#: imagepackage/contents/ui/config.qml:113
+#, kde-format
+msgid "Centered"
+msgstr "Erdiratuta"
+
+#: imagepackage/contents/ui/config.qml:117
+#, kde-format
+msgid "Tiled"
+msgstr "Lauzatuta"
+
+#: imagepackage/contents/ui/config.qml:146
+#, kde-format
+msgid "Background:"
+msgstr "Atzealdea:"
+
+#: imagepackage/contents/ui/config.qml:147
+#, kde-format
+msgid "Blur"
+msgstr "Lausoa"
+
+#: imagepackage/contents/ui/config.qml:156
+#, kde-format
+msgid "Solid color"
+msgstr "Kolore lisoa"
+
+#: imagepackage/contents/ui/config.qml:166
+#, kde-format
+msgid "Select Background Color"
+msgstr "Hautatu atzeko planoko kolorea"
+
+#: imagepackage/contents/ui/config.qml:190
+#, kde-format
+msgid "Order:"
+msgstr "Hurrenkera:"
+
+#: imagepackage/contents/ui/config.qml:197
+#, kde-format
+msgid "Random"
+msgstr "Ausazkoa"
+
+#: imagepackage/contents/ui/config.qml:201
+#, kde-format
+msgid "A to Z"
+msgstr "Atik Zra"
+
+#: imagepackage/contents/ui/config.qml:205
+#, kde-format
+msgid "Z to A"
+msgstr "Ztik Ara"
+
+#: imagepackage/contents/ui/config.qml:209
+#, kde-format
+msgid "Date modified (newest first)"
+msgstr "Aldatze data (berrienak lehenengo)"
+
+#: imagepackage/contents/ui/config.qml:213
+#, kde-format
+msgid "Date modified (oldest first)"
+msgstr "Aldatze data (zarrenak lehenengo)"
+
+#: imagepackage/contents/ui/config.qml:237
+#, kde-format
+msgid "Group by folders"
+msgstr "Taldekatu karpeten arabera"
+
+#: imagepackage/contents/ui/config.qml:249
+#, kde-format
+msgid "Change every:"
+msgstr "Aldatu hainbestero:"
+
+#: imagepackage/contents/ui/config.qml:259
+#, kde-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "ordu %1"
+msgstr[1] "%1 ordu"
+
+#: imagepackage/contents/ui/config.qml:278
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "minutu %1"
+msgstr[1] "%1 minutu"
+
+#: imagepackage/contents/ui/config.qml:297
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "segundo %1"
+msgstr[1] "%1 segundo"
+
+#: imagepackage/contents/ui/config.qml:310
+#, kde-format
+msgid "Folders"
+msgstr "Karpetak"
+
+#: imagepackage/contents/ui/config.qml:358
+#, kde-format
+msgid "Remove Folder"
+msgstr "Kendu karpeta"
+
+#: imagepackage/contents/ui/config.qml:363
+#, kde-format
+msgid "Open Folder"
+msgstr "Ireki karpeta"
+
+#: imagepackage/contents/ui/config.qml:373
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr "Ez da horma-paperen kokalekurik konfiguratu"
+
+#: imagepackage/contents/ui/config.qml:386
+#, kde-format
+msgid "Add Folder…"
+msgstr "Gehitu karpeta..."
+
+#: imagepackage/contents/ui/config.qml:392
+#: imagepackage/contents/ui/config.qml:486
+#, kde-format
+msgid "Get New Wallpapers…"
+msgstr "Lortu horma-paper berriak..."
+
+#: imagepackage/contents/ui/config.qml:435
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr "Ez dago horma-paperik diapositiba emanaldi honetan"
+
+#: imagepackage/contents/ui/config.qml:480
+#, kde-format
+msgid "Add Image…"
+msgstr "Gehitu irudia..."
+
+#: imagepackage/contents/ui/main.qml:55
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "Ireki horma-paper irudia"
+
+#: imagepackage/contents/ui/main.qml:56
+#, kde-format
+msgid "Next Wallpaper Image"
+msgstr "Hurrengo horma-paper irudia"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:34
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Ireki hau barnean duen karpeta"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:40
+#, kde-format
+msgid "Restore wallpaper"
+msgstr "Lehengoratu horma-papera"
+
+#: imagepackage/contents/ui/WallpaperDelegate.qml:45
+#, kde-format
+msgid "Remove Wallpaper"
+msgstr "Kendu horma-papera"
+
+#: plasma-apply-wallpaperimage.cpp:29
+#, kde-format
+msgid ""
+"This tool allows you to set an image as the wallpaper for the Plasma session."
+msgstr ""
+"Tresna honek irudi bat Plasma saioaren horma-paper gisa ezartzen uzten dizu."
+
+#: plasma-apply-wallpaperimage.cpp:31
+#, kde-format
+msgid ""
+"An image file or an installed wallpaper kpackage that you wish to set as the "
+"wallpaper for your Plasma session"
+msgstr ""
+"Zure Plasma saioan horma-paper gisa ezarri nahi duzun irudi-fitxategi bat "
+"edo instalatutako horma-paper kpackage bat"
+
+#: plasma-apply-wallpaperimage.cpp:45
+#, kde-format
+msgid ""
+"There is a stray single quote in the filename of this wallpaper (') - please "
+"contact the author of the wallpaper to fix this, or rename the file "
+"yourself: %1"
+msgstr ""
+"Horma-paper honen fitxategi-izenean bikoterik gabeko kakotx bakun bat (') "
+"dago - mesedez, jar zaitez horma-paperaren egilearekin harremanean hau "
+"konpontzeko, edo zu zeuk fitxategia berrizendatu : %1"
+
+#: plasma-apply-wallpaperimage.cpp:82
+#, kde-format
+msgid "An error occurred while attempting to set the Plasma wallpaper:\n"
+msgstr "Errore bat gertatu da Plasma horma-papera ezartzen saiatzean:\n"
+
+#: plasma-apply-wallpaperimage.cpp:86
+#, kde-format
+msgid ""
+"Successfully set the wallpaper for all desktops to the KPackage based %1"
+msgstr ""
+"KPackage oinarriko %1 mahaigain guztietako horma-paper gisa ondo ezarri da"
+
+#: plasma-apply-wallpaperimage.cpp:88
+#, kde-format
+msgid "Successfully set the wallpaper for all desktops to the image %1"
+msgstr "%1 irudia mahaigain guztietako horma-paper gisa ondo ezarri da"
+
+#: plasma-apply-wallpaperimage.cpp:94
+#, kde-format
+msgid ""
+"The file passed to be set as wallpaper does not exist, or we cannot identify "
+"it as a wallpaper: %1"
+msgstr ""
+"Horma-paper gisa ezartzeko pasatutako fitxategia ez da existitzen, edo ezin "
+"dugu identifikatu horma-paper gisa: %1"

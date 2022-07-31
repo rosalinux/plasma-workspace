@@ -1,0 +1,138 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# giovanni <g.sora@tiscali.it>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-14 02:17+0000\n"
+"PO-Revision-Date: 2021-12-22 10:49+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: kcm.cpp:79
+#, kde-format
+msgid "Global Theme"
+msgstr "Thema Global"
+
+#: kcm.cpp:80 lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:613
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Tu debe re-initiar le session de Plasma pro applicar iste modificationes."
+
+#: kcm.cpp:614
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Preferentias de cursor modificate"
+
+#: lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "Instrumento de Thema Global"
+
+#: lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Instrumento de linea de commando per applicar pacchettos de thema global per "
+"cambiar le apparentia."
+
+#: lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantenitor"
+
+#: lnftool.cpp:45
+#, kde-format
+msgid "List available global theme packages"
+msgstr "LIsta de pacchettos de thema global disponibile"
+
+#: lnftool.cpp:48
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"Applica un pacchetto de thema global. Isto pote esser le nomine de un "
+"pacchetto, o un percurso complete a un pacchetto installate, a qual puncto "
+"iste instrumento assecurara que illo es un pacchetto de thema global e alora "
+"essaya applicar lo "
+
+#: lnftool.cpp:50
+#, kde-format
+msgid "packagename"
+msgstr "nomine de pacchetto"
+
+#: lnftool.cpp:51
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Refixa le disposition de scriptorio de Plasma"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "Apparentia e semblantia global"
+
+#: package/contents/ui/main.qml:18
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr "Iste modulo te permitte seliger le apparentia global."
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Preview Theme"
+msgstr "Vide de forma preliminr le thema"
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid ""
+"Your current layout and configuration of panels, desktop widgets, and "
+"wallpapers will be lost and reset to the default layout provided by the "
+"selected theme."
+msgstr ""
+"Tu disposition currente e configuration de pannellos, widgets de scriptorio, "
+"e tapetes de papiro essera perdite e ponite al disposition predefinite "
+"fornite per le thema seligite."
+
+#: package/contents/ui/main.qml:76
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr "Usa disposition de scriptorio ex thema"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Get New Global Themes…"
+msgstr "Obtene nove themas global..."

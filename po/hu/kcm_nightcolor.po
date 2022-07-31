@@ -1,0 +1,205 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2019, 2020.
+# Kristof Kiszel <kiszel.kristof@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-05 00:20+0000\n"
+"PO-Revision-Date: 2021-09-30 15:59+0200\n"
+"Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.03.80\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kiszel.kristof@gmail.com"
+
+#: kcm.cpp:20
+#, kde-format
+msgid "Night Color"
+msgstr "Éjszakai mód"
+
+#: kcm.cpp:21
+#, kde-format
+msgid "Roman Gilg"
+msgstr "Roman Gilg"
+
+#: package/contents/ui/LocationsFixedView.qml:36
+#, kde-format
+msgid "Latitude:"
+msgstr "Szélesség:"
+
+#: package/contents/ui/LocationsFixedView.qml:50
+#, kde-format
+msgid "Longitude:"
+msgstr "Hosszúság:"
+
+#: package/contents/ui/LocationsFixedView.qml:60
+#, kde-format
+msgid "Detect Location"
+msgstr "Helymeghatározás:"
+
+#: package/contents/ui/LocationsFixedView.qml:76
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+"Az eszköz helye a GPS használatával kerül meghatározásra (ha elérhető), vagy "
+"a hálózati információk elküldésével a <a href=\"https://location.services."
+"mozilla.com\">Mozilla Location Service</a>-nek."
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr ""
+"Az Éjszakai mód melegebb színeket állít be a kijelzőn, hogy kímélje a szemét "
+"az Ön által megadott időtartamban."
+
+#: package/contents/ui/main.qml:163
+#, kde-format
+msgid "Activate Night Color"
+msgstr "Éjszakai mód aktiválása"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr "Éjszakai mód hőmérséklete:"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr "%1 K"
+
+#: package/contents/ui/main.qml:206
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Meleg"
+
+#: package/contents/ui/main.qml:212
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr "Hideg"
+
+#: package/contents/ui/main.qml:225
+#, kde-format
+msgid "Activation time:"
+msgstr "Aktiválás:"
+
+#: package/contents/ui/main.qml:228
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr "Napnyugtától napkeltéig, helyi idő szerint"
+
+#: package/contents/ui/main.qml:229
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr "Napnyugtától napkeltéig, egyéni helyszín ideje szerint"
+
+#: package/contents/ui/main.qml:230
+#, kde-format
+msgid "Custom time"
+msgstr "Egyéni időpontban"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Always on"
+msgstr "Mindig bekapcsolva"
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <a href=\"https://location.services."
+"mozilla.com\">Mozilla Location Service</a>."
+msgstr ""
+"Az eszköz helye a GPS használatával kerül rendszeresen frissítésre (ha "
+"elérhető), vagy a hálózati információk elküldésével a <a href=\"https://"
+"location.services.mozilla.com\">Mozilla Location Service</a>-nek."
+
+#: package/contents/ui/main.qml:264
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr "Szélesség: %1°, hosszúság: %2°"
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr "Bekapcsolás:"
+
+#: package/contents/ui/main.qml:281 package/contents/ui/main.qml:298
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "Formátum: ÓÓ:PP"
+
+#: package/contents/ui/main.qml:290
+#, kde-format
+msgid "Turn off at:"
+msgstr "Kikapcsolás:"
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Transition duration:"
+msgstr "Átmenet időtartama:"
+
+#: package/contents/ui/main.qml:317
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 perc"
+msgstr[1] "%1 perc"
+
+#: package/contents/ui/main.qml:324
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Minimum 1, maximum 600 perc"
+
+#: package/contents/ui/main.qml:332
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr "Hiba: előbb legyen reggel, mint este."
+
+#: package/contents/ui/main.qml:348
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "Hiba: az átmeneti idők átfedésben vannak."
+
+#: package/contents/ui/TimingsView.qml:35
+#, kde-format
+msgid "Night Color begins at %1"
+msgstr "Éjszakai színek kezdete: %1"
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Color fully changed at %1"
+msgstr "Színek sikeresen módosítva: %1"
+
+#: package/contents/ui/TimingsView.qml:48
+#, kde-format
+msgid "Night Color begins changing back at %1"
+msgstr "Átmenet kezdete éjszakai módból: %1"
+
+#: package/contents/ui/TimingsView.qml:52
+#, kde-format
+msgid "Normal coloration restored by %1"
+msgstr "Normál színek visszaállítva: %1"

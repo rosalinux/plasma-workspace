@@ -1,0 +1,131 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Xəyyam Qocayev <xxmn77@gmail.com>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-10-26 01:42+0000\n"
+"PO-Revision-Date: 2021-05-28 19:19+0400\n"
+"Last-Translator: Kheyyam Gojayev <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.04.1\n"
+
+#: contents/ui/BarcodePage.qml:28
+#, kde-format
+msgid "Return to Clipboard"
+msgstr "Mübadilə buferinə qayıtmaq"
+
+#: contents/ui/BarcodePage.qml:49
+#, kde-format
+msgid "QR Code"
+msgstr "QR kod"
+
+#: contents/ui/BarcodePage.qml:50
+#, kde-format
+msgid "Data Matrix"
+msgstr "Data Matrix"
+
+#: contents/ui/BarcodePage.qml:51
+#, kde-format
+msgctxt "Aztec barcode"
+msgid "Aztec"
+msgstr "Aztec"
+
+#: contents/ui/BarcodePage.qml:52
+#, kde-format
+msgid "Code 39"
+msgstr "kod 39"
+
+#: contents/ui/BarcodePage.qml:53
+#, kde-format
+msgid "Code 93"
+msgstr "Kod 93"
+
+#: contents/ui/BarcodePage.qml:54
+#, kde-format
+msgid "Code 128"
+msgstr "Kod 128"
+
+#: contents/ui/BarcodePage.qml:77
+#, kde-format
+msgid "Change the barcode type"
+msgstr "Barkod növünü dəyişmək"
+
+#: contents/ui/BarcodePage.qml:101
+#, kde-format
+msgid "Creating barcode failed"
+msgstr "Barkod yardılması alınmadı"
+
+#: contents/ui/BarcodePage.qml:110
+#, kde-format
+msgid "The barcode is too large to be displayed"
+msgstr "Göstərmək üçün bu barkod çox genişdir"
+
+#: contents/ui/clipboard.qml:26
+#, kde-format
+msgid "Clipboard Contents"
+msgstr "Mübadilə buferi tərkibləri"
+
+#: contents/ui/clipboard.qml:27 contents/ui/Menu.qml:58
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Mübadilə buferi boşdur"
+
+#: contents/ui/clipboard.qml:55
+#, kde-format
+msgid "Configure Clipboard…"
+msgstr "Mübadilə buferini tənzimləmək..."
+
+#: contents/ui/clipboard.qml:57
+#, kde-format
+msgid "Clear History"
+msgstr "Tarixçəni silmək"
+
+#: contents/ui/ClipboardPage.qml:76
+#, kde-format
+msgid "Search…"
+msgstr "Axtarış..."
+
+#: contents/ui/ClipboardPage.qml:112
+#, kde-format
+msgid "Clear history"
+msgstr "Tarixçəni silmək"
+
+#: contents/ui/DelegateToolButtons.qml:23
+#, kde-format
+msgid "Invoke action"
+msgstr "Fəaliyyəti başlatmaq"
+
+#: contents/ui/DelegateToolButtons.qml:33
+#, kde-format
+msgid "Show barcode"
+msgstr "Barkodu göstərmək"
+
+#: contents/ui/DelegateToolButtons.qml:43
+#, kde-format
+msgid "Edit contents"
+msgstr "Tərkiblərinə düzəliş etmək"
+
+#: contents/ui/DelegateToolButtons.qml:51
+#, kde-format
+msgid "Remove from history"
+msgstr "Tarixçədən silin"
+
+#: contents/ui/Menu.qml:58
+#, kde-format
+msgid "No matches"
+msgstr "Oxşarları yoxdur"
+
+#: contents/ui/UrlItemDelegate.qml:99
+#, kde-format
+msgctxt ""
+"Indicator that there are more urls in the clipboard than previews shown"
+msgid "+%1"
+msgstr "+%1"

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmashellprivateplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-30 00:18+0000\n"
+"PO-Revision-Date: 2017-10-04 13:07+0000\n"
+"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:10
+#, kde-format
+msgid "Screen lock enabled"
+msgstr "Ekran kilidi etkin"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:11
+#, kde-format
+msgid "Sets whether the screen will be locked after the specified time."
+msgstr "Belirtilen zamanda ekranı kilitleyecek olan hava durumunu ayarlar."
+
+#. i18n: ectx: label, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:16
+#, kde-format
+msgid "Screen saver timeout"
+msgstr "Ekran koruyucu zaman aşımı"
+
+#. i18n: ectx: whatsthis, entry, group (Daemon)
+#: sessionsprivate/kscreenlockersettings.kcfg:17
+#, kde-format
+msgid "Sets the minutes after which the screen is locked."
+msgstr "Ekranın kaç saniye sonra kilitleneceğini ayarlar."
+
+#: sessionsprivate/sessionsmodel.cpp:233 sessionsprivate/sessionsmodel.cpp:237
+#, kde-format
+msgid "New Session"
+msgstr "Yeni Oturum"
+
+#: shellprivate/widgetexplorer/kcategorizeditemsviewmodels.cpp:58
+#, kde-format
+msgid "Filters"
+msgstr "Süzgeçler"
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:44
+#, kde-format
+msgid "Select Plasmoid File"
+msgstr "Plasmoid Dosyasını Seç"
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:68
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "%1 paketinin kurulumu başarısız oldu."
+
+#: shellprivate/widgetexplorer/openwidgetassistant.cpp:68
+#, kde-format
+msgid "Installation Failure"
+msgstr "Kurulum Başarısız Oldu"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:110
+#, kde-format
+msgid "All Widgets"
+msgstr "Tüm Programcıklar"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:114
+#, kde-format
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:118
+#, kde-format
+msgid "Uninstallable"
+msgstr "Kaldırılamaz"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:122
+#, kde-format
+msgid "Categories:"
+msgstr "Kategoriler:"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:200
+#, kde-format
+msgid "Download New Plasma Widgets"
+msgstr "Yeni Plasma Programcıklarını İndir"
+
+#: shellprivate/widgetexplorer/widgetexplorer.cpp:209
+#, fuzzy, kde-format
+#| msgid "Install Widget From Local File..."
+msgid "Install Widget From Local File…"
+msgstr "Yerel Dosyadan Programcık Kur..."

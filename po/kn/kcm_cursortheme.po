@@ -1,0 +1,229 @@
+# translation of kcminput.po to Kannada
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manu B <iammanu@gmail.com>, 2007.
+# Umesh Rudrapatna <umeshrs@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-15 00:20+0000\n"
+"PO-Revision-Date: 2008-01-11 11:48+0530\n"
+"Last-Translator: Umesh Rudrapatna <umeshrs@gmail.com>\n"
+"Language-Team: Kannada <kde-l10n-kn@kde.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ಮನು .ಬಿ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "iammanu@gmail.com"
+
+#. i18n: ectx: label, entry (cursorTheme), group (Mouse)
+#: cursorthemesettings.kcfg:9
+#, kde-format
+msgid "Name of the current cursor theme"
+msgstr ""
+
+#. i18n: ectx: label, entry (cursorSize), group (Mouse)
+#: cursorthemesettings.kcfg:13
+#, kde-format
+msgid "Current cursor size"
+msgstr ""
+
+#: kcmcursortheme.cpp:62
+#, fuzzy, kde-format
+#| msgid "&Cursor Theme"
+msgid "Cursors"
+msgstr "ಸ್ಥಳಸೂ&ಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್)"
+
+#: kcmcursortheme.cpp:66
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:67
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:68
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcmcursortheme.cpp:311
+#, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"ಈ ಬದಲಾವಣೆಗಳು ಪರಿಣಾಮ ಬೀರಲು ನೀವು ಕೆಡಿಇಯನ್ನು ಪುನರಾರಂಭಿಸಬೇಕಾಗುತ್ತದೆ (ರಿಸ್ಟಾರ್ಟ್)."
+
+#: kcmcursortheme.cpp:389
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcmcursortheme.cpp:400
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಾಗಾರ %1 ಲಭ್ಯವಿಲ್ಲ."
+
+#: kcmcursortheme.cpp:431
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
+msgstr "ಕಡತ %1 ಸರಿಯಾದ ಸ್ಥಳಸೂಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಾಗಾರದಂತೆ ತೋರದು."
+
+#: kcmcursortheme.cpp:438
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr ""
+
+#: kcmcursortheme.cpp:447
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"%1 ಹೆಸರಿನ ಪರಿಸರವಿನ್ಯಾಸವು (ಥೀಮ್) ಈಗಾಗಲೇ ನಿಮ್ಮ ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಕೋಶದಲ್ಲಿ "
+"ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ನೀವು ಅದನ್ನು ಈ ಪರಿಸರವಿನ್ಯಾಸದಿಂದ (ಥೀಮ್) ಪ್ರತಿಸ್ಥಾಪಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+
+#: kcmcursortheme.cpp:451
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: kcmcursortheme.cpp:475
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: package/contents/ui/Delegate.qml:54
+#, kde-format
+msgid "Remove Theme"
+msgstr ""
+
+#: package/contents/ui/Delegate.qml:61
+#, fuzzy, kde-format
+#| msgid "&Cursor Theme"
+msgid "Restore Cursor Theme"
+msgstr "ಸ್ಥಳಸೂ&ಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್)"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Size:"
+msgstr ""
+
+#: package/contents/ui/main.qml:134
+#, kde-format
+msgid "&Install from File…"
+msgstr ""
+
+#: package/contents/ui/main.qml:140
+#, fuzzy, kde-format
+#| msgid "Overwrite Theme?"
+msgid "&Get New Cursors…"
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: package/contents/ui/main.qml:190
+#, fuzzy, kde-format
+#| msgid "Overwrite Theme?"
+msgid "Open Theme"
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: package/contents/ui/main.qml:192
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:36
+#, kde-format
+msgid ""
+"This tool allows you to set the mouse cursor theme for the current Plasma "
+"session, without accidentally setting it to one that is either not "
+"available, or which is already set."
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:40
+#, kde-format
+msgid ""
+"The name of the cursor theme you wish to set for your current Plasma session "
+"(passing a full path will only use the last part of the path)"
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:41
+#, kde-format
+msgid ""
+"Show all the themes available on the system (and which is the current theme)"
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:62
+#, kde-format
+msgid ""
+"The requested theme \"%1\" is already set as the theme for the current "
+"Plasma session."
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:73
+#, kde-format
+msgid ""
+"Successfully applied the mouse cursor theme %1 to your current Plasma session"
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:75
+#, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for your newly applied mouse cursor "
+"theme to display correctly."
+msgstr ""
+"ಈ ಬದಲಾವಣೆಗಳು ಪರಿಣಾಮ ಬೀರಲು ನೀವು ಕೆಡಿಇಯನ್ನು ಪುನರಾರಂಭಿಸಬೇಕಾಗುತ್ತದೆ (ರಿಸ್ಟಾರ್ಟ್)."
+
+#: plasma-apply-cursortheme.cpp:85
+#, kde-format
+msgid ""
+"Could not find theme \"%1\". The theme should be one of the following "
+"options: %2"
+msgstr ""
+
+#: plasma-apply-cursortheme.cpp:93
+#, kde-format
+msgid "You have the following mouse cursor themes on your system:"
+msgstr ""
+
+#: xcursor/thememodel.cpp:67
+#, kde-format
+msgid "Name"
+msgstr "ಹೆಸರು"
+
+#: xcursor/thememodel.cpp:70
+#, kde-format
+msgid "Description"
+msgstr "ವಿವರಣೆ"
+
+#: xcursor/xcursortheme.cpp:56
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr ""

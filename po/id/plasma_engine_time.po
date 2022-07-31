@@ -1,0 +1,77 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Wantoyo <wantoyek@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2018-10-10 19:39+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: timesource.cpp:45
+#, kde-format
+msgid "Local"
+msgstr "Lokal"
+
+#: timesource.cpp:60
+#, kde-format
+msgid "Timezone"
+msgstr "Zona-waktu"
+
+#: timesource.cpp:65 timesource.cpp:68 timesource.cpp:72
+#, kde-format
+msgid "Timezone City"
+msgstr "Zona-waktu Kota"
+
+#: timesource.cpp:67 timesource.cpp:70
+#, kde-format
+msgid "Timezone Continent"
+msgstr "Zona-waktu Benua"
+
+#: timesource.cpp:71
+#, kde-format
+msgid "Timezone Country"
+msgstr "Zona-waktu Negara"
+
+#: timesource.cpp:96
+#, kde-format
+msgid "Offset"
+msgstr "Offset"
+
+#: timesource.cpp:99
+#, kde-format
+msgid "Timezone Abbreviation"
+msgstr "Singkatan Zona-waktu"
+
+#: timesource.cpp:130 timesource.cpp:149 timesource.cpp:170
+#, kde-format
+msgid "DateTime"
+msgstr "WaktuTanggal"
+
+#: timesource.cpp:145
+#, kde-format
+msgid "Latitude"
+msgstr "Garis lintang"
+
+#: timesource.cpp:146
+#, kde-format
+msgid "Longitude"
+msgstr "Garis bujur"
+
+#: timesource.cpp:147
+#, kde-format
+msgid "Solar"
+msgstr "Surya"
+
+#: timesource.cpp:148
+#, kde-format
+msgid "Moon"
+msgstr "Rembulan"

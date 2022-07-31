@@ -1,0 +1,10 @@
+--- plasma-workspace-5.7.0/shell/CMakeLists.txt.0001~	2016-07-04 13:52:30.202701588 +0200
++++ plasma-workspace-5.7.0/shell/CMakeLists.txt	2016-07-04 13:53:05.118780020 +0200
+@@ -23,6 +23,7 @@ configure_file(config-ktexteditor.h.cmak
+ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config-plasma.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-plasma.h)
+ 
+ add_definitions(-DPLASMA_DEPRECATED=)
++add_definitions(-fno-lto)
+ 
+ set(scripting_SRC
+     scripting/appinterface.cpp

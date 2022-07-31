@@ -1,0 +1,165 @@
+# translation of kcm_autostart.po to Maithili
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2009-01-18 15:26+0530\n"
+"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
+"Language: mai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#: autostart.cpp:24
+#, kde-format
+msgid "Autostart"
+msgstr ""
+
+#: autostart.cpp:26
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "केडीई स्वतः-प्रारंभ प्रबंधक नियंत्रणक फलक मोड्यूल"
+
+#: autostart.cpp:28
+#, fuzzy, kde-format
+#| msgid "(c) 2006-2007-2008 Autostart Manager team"
+msgid "Copyright © 2006–2020 Autostart Manager team"
+msgstr "(c) 2006-2007-2008 स्वचालित-प्रारंभ प्रबंधक दल"
+
+#: autostart.cpp:29
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "स्टीफन लीफ"
+
+#: autostart.cpp:30
+#, kde-format
+msgid "Montel Laurent"
+msgstr "मोंटेल लारेंट"
+
+#: autostart.cpp:30
+#, kde-format
+msgid "Maintainer"
+msgstr "अनुरक्षक"
+
+#: autostart.cpp:31
+#, kde-format
+msgid "Nicolas Fella"
+msgstr ""
+
+#: autostartmodel.cpp:288
+#, kde-format
+msgid "\"%1\" is not an absolute url."
+msgstr ""
+
+#: autostartmodel.cpp:291
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr ""
+
+#: autostartmodel.cpp:294
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr ""
+
+#: autostartmodel.cpp:297
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr ""
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgid "&Properties"
+msgid "Properties"
+msgstr "गुण (&P)"
+
+#: package/contents/ui/main.qml:68
+#, fuzzy, kde-format
+#| msgid "&Remove"
+msgid "Remove"
+msgstr "हटाबू (&R)"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Login Scripts"
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Pre-KDE startup"
+msgid "Pre-startup Scripts"
+msgstr "केडीई प्रारंभ हए सँ पहिने"
+
+#: package/contents/ui/main.qml:88
+#, kde-format
+msgid "Logout Scripts"
+msgstr ""
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "No user-specified autostart items"
+msgstr ""
+
+#: package/contents/ui/main.qml:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add…</interface> button below to add some"
+msgstr ""
+
+#: package/contents/ui/main.qml:112
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Choose Login Script"
+msgstr "स्क्रिप्टकेँ जोड़ू"
+
+#: package/contents/ui/main.qml:133
+#, kde-format
+msgid "Choose Logout Script"
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgid "Add…"
+msgstr ""
+
+#: package/contents/ui/main.qml:177
+#, kde-format
+msgid "Add Application…"
+msgstr ""
+
+#: package/contents/ui/main.qml:183
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Add Login Script…"
+msgstr "स्क्रिप्टकेँ जोड़ू"
+
+#: package/contents/ui/main.qml:189
+#, fuzzy, kde-format
+#| msgid "Add Script..."
+msgid "Add Logout Script…"
+msgstr "स्क्रिप्टकेँ जोड़ू"

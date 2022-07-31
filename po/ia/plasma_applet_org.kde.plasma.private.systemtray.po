@@ -1,0 +1,153 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# giovanni <g.sora@tiscali.it>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"PO-Revision-Date: 2021-12-22 18:28+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Entries"
+msgstr "Entratas"
+
+#: package/contents/ui/ConfigEntries.qml:28
+#, kde-format
+msgid "Always show all entries"
+msgstr "Sempre monstra omne entratas"
+
+#: package/contents/ui/ConfigEntries.qml:34
+#, kde-format
+msgid "Application Status"
+msgstr "Stato de Application"
+
+#: package/contents/ui/ConfigEntries.qml:36
+#, kde-format
+msgid "Communications"
+msgstr "Communicationes"
+
+#: package/contents/ui/ConfigEntries.qml:38
+#, kde-format
+msgid "System Services"
+msgstr "Servicios de systema"
+
+#: package/contents/ui/ConfigEntries.qml:40
+#, kde-format
+msgid "Hardware Control"
+msgstr "Controlo Hardware"
+
+#: package/contents/ui/ConfigEntries.qml:43
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Miscellanea"
+
+#: package/contents/ui/ConfigEntries.qml:75
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr "Elemento"
+
+#: package/contents/ui/ConfigEntries.qml:80
+#, kde-format
+msgid "Visibility"
+msgstr "Visibilitate"
+
+#: package/contents/ui/ConfigEntries.qml:86
+#, kde-format
+msgid "Keyboard Shortcut"
+msgstr "Via Breve de Claviero"
+
+#: package/contents/ui/ConfigEntries.qml:220
+#, kde-format
+msgid "Shown when relevant"
+msgstr "Monstrate quando relevante"
+
+#: package/contents/ui/ConfigEntries.qml:221
+#, kde-format
+msgid "Always shown"
+msgstr "Sempre monstrate"
+
+#: package/contents/ui/ConfigEntries.qml:222
+#, kde-format
+msgid "Always hidden"
+msgstr "Sempre celate"
+
+#: package/contents/ui/ConfigEntries.qml:223
+#, kde-format
+msgid "Disabled"
+msgstr "Dishabilitate"
+
+#: package/contents/ui/ConfigGeneral.qml:21
+#, kde-format
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "Dimension de Icone de pannello:"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+#, kde-format
+msgid "Small"
+msgstr "Parve"
+
+#: package/contents/ui/ConfigGeneral.qml:30
+#, kde-format
+msgid "Scale with Panel height"
+msgstr "Scala con altessa de pannello"
+
+#: package/contents/ui/ConfigGeneral.qml:31
+#, kde-format
+msgid "Scale with Panel width"
+msgstr "Scala con largessa de Pannello"
+
+#: package/contents/ui/ConfigGeneral.qml:37
+#, kde-format
+msgid "Automatically enabled when in tablet mode"
+msgstr "Automaticamente habilitate quando in modo tabletta"
+
+#: package/contents/ui/ExpandedRepresentation.qml:74
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Stato e Notificationes"
+
+#: package/contents/ui/ExpandedRepresentation.qml:113
+#, kde-format
+msgid "More actions"
+msgstr "Altere actiones"
+
+#: package/contents/ui/ExpandedRepresentation.qml:159
+#, kde-format
+msgid "Keep Open"
+msgstr "Manteni aperite"
+
+#: package/contents/ui/ExpanderArrow.qml:20
+#, kde-format
+msgid "Close popup"
+msgstr "Claude popup"
+
+#: package/contents/ui/ExpanderArrow.qml:20
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Monstra icones celate"
+
+#: systemtraymodel.cpp:124
+#, kde-format
+msgctxt ""
+"Suffix added to the applet name if the applet is autoloaded via DBus "
+"activation"
+msgid "%1 (Automatic load)"
+msgstr "%1 (Cargamento Automatic)"

@@ -1,0 +1,135 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2015.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-12-14 02:17+0000\n"
+"PO-Revision-Date: 2021-06-23 14:57+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "صفا الفليج,زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "safa1996alfulaij@gmail.com,zayed.alsaidi@gmail.com"
+
+#: kcm.cpp:79
+#, kde-format
+msgid "Global Theme"
+msgstr "السمة الشاملة"
+
+#: kcm.cpp:80 lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr "ماركو مارتن"
+
+#: kcm.cpp:613
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "عليك إعادة تشغيل جلسة بلازما  لتأخذ التغييرات تأثيرها."
+
+#: kcm.cpp:614
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "تغيّرت إعدادات المؤشّر"
+
+#: lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "أداة السمة الشاملة"
+
+#: lnftool.cpp:34
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr "أداة سطر الأوامر لتطبيق حزم السمات الشاملة لتغيير الشكل والمظهر."
+
+#: lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "حقوق الطبع ٢٠١٧، ماركو مارتن"
+
+#: lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "الصائن"
+
+#: lnftool.cpp:45
+#, kde-format
+msgid "List available global theme packages"
+msgstr "تسرد جميع حزم السمات الشاملة المتوفرة"
+
+#: lnftool.cpp:48
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"تطبق حزمة السمة الشاملة. يمكن أن يكون هذا اسم الحزمة ، أو المسار الكامل "
+"لحزمة مثبتة ، وعند هذه النقطة ستضمن هذه الأداة أنها حزمة سمة شاملة ثم تحاول "
+"تطبيقها"
+
+#: lnftool.cpp:50
+#, kde-format
+msgid "packagename"
+msgstr "اسم الحزمة"
+
+#: lnftool.cpp:51
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "أعد ضبط تخطيط سطح مكتب بلازما"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "الشكل والمظهر الشامل"
+
+#: package/contents/ui/main.qml:18
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr "هذه الوحدة تجعلك تختار المظهر والشكل الشامل لسطح المكتب."
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Preview Theme"
+msgstr "عاين السمة"
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid ""
+"Your current layout and configuration of panels, desktop widgets, and "
+"wallpapers will be lost and reset to the default layout provided by the "
+"selected theme."
+msgstr ""
+"سيتم فقد التخطيط والتكوين الحالي للوحات وعناصر واجهة مستخدم سطح المكتب "
+"والخلفيات وإعادة تعيينها إلى التخطيط المبدئي الذي توفره السمة المحددة."
+
+#: package/contents/ui/main.qml:76
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr "استخدم تخطيط سطح المكتب من السمة"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Get New Global Themes…"
+msgstr "احصل على سمات شاملة جديدة..."
