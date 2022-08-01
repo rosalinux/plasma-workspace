@@ -10,18 +10,12 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 
 Image {
     id: root
-    color: "black"
     source: "images/background.png"
     fillMode: Image.PreserveAspectCrop
     property int stage
 
     onStageChanged: {
         if (stage == 2) {
-            introAnimation.running = true;
-        } else if (stage == 5) {
-            introAnimation.target = logo;
-            introAnimation.from = 1;
-            introAnimation.to = 0;
             introAnimation.running = true;
         }
     }
@@ -45,7 +39,7 @@ Image {
         target: logo
         from: 0
         to: 1
-        duration: PlasmaCore.Units.veryLongDuration * 2
+        duration: PlasmaCore.Units.veryLongDuration * 5
         easing.type: Easing.InOutQuad
     }
 }
