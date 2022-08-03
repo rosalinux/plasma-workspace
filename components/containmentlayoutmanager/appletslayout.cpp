@@ -34,6 +34,7 @@ AppletsLayout::AppletsLayout(QQuickItem *parent)
         // We can't assume m_containment to be valid: if we load in a plasmoid that can run also
         // in "applet" mode, m_containment will never be valid
         if (!m_containment) {
+            qWarning() << "Error: cannot save staff in AppletsLayout";
             return;
         }
         // We can't save the layout during bootup, for performance reasons and to avoid race consitions as much as possible, so if we needto save and still

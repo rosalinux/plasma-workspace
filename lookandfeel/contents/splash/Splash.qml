@@ -8,10 +8,10 @@ import QtQuick 2.5
 import QtQuick.Window 2.2
 import org.kde.plasma.core 2.0 as PlasmaCore
 
-Image {
+Rectangle {
     id: root
-    source: "images/background.png"
-    fillMode: Image.PreserveAspectCrop
+    color: "black"
+    
     property int stage
 
     onStageChanged: {
@@ -23,14 +23,10 @@ Image {
     Image {
         id: logo
         opacity: 0
-        property real size: PlasmaCore.Units.gridUnit * 8
+        anchors.fill: parent
 
-        anchors.centerIn: parent
-
-        source: "images/rosa-linux-logo.png"
-
-        sourceSize.width: size
-        sourceSize.height: size
+        source: "images/background.png"
+        fillMode: Image.PreserveAspectCrop
     }
 
     OpacityAnimator {
