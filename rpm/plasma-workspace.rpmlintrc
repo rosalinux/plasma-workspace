@@ -1,0 +1,3 @@
+# False positive -- plugins misdetected as libraries
+addFilter("E: incoherent-version-in-name")
+addFilter("E: invalid-soname")

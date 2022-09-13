@@ -1,0 +1,120 @@
+# translation of kcmlocale.po to Oriya
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2009-01-02 11:46+0530\n"
+"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr ""
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr ""
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr ""
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr ""
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr ""
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr ""
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr ""
+
+#: optionsmodel.cpp:18
+#, kde-format
+msgid "Numbers"
+msgstr ""
+
+#: optionsmodel.cpp:19
+#, kde-format
+msgid "Time"
+msgstr ""
+
+#: optionsmodel.cpp:20
+#, kde-format
+msgid "Currency"
+msgstr ""
+
+#: optionsmodel.cpp:21
+#, kde-format
+msgid "Measurement"
+msgstr ""

@@ -1,0 +1,45 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-09 00:47+0000\n"
+"PO-Revision-Date: 2021-08-02 11:59+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 20.12.2\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: contents/ui/manage-inputmethod.qml:44
+#, kde-format
+msgctxt "Opens the system settings module"
+msgid "Configure Virtual Keyboards..."
+msgstr "Nastavi virtualne tipkovnice..."
+
+#: contents/ui/manage-inputmethod.qml:59
+#, kde-format
+msgid "Virtual Keyboard: unavailable"
+msgstr "Virtualna tipkovnica: ni na voljo"
+
+#: contents/ui/manage-inputmethod.qml:70
+#, kde-format
+msgid "Virtual Keyboard: disabled"
+msgstr "Virtualna tipkovnica: onemogočena"
+
+#: contents/ui/manage-inputmethod.qml:81
+#, kde-format
+msgid "Virtual Keyboard: visible"
+msgstr "Virtualna tipkovnica: vidna"
+
+#: contents/ui/manage-inputmethod.qml:93
+#, kde-format
+msgid "Virtual Keyboard: enabled"
+msgstr "Virtualna tipkovnica: omogočena"

@@ -1,0 +1,110 @@
+diff -up plasma-workspace-5.14.90/startkde/startkde.cmake.0000~ plasma-workspace-5.14.90/startkde/startkde.cmake
+--- plasma-workspace-5.14.90/startkde/startkde.cmake.0000~	2019-01-17 12:46:05.000000000 +0100
++++ plasma-workspace-5.14.90/startkde/startkde.cmake	2019-01-22 02:38:41.011686958 +0100
+@@ -3,6 +3,11 @@
+ #  DEFAULT Plasma STARTUP SCRIPT ( @PROJECT_VERSION@ )
+ #
+ 
++LIBDIR=@LIBDIR@
++
++export PATH=/usr/$LIBDIR/qt5/bin:$PATH
++export QML2_IMPORT_PATH=/usr/$LIBDIR/qml:/usr/$LIBDIR/qt5/qml:$QML2_IMPORT_PATH
++
+ # When the X server dies we get a HUP signal from xinit. We must ignore it
+ # because we still need to do some cleanup.
+ trap 'echo GOT SIGHUP' HUP
+@@ -43,16 +48,12 @@ sysConfigDirs=${XDG_CONFIG_DIRS:-/etc/xd
+ # We need to create config folder so we can write startupconfigkeys
+ mkdir -p $configDir
+ 
+-#This is basically setting defaults so we can use them with kstartupconfig5
+-cat >$configDir/startupconfigkeys <<EOF
+-kcminputrc Mouse cursorTheme 'breeze_cursors'
+-kcminputrc Mouse cursorSize ''
+-ksplashrc KSplash Theme Breeze
+-ksplashrc KSplash Engine KSplashQML
+-kdeglobals KScreen ScaleFactor ''
+-kdeglobals KScreen ScreenScaleFactors ''
+-kcmfonts General forceFontDPI 0
+-EOF
++kdehome=$HOME/@KDE_DEFAULT_HOME@
++test -n "$KDEHOME" && kdehome=`echo "$KDEHOME"|sed "s,^~/,$HOME/,"`
++# see kstartupconfig source for usage
++mkdir -m 700 -p $kdehome
++mkdir -m 700 -p $kdehome/share
++mkdir -m 700 -p $kdehome/share/config
+ 
+ # preload the user's locale on first start
+ plasmalocalerc=$configDir/plasma-localerc
+@@ -73,12 +74,12 @@ test -f $exportformatssettings && {
+ # Write a default kdeglobals file to set up the font
+ kdeglobalsfile=$configDir/kdeglobals
+ test -f $kdeglobalsfile || {
+-cat >$kdeglobalsfile <<EOF
+-[General]
+-XftAntialias=true
+-XftHintStyle=hintmedium
+-XftSubPixel=none
+-EOF
++cp -f /etc/xdg/kdeglobals $kdeglobalsfile
++}
++
++startupconfigkeysfile=$configDir/startupconfigkeys
++test -f $startupconfigkeysfile || {
++cp -f /etc/xdg/startupconfigkeys $configDir/startupconfigkeys
+ }
+ 
+ kstartupconfig5
+diff -up plasma-workspace-5.14.90/startkde/startplasmacompositor.cmake.0000~ plasma-workspace-5.14.90/startkde/startplasmacompositor.cmake
+--- plasma-workspace-5.14.90/startkde/startplasmacompositor.cmake.0000~	2019-01-17 12:46:05.000000000 +0100
++++ plasma-workspace-5.14.90/startkde/startplasmacompositor.cmake	2019-01-22 02:37:41.090743469 +0100
+@@ -3,6 +3,10 @@
+ #  DEFAULT Plasma STARTUP SCRIPT ( @PROJECT_VERSION@ )
+ #
+ 
++LIBDIR=@LIBDIR@
++export PATH=/usr/$LIBDIR/qt5/bin:$PATH
++export QML2_IMPORT_PATH=/usr/$LIBDIR/qml:/usr/$LIBDIR/qt5/qml:$QML2_IMPORT_PATH
++
+ # We need to create config folder so we can write startupconfigkeys
+ if [  ${XDG_CONFIG_HOME} ]; then
+   configDir=$XDG_CONFIG_HOME;
+@@ -14,14 +18,11 @@ sysConfigDirs=${XDG_CONFIG_DIRS:-/etc/xd
+ # We need to create config folder so we can write startupconfigkeys
+ mkdir -p $configDir
+ 
+-#This is basically setting defaults so we can use them with kstartupconfig5
+-cat >$configDir/startupconfigkeys <<EOF
+-kcminputrc Mouse cursorTheme 'breeze_cursors'
+-kcminputrc Mouse cursorSize ''
+-ksplashrc KSplash Theme Breeze
+-ksplashrc KSplash Engine KSplashQML
+-kcmfonts General forceFontDPIWayland 0
+-EOF
++kdehome=$HOME/@KDE_DEFAULT_HOME@
++test -n "$KDEHOME" && kdehome=`echo "$KDEHOME"|sed "s,^~/,$HOME/,"`
++mkdir -m 700 -p $kdehome
++mkdir -m 700 -p $kdehome/share
++mkdir -m 700 -p $kdehome/share/config
+ 
+ # preload the user's locale on first start
+ plasmalocalerc=$configDir/plasma-localerc
+@@ -42,12 +43,12 @@ test -f $exportformatssettings && {
+ # Write a default kdeglobals file to set up the font
+ kdeglobalsfile=$configDir/kdeglobals
+ test -f $kdeglobalsfile || {
+-cat >$kdeglobalsfile <<EOF
+-[General]
+-XftAntialias=true
+-XftHintStyle=hintmedium
+-XftSubPixel=none
+-EOF
++cp -f /etc/xdg/kdeglobals $kdeglobalsfile
++}
++
++startupconfigkeysfile=$configDir/startupconfigkeys
++test -f $startupconfigkeysfile || {
++cp -f /etc/xdg/startupconfigkeys $configDir/startupconfigkeys
+ }
+ 
+ # Make sure the Oxygen font is installed

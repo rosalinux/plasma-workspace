@@ -1,0 +1,130 @@
+# translation of kcmlocale.po to Kannada
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2008-12-25 14:48+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ಶಂಕರ್‌ ಪ್ರಸಾದ್‌ ಎಂ. ವಿ. "
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "svenkate@redhat.com"
+
+#: exampleutility.cpp:41
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (long format)"
+msgstr "ಸಂಕ್ಷಿಪ್ತ ದಿನಾಂಕ ಶೈಲಿ:"
+
+#: exampleutility.cpp:42
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "ಸಂಕ್ಷಿಪ್ತ ದಿನಾಂಕ ಶೈಲಿ:"
+
+#: exampleutility.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "ಇಂಪೀರಿಯಲ್‌"
+
+#: exampleutility.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "ಇಂಪೀರಿಯಲ್‌"
+
+#: exampleutility.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "ಮೆಟ್ರಿಕ್‌"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr ""
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr ""
+
+#: optionsmodel.cpp:18
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "Numbers"
+msgstr "ಸಂಖ್ಯೆಗಳು:"
+
+#: optionsmodel.cpp:19
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "Time"
+msgstr "ಸಮಯ:"
+
+#: optionsmodel.cpp:20
+#, fuzzy, kde-format
+#| msgid "Currency symbol:"
+msgid "Currency"
+msgstr "ಚಲಾವಣೆ ನಾಣ್ಯದ ಚಿಹ್ನೆ:"
+
+#: optionsmodel.cpp:21
+#, fuzzy, kde-format
+#| msgid "Measure system:"
+msgid "Measurement"
+msgstr "ಅಳತೆ ವ್ಯವಸ್ಥೆ:"

@@ -1,0 +1,195 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2014, 2020, 2021, 2022.
+# Paolo Zamponi <zapaolo@email.it>, 2017, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.systemtray\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-18 00:47+0000\n"
+"PO-Revision-Date: 2022-05-19 02:34+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Generale"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Entries"
+msgstr "Voci"
+
+#: package/contents/ui/ConfigEntries.qml:29
+#, kde-format
+msgid "Always show all entries"
+msgstr "Mostra sempre tutte le voci"
+
+#: package/contents/ui/ConfigEntries.qml:35
+#, kde-format
+msgid "Application Status"
+msgstr "Stato delle applicazioni"
+
+#: package/contents/ui/ConfigEntries.qml:37
+#, kde-format
+msgid "Communications"
+msgstr "Comunicazioni"
+
+#: package/contents/ui/ConfigEntries.qml:39
+#, kde-format
+msgid "System Services"
+msgstr "Servizi di sistema"
+
+#: package/contents/ui/ConfigEntries.qml:41
+#, kde-format
+msgid "Hardware Control"
+msgstr "Controllo hardware"
+
+#: package/contents/ui/ConfigEntries.qml:44
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Varie"
+
+#: package/contents/ui/ConfigEntries.qml:76
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr "Voce"
+
+#: package/contents/ui/ConfigEntries.qml:81
+#, kde-format
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: package/contents/ui/ConfigEntries.qml:87
+#, kde-format
+msgid "Keyboard Shortcut"
+msgstr "Scorciatoia da tastiera"
+
+#: package/contents/ui/ConfigEntries.qml:221
+#, kde-format
+msgid "Shown when relevant"
+msgstr "Mostra se rilevante"
+
+#: package/contents/ui/ConfigEntries.qml:222
+#, kde-format
+msgid "Always shown"
+msgstr "Sempre visibile"
+
+#: package/contents/ui/ConfigEntries.qml:223
+#, kde-format
+msgid "Always hidden"
+msgstr "Sempre nascosta"
+
+#: package/contents/ui/ConfigEntries.qml:224
+#, kde-format
+msgid "Disabled"
+msgstr "Disabilitata"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+#, kde-format
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "Dimensione delle icone del pannello:"
+
+#: package/contents/ui/ConfigGeneral.qml:25
+#, kde-format
+msgid "Small"
+msgstr "Piccola"
+
+#: package/contents/ui/ConfigGeneral.qml:32
+#, kde-format
+msgid "Scale with Panel height"
+msgstr "Adatta all'altezza del pannello"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+#, kde-format
+msgid "Scale with Panel width"
+msgstr "Adatta alla larghezza del pannello"
+
+#: package/contents/ui/ConfigGeneral.qml:39
+#, kde-format
+msgid "Automatically enabled when in Touch Mode"
+msgstr "Abilitata automaticamente in modalità tattile"
+
+#: package/contents/ui/ConfigGeneral.qml:48
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Panel icon spacing:"
+msgstr "Spaziatura delle icone del pannello:"
+
+#: package/contents/ui/ConfigGeneral.qml:51
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Piccola"
+
+#: package/contents/ui/ConfigGeneral.qml:55
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normale"
+
+#: package/contents/ui/ConfigGeneral.qml:59
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Grande"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "Imposta automaticamente su Grande in modalità tattile"
+
+#: package/contents/ui/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "Stato e notifiche"
+
+#: package/contents/ui/ExpandedRepresentation.qml:115
+#, kde-format
+msgid "More actions"
+msgstr "Altre azioni"
+
+#: package/contents/ui/ExpandedRepresentation.qml:161
+#, kde-format
+msgid "Keep Open"
+msgstr "Mantieni aperta"
+
+#: package/contents/ui/ExpanderArrow.qml:22
+#, kde-format
+msgid "Expand System Tray"
+msgstr "Espandi il vassoio di sistema"
+
+#: package/contents/ui/ExpanderArrow.qml:23
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr ""
+"Mostra tutti gli elementi nel vassoio di sistema in una finestra a comparsa"
+
+#: package/contents/ui/ExpanderArrow.qml:36
+#, kde-format
+msgid "Close popup"
+msgstr "Chiudi la finestra a comparsa"
+
+#: package/contents/ui/ExpanderArrow.qml:36
+#, kde-format
+msgid "Show hidden icons"
+msgstr "Mostra le icone nascoste"
+
+#: systemtraymodel.cpp:123
+#, kde-format
+msgctxt ""
+"Suffix added to the applet name if the applet is autoloaded via DBus "
+"activation"
+msgid "%1 (Automatic load)"
+msgstr "%1 (Caricamento automatico)"

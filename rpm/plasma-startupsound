@@ -1,0 +1,11 @@
+#!/bin/sh
+# Play the Plasma startup sound while plasma-session doesn't do it itself...
+# https://bugs.kde.org/show_bug.cgi?id=422948
+if [ "$(kreadconfig5 --file plasma_workspace.notifyrc  --group 'Event/startkde' --key Action)" = "Sound" ]; then
+	SND="$(kreadconfig5 --file plasma_workspace.notifyrc  --group 'Event/startkde' --key Sound)"
+	cd /usr/share/sounds
+	PLAYER=/usr/bin/paplay
+	[ -x "$PLAYER" ] || PLAYER=/usr/bin/mpv
+	[ -x "$PLAYER" ] || PLAYER=/usr/bin/mplayer
+	exec $PLAYER $SND
+fi

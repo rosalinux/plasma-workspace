@@ -1,0 +1,114 @@
+# Translation of plasma_applet_org.kde.plasma.mediacontroller.po to Euskara/Basque (eu).
+# Copyright (C) 2017-2018, The Free Software Foundation, Inc.
+# Copyright (C) 2019-2020, This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2017, 2018, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-26 00:46+0000\n"
+"PO-Revision-Date: 2020-12-13 11:24+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 20.08.3\n"
+
+#: contents/ui/ExpandedRepresentation.qml:378 contents/ui/main.qml:77
+#, kde-format
+msgid "No media playing"
+msgstr "Ez da euskarririk jotzen ari"
+
+#: contents/ui/ExpandedRepresentation.qml:501
+#: contents/ui/ExpandedRepresentation.qml:611
+#, kde-format
+msgctxt "Remaining time for song e.g -5:42"
+msgid "-%1"
+msgstr "-%1"
+
+#: contents/ui/ExpandedRepresentation.qml:637
+#, kde-format
+msgid "Shuffle"
+msgstr "Nahastu"
+
+#: contents/ui/ExpandedRepresentation.qml:691
+#, kde-format
+msgid "Repeat Track"
+msgstr "Errepikatu pista"
+
+#: contents/ui/ExpandedRepresentation.qml:691
+#, kde-format
+msgid "Repeat"
+msgstr "Errepikatu"
+
+#: contents/ui/main.qml:91
+#, kde-format
+msgctxt "Open player window or bring it to the front if already open"
+msgid "Open"
+msgstr "Ireki"
+
+#: contents/ui/main.qml:95
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Aurreko pista"
+
+#: contents/ui/main.qml:103
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Eten"
+
+#: contents/ui/main.qml:108
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Jo"
+
+#: contents/ui/main.qml:114
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Hurrengo pista"
+
+#: contents/ui/main.qml:120
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Gelditu"
+
+#: contents/ui/main.qml:128
+#, kde-format
+msgctxt "Quit player"
+msgid "Quit"
+msgstr "Irten"
+
+#: contents/ui/main.qml:281
+#, kde-format
+msgid "Choose player automatically"
+msgstr "Hautatu jotzailea automatikoki"
+
+#: contents/ui/main.qml:318
+#, kde-format
+msgctxt "by Artist (player name)"
+msgid "by %1 (%2)"
+msgstr "Artista: %1 (%2)"
+
+#: contents/ui/main.qml:329
+#, kde-format
+msgctxt "by Artist (paused, player name)"
+msgid "by %1 (paused, %2)"
+msgstr "Artista: %1 (etenda, %2)"
+
+#: contents/ui/main.qml:329
+#, kde-format
+msgctxt "Paused (player name)"
+msgid "Paused (%1)"
+msgstr "Etenda (%1)"

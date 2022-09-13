@@ -1,0 +1,137 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2014, 2015.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-11-30 00:46+0000\n"
+"PO-Revision-Date: 2022-05-04 08:25+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "Language"
+msgstr "Jezik"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Languages"
+msgstr "Dodaj jezike"
+
+#: package/contents/ui/main.qml:116
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Dodaj"
+
+#: package/contents/ui/main.qml:142
+#, kde-format
+msgctxt "@info"
+msgid "There are no additional languages available on this system."
+msgstr "Na tem sistemu ni na voljo dodatnih jezikov."
+
+#: package/contents/ui/main.qml:152
+#, kde-format
+msgctxt "@info"
+msgid "Your changes will take effect the next time you log in."
+msgstr "Spremembe bodo uveljavljene po naslednji prijavi."
+
+#: package/contents/ui/main.qml:153
+#, kde-format
+msgctxt "@info"
+msgid "There are currently no preferred languages configured."
+msgstr "Trenutno ni nastavljenih nobenih favoriziranih jezikov."
+
+#: package/contents/ui/main.qml:170
+#, kde-format
+msgctxt "@info %2 is the language code"
+msgid ""
+"The translation files for the language with the code '%2' could not be "
+"found. The language will be removed from your configuration. If you want to "
+"add it back, please install the localization files for it and add the "
+"language again."
+msgid_plural ""
+"The translation files for the languages with the codes '%2' could not be "
+"found. These languages will be removed from your configuration. If you want "
+"to add them back, please install the localization files for it and add the "
+"languages again."
+msgstr[0] ""
+"Datoteke s prevodi za jezika s kodo '%2' ni bilo mogoče najti. Jezik je bil "
+"odstranjena iz vaših nastavitev. Če ga želite znova dodati, namestite "
+"njegove datoteke s prevodi in ga znova dodajte."
+msgstr[1] ""
+"Datotek s prevodi za jezika s kodama '%2' ni bilo mogoče najti. Jezika sta "
+"bila odstranjena iz vaših nastavitev. Če ju želite znova dodati, namestite "
+"njihove datoteke s prevodi in ju znova dodajte."
+msgstr[2] ""
+"Datotek s prevodi za jezike s kodami '%2' ni bilo mogoče najti. Jeziki so "
+"bili odstranjeni iz vaših nastavitev. Če jih želite znova dodati, namestite "
+"njihove datoteke s prevodi in jih znova dodajte."
+msgstr[3] ""
+"Datotek s prevodi za jezike s kodami '%2' ni bilo mogoče najti. Jeziki so "
+"bil odstranjeni iz vaših nastavitev. Če jih želite znova dodati, namestite "
+"njihove datoteke s prevodi in jih znova dodajte."
+
+#: package/contents/ui/main.qml:173
+#, kde-format
+msgctxt "@info separator in list of language codes"
+msgid "', '"
+msgstr "', '"
+
+#: package/contents/ui/main.qml:184
+#, kde-format
+msgid ""
+"The language at the top of this list is the one you want to see and use most "
+"often."
+msgstr ""
+"Jezik na vrhu tega seznama je tisti, ki ga želite videti in uporabljati "
+"najpogosteje."
+
+#: package/contents/ui/main.qml:256
+#, kde-format
+msgctxt "@item:inlistbox 1 = Language name"
+msgid "%1 (Default)"
+msgstr "%1 (Privzeto)"
+
+#: package/contents/ui/main.qml:268
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Install Missing Packages"
+msgstr "Namesti manjkajoče pakete"
+
+#: package/contents/ui/main.qml:275
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Promote to default"
+msgstr "Napreduj ga v privzetega"
+
+#: package/contents/ui/main.qml:281
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "Odstrani"
+
+#: package/contents/ui/main.qml:303
+#, kde-format
+msgctxt "@action:button"
+msgid "Add languages…"
+msgstr "Dodaj jezike…"
+
+#: translationsmodel.cpp:85 translationsmodel.cpp:96
+#, kde-format
+msgctxt "%1 is language name, %2 is language code name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"

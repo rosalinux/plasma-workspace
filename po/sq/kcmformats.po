@@ -1,0 +1,122 @@
+# Albanian translation for kdebase-runtime
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the kdebase-runtime package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase-runtime\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2010-01-30 14:08+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-22 15:12+0000\n"
+"X-Generator: Launchpad (build 12883)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE Shqip, Launchpad Contributions: Vilson Gjeci"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-shqip@yahoogroups.com,vilsongjeci@gmail.com"
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr ""
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr ""
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr ""
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr ""
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr ""
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr ""
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr ""
+
+#: optionsmodel.cpp:18
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "Numbers"
+msgstr "Numrat:"
+
+#: optionsmodel.cpp:19
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "Time"
+msgstr "Koha:"
+
+#: optionsmodel.cpp:20
+#, fuzzy, kde-format
+#| msgid "Currency symbol:"
+msgid "Currency"
+msgstr "Simboli i monedhës:"
+
+#: optionsmodel.cpp:21
+#, kde-format
+msgid "Measurement"
+msgstr ""

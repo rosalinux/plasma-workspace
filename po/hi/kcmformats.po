@@ -1,0 +1,122 @@
+# translation of kcmlocale.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+# G Karunakar <karunakar@indlinux.org>, 2010, 2012, 2020.
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2022-03-29 20:46+0530\n"
+"Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
+"Language-Team: Hindi <kde-l10n-hi@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.12.3\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "जी. करूणाकर, रवि-रतलामी, राघवेंद्र कामत"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "karunakar@Indlinux.org, raviratlami@aol.in, raghu@raghukamath.com"
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (लंबा फॉर्मेट)"
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (छोटी फार्मेट)"
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "इम्पीरियल यूके"
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "इम्पीरियल यूएस"
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "मेट्रिक तंत्र"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr "प्रारूप"
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr "सर्वाधिकार २०२१ हान यंग"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr "हान यंग"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "लेखक"
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+"आप यहां समय, दिनांक, पैसे और अन्य अंको के लिए उपयोग किए जाने वाले प्रारूप को विन्यस्त कर "
+"सकते हैं।"
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr "पूर्वन्यस्त"
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr "क्षेत्र"
+
+#: optionsmodel.cpp:18
+#, kde-format
+msgid "Numbers"
+msgstr "क्रमांक"
+
+#: optionsmodel.cpp:19
+#, kde-format
+msgid "Time"
+msgstr "समय"
+
+#: optionsmodel.cpp:20
+#, kde-format
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: optionsmodel.cpp:21
+#, kde-format
+msgid "Measurement"
+msgstr "माप तंत्र"
