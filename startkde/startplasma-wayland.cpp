@@ -67,21 +67,9 @@ int main(int argc, char **argv)
     setupPlasmaEnvironment();
     runStartupConfig();
 
-    qputenv("PLASMA_USE_QT_SCALING", "1");
-    qputenv("GDK_SCALE", "1");
-    qputenv("GDK_DPI_SCALE", "1");
-
-    if (qEnvironmentVariableIsSet("ROSA_PLASMA_USE_QT_SCALING")) {
-        qputenv("PLASMA_USE_QT_SCALING", qgetenv("ROSA_PLASMA_USE_QT_SCALING"));
-    }
-
-    if (qEnvironmentVariableIsSet("ROSA_GDK_SCALE")) {
-        qputenv("GDK_SCALE", qgetenv("ROSA_GDK_SCALE"));
-    }
-
-    if (qEnvironmentVariableIsSet("ROSA_GDK_DPI_SCALE")) {
-        qputenv("GDK_DPI_SCALE", qgetenv("ROSA_GDK_DPI_SCALE"));
-    }
+    qputenv("PLASMA_USE_QT_SCALING", "2");
+    qputenv("GDK_SCALE", "2");
+    qputenv("GDK_DPI_SCALE", "2");
 
     qputenv("XDG_SESSION_TYPE", "wayland");
 
