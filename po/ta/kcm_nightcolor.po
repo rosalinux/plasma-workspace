@@ -1,0 +1,175 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Kishore G <kishore96@gmail.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-30 02:14+0000\n"
+"PO-Revision-Date: 2022-09-01 19:49+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.08.0\n"
+
+#: package/contents/ui/LocationsFixedView.qml:22
+#, kde-format
+msgid "Latitude:"
+msgstr "அட்சரேகை:"
+
+#: package/contents/ui/LocationsFixedView.qml:40
+#, kde-format
+msgid "Longitude:"
+msgstr "தீர்க்கரேகை:"
+
+#: package/contents/ui/LocationsFixedView.qml:54
+#, kde-format
+msgid "Detect Location"
+msgstr "இருப்பிடத்தைக் கண்டுபிடி"
+
+#: package/contents/ui/LocationsFixedView.qml:70
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+"GPS (கிடைத்தால்) கொண்டோ, <a href=\"https://location.services.mozilla.com"
+"\">மொசில்லா இருப்பிட சேவைக்கு</a> பிணைய விவரங்களை அனுப்பியோ, இச்சாதனத்தின் இருப்பிடம் "
+"கண்டறியப்படும்."
+
+#: package/contents/ui/main.qml:80
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr ""
+"நீங்கள் தேர்ந்தெடுக்கும் நேரங்களில் கண் சிரமத்தைத் தவிர்க காட்சிக் கருவியிலுள்ள நிறங்களை "
+"நயமானவையாக (சிவந்தவையாக) இரவு நிறமாற்றம் மாற்றும்."
+
+#: package/contents/ui/main.qml:89
+#, kde-format
+msgid "Activate Night Color"
+msgstr "இரவு நிறமாற்றத்தை செயல்படுத்து"
+
+#: package/contents/ui/main.qml:108
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr "இரவு நிறமாற்றத்தின் வெப்பநிலை:"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr "%1K"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "சிவப்பு"
+
+#: package/contents/ui/main.qml:155
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr "நீலம்"
+
+#: package/contents/ui/main.qml:162
+#, kde-format
+msgid "This is what Night Color will look like when active."
+msgstr "இரவு நிறமாற்றம் செயலிலுள்ளபோது இவ்வாறு தோற்றமளிக்கும்."
+
+#: package/contents/ui/main.qml:197
+#, kde-format
+msgid "Activation time:"
+msgstr "செயல்படுத்தப்படும் நேரம்:"
+
+#: package/contents/ui/main.qml:200
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr "தற்போதைய இருப்பிடத்தில் சூரியன் மறைவதிலிருந்து உதிக்கும் வரை"
+
+#: package/contents/ui/main.qml:201
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr "தேர்ந்தெடுக்கும் இருப்பிடத்தில் சூரியன் மறைவதிலிருந்து உதிக்கும் வரை"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Custom time"
+msgstr "விருப்ப நேரம்"
+
+#: package/contents/ui/main.qml:203
+#, kde-format
+msgid "Always on"
+msgstr "எப்போதும் இயங்கும்"
+
+#: package/contents/ui/main.qml:244
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <link url='https://location.services."
+"mozilla.com'>Mozilla Location Service</link>."
+msgstr ""
+"GPS (கிடைத்தால்) கொண்டோ, <link url='https://location.services.mozilla."
+"com'>மொசில்லா இருப்பிட சேவைக்கு</link> பிணைய விவரங்களை அனுப்பியோ, இச்சாதனத்தின் "
+"இருப்பிடம் அவ்வப்போது புதுப்பிக்கப்படும்."
+
+#: package/contents/ui/main.qml:263
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr "அட்சரேகை: %1°   தீர்க்கரேகை: %2°"
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr "இந்த நேரத்தில் இயக்கு:"
+
+#: package/contents/ui/main.qml:286 package/contents/ui/main.qml:309
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "உள்ளீட்டு படிவம்: மம:நிநி"
+
+#: package/contents/ui/main.qml:296
+#, kde-format
+msgid "Turn off at:"
+msgstr "இந்த நேரத்தில் முடக்கு:"
+
+#: package/contents/ui/main.qml:318
+#, kde-format
+msgid "Transition duration:"
+msgstr "நிலைமாற்றம் நீடிக்கும் காலம்:"
+
+#: package/contents/ui/main.qml:327
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 நிமிடம்"
+msgstr[1] "%1 நிமிடங்கள்"
+
+#: package/contents/ui/main.qml:340
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "நிமிடங்களாக உள்ளிடவும் - குறைந்தது 1, அதிகபட்சம் 600"
+
+#: package/contents/ui/main.qml:358
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "பிழை: நிலைமாற்ற நேரங்கள் முரண்படுகின்றன."
+
+#: package/contents/ui/TimingsView.qml:32
+#, kde-format
+msgid "Night Color begins changing at %1 and is fully changed by %2"
+msgstr "நிறம் %1-க்கு மாறத் தொடங்கி, %2-க்குள் முழுதாக மாறியிருக்கும்"
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Night Color begins changing back at %1 and ends at %2"
+msgstr "நிறம் %1-க்கு இயல்புநிலைக்கு மாறத் தொடங்கி, %2-க்குள் இயல்புநிலையை அடையும்"

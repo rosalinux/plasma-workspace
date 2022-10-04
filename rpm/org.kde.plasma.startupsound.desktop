@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=/usr/bin/plasma-startupsound
+Name=Plasma Desktop Startup Sound
+Type=Application
+X-KDE-StartupNotify=false
+OnlyShowIn=KDE;
+Icon=plasma
+NoDisplay=true

@@ -1,0 +1,318 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2019, 2020, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-23 02:16+0000\n"
+"PO-Revision-Date: 2021-05-28 02:43+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.12.3\n"
+
+#: plugin/actionlist.cpp:86
+#, kde-format
+msgid "Open with:"
+msgstr "다음으로 열기:"
+
+#: plugin/actionlist.cpp:99
+#, kde-format
+msgid "Properties"
+msgstr "속성"
+
+#: plugin/actionlist.cpp:146
+#, kde-format
+msgid "Add to Desktop"
+msgstr "바탕 화면에 추가"
+
+#: plugin/actionlist.cpp:151
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "패널에 추가(위젯)"
+
+#: plugin/actionlist.cpp:156
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "작업 관리자에 고정"
+
+#: plugin/actionlist.cpp:308 plugin/rootmodel.cpp:437
+#, kde-format
+msgid "Recent Files"
+msgstr "최근 파일"
+
+#: plugin/actionlist.cpp:318
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "최근 파일 비우기"
+
+#: plugin/actionlist.cpp:396
+#, kde-format
+msgid "Edit Application…"
+msgstr "프로그램 편집…"
+
+#: plugin/actionlist.cpp:438
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "추가 기능 삭제 및 관리…"
+
+#: plugin/appentry.cpp:264
+#, kde-format
+msgid "Hide Application"
+msgstr "프로그램 숨기기"
+
+#: plugin/appentry.cpp:335
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:337
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:34 plugin/appsmodel.cpp:58 plugin/computermodel.cpp:98
+#: plugin/computermodel.cpp:226 plugin/recentusagemodel.cpp:160
+#: plugin/recentusagemodel.cpp:223
+#, kde-format
+msgid "Applications"
+msgstr "프로그램"
+
+#: plugin/appsmodel.cpp:150
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "이 하위 메뉴의 프로그램 숨김 해제"
+
+#: plugin/appsmodel.cpp:159
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1'의 프로그램 숨김 해제"
+
+#: plugin/computermodel.cpp:92
+#, kde-format
+msgid "Show KRunner"
+msgstr "KRunner 표시"
+
+#: plugin/computermodel.cpp:96
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "검색, 계산 또는 명령 실행"
+
+#: plugin/computermodel.cpp:149
+#, kde-format
+msgid "Computer"
+msgstr "컴퓨터"
+
+#: plugin/contactentry.cpp:106 plugin/recentcontactsmodel.cpp:82
+#, kde-format
+msgid "Show Contact Information…"
+msgstr "연락처 정보 보기…"
+
+#. i18n.
+#: plugin/kastatsfavoritesmodel.cpp:488 plugin/rootmodel.cpp:424
+#: plugin/simplefavoritesmodel.cpp:31
+#, kde-format
+msgid "Favorites"
+msgstr "책갈피"
+
+#: plugin/recentcontactsmodel.cpp:40
+#, kde-format
+msgid "Contacts"
+msgstr "연락처"
+
+#: plugin/recentcontactsmodel.cpp:73
+#, kde-format
+msgid "Forget Contact"
+msgstr "연락처 잊기"
+
+#: plugin/recentcontactsmodel.cpp:77 plugin/recentcontactsmodel.cpp:153
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "모든 연락처 잊기"
+
+#: plugin/recentusagemodel.cpp:158
+#, kde-format
+msgid "Recently Used"
+msgstr "최근 항목"
+
+#: plugin/recentusagemodel.cpp:163 plugin/recentusagemodel.cpp:305
+#, kde-format
+msgid "Files"
+msgstr "파일"
+
+#: plugin/recentusagemodel.cpp:245
+#, kde-format
+msgid "Forget Application"
+msgstr "프로그램 잊기"
+
+#: plugin/recentusagemodel.cpp:339
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "포함하는 폴더 열기"
+
+#: plugin/recentusagemodel.cpp:342
+#, kde-format
+msgid "Forget File"
+msgstr "파일 잊기"
+
+#: plugin/recentusagemodel.cpp:491
+#, kde-format
+msgid "Forget All"
+msgstr "모두 잊기"
+
+#: plugin/recentusagemodel.cpp:493
+#, kde-format
+msgid "Forget All Applications"
+msgstr "모든 프로그램 잊기"
+
+#: plugin/recentusagemodel.cpp:496
+#, kde-format
+msgid "Forget All Files"
+msgstr "모든 파일 잊기"
+
+#: plugin/rootmodel.cpp:95
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 숨기기"
+
+#: plugin/rootmodel.cpp:406
+#, kde-format
+msgid "All Applications"
+msgstr "모든 프로그램"
+
+#: plugin/rootmodel.cpp:418
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "표시되면 안 됩니다! KICKER_FAVORITES_MODEL을 사용하십시오"
+
+#: plugin/rootmodel.cpp:430
+#, kde-format
+msgid "Recent Contacts"
+msgstr "최근 연락처"
+
+#: plugin/rootmodel.cpp:437
+#, kde-format
+msgid "Often Used Files"
+msgstr "자주 사용한 파일"
+
+#: plugin/rootmodel.cpp:446
+#, kde-format
+msgid "Recent Applications"
+msgstr "최근 프로그램"
+
+#: plugin/rootmodel.cpp:446
+#, kde-format
+msgid "Often Used Applications"
+msgstr "자주 사용한 프로그램"
+
+#: plugin/rootmodel.cpp:461
+#, kde-format
+msgid "Power / Session"
+msgstr "전원/세션"
+
+#: plugin/runnermodel.cpp:229
+#, kde-format
+msgid "Search results"
+msgstr "검색 결과"
+
+#: plugin/systementry.cpp:195
+#, kde-format
+msgid "Lock"
+msgstr "잠금"
+
+#: plugin/systementry.cpp:198
+#, kde-format
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: plugin/systementry.cpp:201 plugin/systementry.cpp:269
+#, kde-format
+msgid "Save Session"
+msgstr "세션 저장"
+
+#: plugin/systementry.cpp:204
+#, kde-format
+msgid "Switch User"
+msgstr "사용자 전환"
+
+#: plugin/systementry.cpp:207
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "대기 모드"
+
+#: plugin/systementry.cpp:210
+#, kde-format
+msgid "Hibernate"
+msgstr "최대 절전 모드"
+
+#: plugin/systementry.cpp:213
+#, kde-format
+msgid "Restart"
+msgstr "다시 시작"
+
+#: plugin/systementry.cpp:216
+#, kde-format
+msgid "Shut Down"
+msgstr "컴퓨터 끄기"
+
+#: plugin/systementry.cpp:229 plugin/systementry.cpp:232
+#: plugin/systementry.cpp:235 plugin/systementry.cpp:238
+#, kde-format
+msgid "Session"
+msgstr "세션"
+
+#: plugin/systementry.cpp:241 plugin/systementry.cpp:244
+#: plugin/systementry.cpp:247 plugin/systementry.cpp:250
+#, kde-format
+msgid "System"
+msgstr "시스템"
+
+#: plugin/systementry.cpp:263
+#, kde-format
+msgid "Lock screen"
+msgstr "화면 잠그기"
+
+#: plugin/systementry.cpp:266
+#, kde-format
+msgid "End session"
+msgstr "세션 끝내기"
+
+#: plugin/systementry.cpp:272
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "다른 사용자로 새 세션 시작하기"
+
+#: plugin/systementry.cpp:275
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "RAM 절전"
+
+#: plugin/systementry.cpp:278
+#, kde-format
+msgid "Suspend to disk"
+msgstr "디스크 절전"
+
+#: plugin/systementry.cpp:281
+#, kde-format
+msgid "Restart computer"
+msgstr "컴퓨터를 다시 시작합니다"
+
+#: plugin/systementry.cpp:284
+#, kde-format
+msgid "Turn off computer"
+msgstr "컴퓨터를 끕니다"
+
+#: plugin/systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "시스템 동작"

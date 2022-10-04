@@ -1,0 +1,284 @@
+# translation of kcmlocale.po to Bengali
+# Deepayan Sarkar <deepayan.sarkar@gmail.com>, 2004, 2005, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2012-07-10 13:46+0530\n"
+"Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
+"Language-Team: Bengali <kde-translation@bengalinux.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan@bengalinux.org"
+
+#: exampleutility.cpp:41
+#, fuzzy, kde-format
+#| msgid "Long date format:"
+msgid "%1 (long format)"
+msgstr "দীর্ঘ তারিখ ফর্ম্যাট:"
+
+#: exampleutility.cpp:42
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "সংক্ষিপ্ত তারিখ ফর্ম্যাট:"
+
+#: exampleutility.cpp:54
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "ইম্পিরিয়াল সিস্টেম"
+
+#: exampleutility.cpp:56
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "ইম্পিরিয়াল সিস্টেম"
+
+#: exampleutility.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "মেট্রিক"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr ""
+
+#: kcmformats.cpp:32
+#, fuzzy, kde-format
+#| msgid "Copyright 2010 John Layt"
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr "Copyright 2010 John Layt"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "%1 = default language name"
+#| msgid "%1 (Default)"
+msgid "Default"
+msgstr "%1 (Default)"
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr ""
+
+#: optionsmodel.cpp:18
+#, kde-format
+msgid "Numbers"
+msgstr "সংখ্যা"
+
+#: optionsmodel.cpp:19
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "Time"
+msgstr "সময়:"
+
+#: optionsmodel.cpp:20
+#, fuzzy, kde-format
+#| msgid "Currency:"
+msgid "Currency"
+msgstr "টাকা:"
+
+#: optionsmodel.cpp:21
+#, fuzzy, kde-format
+#| msgid "Measurement system:"
+msgid "Measurement"
+msgstr "পরিমাপ সিস্টেম:"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# not a good translation, but there is no good word for 'available'

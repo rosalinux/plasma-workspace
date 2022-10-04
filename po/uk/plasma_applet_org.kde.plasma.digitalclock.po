@@ -1,0 +1,425 @@
+# Translation of plasma_applet_org.kde.plasma.digitalclock.po to Ukrainian
+# Copyright (C) 2014-2021 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2014, 2015, 2016, 2018, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.digitalclock\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-01 00:52+0000\n"
+"PO-Revision-Date: 2021-10-15 09:48+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: package/contents/config/config.qml:19
+#, kde-format
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgid "Calendar"
+msgstr "Календар"
+
+#: package/contents/config/config.qml:29
+#: package/contents/ui/CalendarView.qml:517
+#, kde-format
+msgid "Time Zones"
+msgstr "Часові пояси"
+
+#: package/contents/ui/CalendarView.qml:90
+#, kde-format
+msgid "Events"
+msgstr "Події"
+
+#: package/contents/ui/CalendarView.qml:96
+#, kde-format
+msgctxt "@action:button Add event"
+msgid "Add…"
+msgstr "Додати…"
+
+#: package/contents/ui/CalendarView.qml:133
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: package/contents/ui/CalendarView.qml:157
+#, kde-format
+msgid "Keep Open"
+msgstr "Тримати відкритим"
+
+#: package/contents/ui/CalendarView.qml:172
+#, kde-format
+msgid "Days"
+msgstr "Дні"
+
+#: package/contents/ui/CalendarView.qml:177
+#, kde-format
+msgid "Months"
+msgstr "Місяці"
+
+#: package/contents/ui/CalendarView.qml:182
+#, kde-format
+msgid "Years"
+msgstr "Роки"
+
+#: package/contents/ui/CalendarView.qml:203
+#, kde-format
+msgid "Previous month"
+msgstr "Попередній місяць"
+
+#: package/contents/ui/CalendarView.qml:205
+#, kde-format
+msgid "Previous year"
+msgstr "Попередній рік"
+
+#: package/contents/ui/CalendarView.qml:207
+#, kde-format
+msgid "Previous decade"
+msgstr "Попередня декада"
+
+#: package/contents/ui/CalendarView.qml:220
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "Сьогодні"
+
+#: package/contents/ui/CalendarView.qml:221
+#, kde-format
+msgid "Reset calendar to today"
+msgstr "Сьогоднішній день у календарі"
+
+#: package/contents/ui/CalendarView.qml:238
+#, kde-format
+msgid "Next month"
+msgstr "Наступний місяць"
+
+#: package/contents/ui/CalendarView.qml:240
+#, kde-format
+msgid "Next year"
+msgstr "Наступний рік"
+
+#: package/contents/ui/CalendarView.qml:242
+#, kde-format
+msgid "Next decade"
+msgstr "Наступна декада"
+
+#: package/contents/ui/CalendarView.qml:484
+#, kde-format
+msgid "No events for today"
+msgstr "На сьогодні подій немає"
+
+#: package/contents/ui/CalendarView.qml:485
+#, kde-format
+msgid "No events for this day"
+msgstr "На цей день подій немає"
+
+#: package/contents/ui/CalendarView.qml:524
+#, kde-format
+msgid "Switch…"
+msgstr "Перемкнути…"
+
+#: package/contents/ui/CalendarView.qml:529
+#, kde-format
+msgid "Switch to another timezone"
+msgstr "Перемкнутися на інший часовий пояс"
+
+#: package/contents/ui/configAppearance.qml:54
+#, kde-format
+msgctxt "Use default font"
+msgid "Default"
+msgstr "Типовий"
+
+#: package/contents/ui/configAppearance.qml:69
+#, kde-format
+msgid "Information:"
+msgstr "Інформація:"
+
+#: package/contents/ui/configAppearance.qml:73
+#, kde-format
+msgid "Show date"
+msgstr "Показувати дату"
+
+#: package/contents/ui/configAppearance.qml:81
+#, kde-format
+msgid "Adaptive location"
+msgstr "Адаптивне місце перебування"
+
+#: package/contents/ui/configAppearance.qml:82
+#, kde-format
+msgid "Always beside time"
+msgstr "Завжди поряд із часом"
+
+#: package/contents/ui/configAppearance.qml:83
+#, kde-format
+msgid "Always below time"
+msgstr "Завжди під часом"
+
+#: package/contents/ui/configAppearance.qml:91
+#, kde-format
+msgid "Show seconds"
+msgstr "Показувати секунди"
+
+#: package/contents/ui/configAppearance.qml:99
+#, kde-format
+msgid "Show time zone:"
+msgstr "Показ часового поясу:"
+
+#: package/contents/ui/configAppearance.qml:104
+#, kde-format
+msgid "Only when different from local time zone"
+msgstr "Лише якщо відрізняється від місцевого часового поясу"
+
+#: package/contents/ui/configAppearance.qml:109
+#, kde-format
+msgid "Always"
+msgstr "Завжди"
+
+#: package/contents/ui/configAppearance.qml:118
+#, kde-format
+msgid "Display time zone as:"
+msgstr "Режим показу часового поясу:"
+
+#: package/contents/ui/configAppearance.qml:123
+#, kde-format
+msgid "Code"
+msgstr "Код"
+
+#: package/contents/ui/configAppearance.qml:124
+#, kde-format
+msgid "City"
+msgstr "Місто"
+
+#: package/contents/ui/configAppearance.qml:125
+#, kde-format
+msgid "Offset from UTC time"
+msgstr "Різниця із всесвітнім часом"
+
+#: package/contents/ui/configAppearance.qml:137
+#, kde-format
+msgid "Time display:"
+msgstr "Показ часу:"
+
+#: package/contents/ui/configAppearance.qml:142
+#, kde-format
+msgid "12-Hour"
+msgstr "12-годинний"
+
+#: package/contents/ui/configAppearance.qml:143
+#: package/contents/ui/configCalendar.qml:51
+#, kde-format
+msgid "Use Region Defaults"
+msgstr "Типове для регіону"
+
+#: package/contents/ui/configAppearance.qml:144
+#, kde-format
+msgid "24-Hour"
+msgstr "24-годинний"
+
+#: package/contents/ui/configAppearance.qml:151
+#, kde-format
+msgid "Change Regional Settings…"
+msgstr "Змінити параметри локалізації…"
+
+#: package/contents/ui/configAppearance.qml:162
+#, kde-format
+msgid "Date format:"
+msgstr "Формат дати:"
+
+#: package/contents/ui/configAppearance.qml:170
+#, kde-format
+msgid "Long Date"
+msgstr "Дата повністю"
+
+#: package/contents/ui/configAppearance.qml:175
+#, kde-format
+msgid "Short Date"
+msgstr "Скорочена дата"
+
+#: package/contents/ui/configAppearance.qml:180
+#, kde-format
+msgid "ISO Date"
+msgstr "Дата у форматі ISO"
+
+#: package/contents/ui/configAppearance.qml:185
+#, kde-format
+msgctxt "custom date format"
+msgid "Custom"
+msgstr "Нетиповий"
+
+#: package/contents/ui/configAppearance.qml:216
+#, kde-format
+msgid ""
+"<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+"\">Time Format Documentation</a>"
+msgstr ""
+"<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+"\">Документація із формату запису часу</a>"
+
+#: package/contents/ui/configAppearance.qml:238
+#, kde-format
+msgid "Font style:"
+msgstr "Стиль шрифту:"
+
+#: package/contents/ui/configAppearance.qml:262
+#, kde-format
+msgid "Bold text"
+msgstr "Текст жирним"
+
+#: package/contents/ui/configAppearance.qml:272
+#, kde-format
+msgid "Italic text"
+msgstr "Текст курсивом"
+
+#: package/contents/ui/configCalendar.qml:37
+#, kde-format
+msgid "General:"
+msgstr "Загальне:"
+
+#: package/contents/ui/configCalendar.qml:38
+#, kde-format
+msgid "Show week numbers"
+msgstr "Показувати номери тижнів"
+
+#: package/contents/ui/configCalendar.qml:43
+#, kde-format
+msgid "First day of week:"
+msgstr "Перший день тижня:"
+
+#: package/contents/ui/configCalendar.qml:66
+#, kde-format
+msgid "Available Plugins:"
+msgstr "Доступні додатки:"
+
+#: package/contents/ui/configTimeZones.qml:90
+#, kde-format
+msgid "Clock is currently using this time zone"
+msgstr "Зараз у годиннику використовується цей часовий пояс"
+
+#: package/contents/ui/configTimeZones.qml:100
+#, kde-format
+msgid "Switch Local Time Zone…"
+msgstr "Перемкнути місцевий часовий пояс…"
+
+#: package/contents/ui/configTimeZones.qml:109
+#, kde-format
+msgid "Remove this time zone"
+msgstr "Вилучити цей часовий пояс"
+
+#: package/contents/ui/configTimeZones.qml:118
+#, kde-format
+msgid "System's Local Time Zone"
+msgstr "Місцевий часовий пояс системи"
+
+#: package/contents/ui/configTimeZones.qml:118
+#, kde-format
+msgid "Additional Time Zones"
+msgstr "Додаткові часові пояси"
+
+#: package/contents/ui/configTimeZones.qml:131
+#, kde-format
+msgid ""
+"Add more time zones to display all of them in the applet's pop-up, or use "
+"one of them for the clock itself"
+msgstr ""
+"Додати часові пояси для показу на контекстній панелі аплету або використання "
+"одного з них для самого годинника"
+
+#: package/contents/ui/configTimeZones.qml:138
+#, kde-format
+msgid "Add Time Zones…"
+msgstr "Додати часові пояси…"
+
+#: package/contents/ui/configTimeZones.qml:149
+#, kde-format
+msgid "Switch displayed time zone by scrolling over clock applet"
+msgstr ""
+"Перемикати показані часові пояси прокручуванням коліщатка на аплеті годинника"
+
+#: package/contents/ui/configTimeZones.qml:160
+#, kde-format
+msgid ""
+"Note that using a different time zone for the clock does not change the "
+"systemwide local time zone. When you travel, switch the local time zone "
+"instead."
+msgstr ""
+"Зауважте, що вибір іншого часового поясу для годинника не змінить місцевого "
+"часового поясу системи. Якщо ви подорожуєте, вам варто змінити місцевий "
+"часовий пояс системи."
+
+#: package/contents/ui/configTimeZones.qml:189
+#, kde-format
+msgid "Add More Timezones"
+msgstr "Додати часові пояси"
+
+#: package/contents/ui/configTimeZones.qml:200
+#, kde-format
+msgid ""
+"At least one time zone needs to be enabled. Your local timezone was enabled "
+"automatically."
+msgstr ""
+"Слід увімкнути принаймні один часовий пояс. Автоматично увімкнено часовий "
+"ваш місцевий пояс."
+
+#: package/contents/ui/configTimeZones.qml:225
+#, kde-format
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: package/contents/ui/configTimeZones.qml:225
+#, kde-format
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: package/contents/ui/main.qml:121
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Скопіювати до буфера"
+
+#: package/contents/ui/main.qml:126
+#, kde-format
+msgid "Adjust Date and Time…"
+msgstr "Скоригувати дату і час…"
+
+#: package/contents/ui/main.qml:129
+#, kde-format
+msgid "Set Time Format…"
+msgstr "Встановити формат показу часу…"
+
+#: plugin/clipboardmenu.cpp:107
+#, kde-format
+msgid "Other Calendars"
+msgstr "Інші календарі"
+
+#: plugin/clipboardmenu.cpp:115
+#, kde-format
+msgctxt "unix timestamp (seconds since 1.1.1970)"
+msgid "%1 (UNIX Time)"
+msgstr "%1 (час UNIX)"
+
+#: plugin/clipboardmenu.cpp:118
+#, kde-format
+msgctxt "for astronomers (days and decimals since ~7000 years ago)"
+msgid "%1 (Julian Date)"
+msgstr "%1 (юліанська дата)"
+
+#: plugin/timezonemodel.cpp:141
+#, kde-format
+msgctxt "This means \"Local Timezone\""
+msgid "Local"
+msgstr "Місцевий"
+
+#: plugin/timezonemodel.cpp:143
+#, kde-format
+msgid "System's local time zone"
+msgstr "Місцевий часовий пояс системи"

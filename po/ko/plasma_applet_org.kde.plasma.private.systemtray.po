@@ -1,0 +1,194 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2017, 2019, 2020, 2021, 2022.
+# JungHee Lee <daemul72@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-18 00:47+0000\n"
+"PO-Revision-Date: 2022-07-13 11:55+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "일반"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Entries"
+msgstr "항목"
+
+#: package/contents/ui/ConfigEntries.qml:29
+#, kde-format
+msgid "Always show all entries"
+msgstr "항상 모든 항목 표시"
+
+#: package/contents/ui/ConfigEntries.qml:35
+#, kde-format
+msgid "Application Status"
+msgstr "프로그램 상태"
+
+#: package/contents/ui/ConfigEntries.qml:37
+#, kde-format
+msgid "Communications"
+msgstr "통신"
+
+#: package/contents/ui/ConfigEntries.qml:39
+#, kde-format
+msgid "System Services"
+msgstr "시스템 서비스"
+
+#: package/contents/ui/ConfigEntries.qml:41
+#, kde-format
+msgid "Hardware Control"
+msgstr "하드웨어 제어"
+
+#: package/contents/ui/ConfigEntries.qml:44
+#, kde-format
+msgid "Miscellaneous"
+msgstr "기타"
+
+#: package/contents/ui/ConfigEntries.qml:76
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr "항목"
+
+#: package/contents/ui/ConfigEntries.qml:81
+#, kde-format
+msgid "Visibility"
+msgstr "표시 여부"
+
+#: package/contents/ui/ConfigEntries.qml:87
+#, kde-format
+msgid "Keyboard Shortcut"
+msgstr "키보드 단축키"
+
+#: package/contents/ui/ConfigEntries.qml:221
+#, kde-format
+msgid "Shown when relevant"
+msgstr "필요할 때 표시"
+
+#: package/contents/ui/ConfigEntries.qml:222
+#, kde-format
+msgid "Always shown"
+msgstr "항상 표시"
+
+#: package/contents/ui/ConfigEntries.qml:223
+#, kde-format
+msgid "Always hidden"
+msgstr "항상 숨김"
+
+#: package/contents/ui/ConfigEntries.qml:224
+#, kde-format
+msgid "Disabled"
+msgstr "비활성화됨"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+#, kde-format
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "패널 아이콘 크기:"
+
+#: package/contents/ui/ConfigGeneral.qml:25
+#, kde-format
+msgid "Small"
+msgstr "작게"
+
+#: package/contents/ui/ConfigGeneral.qml:32
+#, kde-format
+msgid "Scale with Panel height"
+msgstr "패널 높이에 따라 조정"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+#, kde-format
+msgid "Scale with Panel width"
+msgstr "패널 너비에 따라 조정"
+
+#: package/contents/ui/ConfigGeneral.qml:39
+#, kde-format
+msgid "Automatically enabled when in Touch Mode"
+msgstr "터치 모드에서 자동으로 활성화"
+
+#: package/contents/ui/ConfigGeneral.qml:48
+#, kde-format
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Panel icon spacing:"
+msgstr "패널 아이콘 간격:"
+
+#: package/contents/ui/ConfigGeneral.qml:51
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "작게"
+
+#: package/contents/ui/ConfigGeneral.qml:55
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "일반"
+
+#: package/contents/ui/ConfigGeneral.qml:59
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "크게"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+#, kde-format
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "터치 모드에서 자동으로 크게 설정"
+
+#: package/contents/ui/ExpandedRepresentation.qml:76
+#, kde-format
+msgid "Status and Notifications"
+msgstr "상태 및 알림"
+
+#: package/contents/ui/ExpandedRepresentation.qml:115
+#, kde-format
+msgid "More actions"
+msgstr "더 많은 동작"
+
+#: package/contents/ui/ExpandedRepresentation.qml:161
+#, kde-format
+msgid "Keep Open"
+msgstr "열린 상태로 유지"
+
+#: package/contents/ui/ExpanderArrow.qml:22
+#, kde-format
+msgid "Expand System Tray"
+msgstr "시스템 트레이 확장"
+
+#: package/contents/ui/ExpanderArrow.qml:23
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "시스템 트레이의 모든 항목을 팝업으로 표시"
+
+#: package/contents/ui/ExpanderArrow.qml:36
+#, kde-format
+msgid "Close popup"
+msgstr "팝업 닫기"
+
+#: package/contents/ui/ExpanderArrow.qml:36
+#, kde-format
+msgid "Show hidden icons"
+msgstr "숨은 아이콘 보기"
+
+#: systemtraymodel.cpp:123
+#, kde-format
+msgctxt ""
+"Suffix added to the applet name if the applet is autoloaded via DBus "
+"activation"
+msgid "%1 (Automatic load)"
+msgstr "%1(자동 불러오기)"

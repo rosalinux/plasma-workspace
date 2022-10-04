@@ -1,0 +1,258 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Wantoyo <wantoyek@gmail.com>, 2018, 2019, 2022.
+# Aziz Adam Adrian <4.adam.adrian@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-16 00:46+0000\n"
+"PO-Revision-Date: 2022-05-30 12:34+0700\n"
+"Last-Translator: Aziz Adam Adrian <4.adam.adrian@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Wantoyo,Aziz Adam Adrian"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wantoyek@gmail.com,4.adam.adrian@gmail.com"
+
+#: kcm.cpp:571
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Kamu harus menjalankan-ulang sesi Plasma untuk perubahan tersebut agar "
+"berpengaruh."
+
+#: kcm.cpp:572
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Pengaturan Kursor Diubah"
+
+#: lnftool.cpp:33
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "Alat Tema Global"
+
+#: lnftool.cpp:35
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Alat baris perintah untuk menerapkan paket tema global untuk mengubah nuansa "
+"dan suasana."
+
+#: lnftool.cpp:37
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Hak cipta 2017, Marco Martin"
+
+#: lnftool.cpp:38
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lnftool.cpp:38
+#, kde-format
+msgid "Maintainer"
+msgstr "Pemelihara"
+
+#: lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "Daftar paket tema global yang tersedia"
+
+#: lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"Terapkan paket tema global. Ini bisa menjadi nama paket, atau alur penuh ke "
+"paket yang diinstal, pada titik mana alat ini akan memastikan bahwa itu "
+"adalah paket tema global dan kemudian mencoba menerapkannya"
+
+#: lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "nama-paket"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Set ulang tataletak Desktop Plasma"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "Look and feel global"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr "Modul ini memungkinkan kamu memilih nuansa dan suasana global."
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Contains Desktop layout"
+msgstr "Mengandung Tataletak Desktop"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Preview Theme"
+msgstr "Pratinjau Tema"
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "Terapkan %1?"
+
+#: package/contents/ui/main.qml:101
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "Pilih yang akan diterapkan..."
+
+#: package/contents/ui/main.qml:101
+#, kde-format
+msgid "Show fewer options…"
+msgstr "Tampilkan lebih sedikit opsi..."
+
+#: package/contents/ui/main.qml:118
+#, kde-format
+msgid "Apply"
+msgstr "Terapkan"
+
+#: package/contents/ui/main.qml:129
+#, kde-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: package/contents/ui/main.qml:146
+#, kde-format
+msgid "Get New Global Themes…"
+msgstr "Dapatkan Tema Global Baru..."
+
+#: package/contents/ui/MoreOptions.qml:28
+#, kde-format
+msgid "Layout settings:"
+msgstr "Pengaturan tataletak:"
+
+#: package/contents/ui/MoreOptions.qml:29
+#: package/contents/ui/SimpleOptions.qml:47
+#, kde-format
+msgid "Desktop layout"
+msgstr "Tataletak Desktop"
+
+#: package/contents/ui/MoreOptions.qml:49
+#: package/contents/ui/SimpleOptions.qml:75
+#, kde-format
+msgid ""
+"Applying a Desktop layout replaces your current configuration of desktops, "
+"panels, and widgets"
+msgstr ""
+"Menerapkan tataletak Desktop menggantikan konfigurasi desktop, panel, dan "
+"widget Anda saat ini"
+
+#: package/contents/ui/MoreOptions.qml:58
+#, kde-format
+msgid "Appearance settings:"
+msgstr "Pengaturan penampilan:"
+
+#: package/contents/ui/MoreOptions.qml:61
+#, kde-format
+msgid "Colors"
+msgstr "Warna"
+
+#: package/contents/ui/MoreOptions.qml:62
+#, kde-format
+msgid "Application Style"
+msgstr "Gaya Aplikasi"
+
+#: package/contents/ui/MoreOptions.qml:63
+#, kde-format
+msgid "Window Decorations"
+msgstr "Dekorasi Window"
+
+#: package/contents/ui/MoreOptions.qml:64
+#, kde-format
+msgid "Icons"
+msgstr "Ikon"
+
+#: package/contents/ui/MoreOptions.qml:65
+#, kde-format
+msgid "Plasma Style"
+msgstr "Gaya Plasma"
+
+#: package/contents/ui/MoreOptions.qml:66
+#, kde-format
+msgid "Cursors"
+msgstr "Kursor"
+
+#: package/contents/ui/MoreOptions.qml:67
+#, kde-format
+msgid "Fonts"
+msgstr "Font"
+
+#: package/contents/ui/MoreOptions.qml:68
+#, kde-format
+msgid "Task Switcher"
+msgstr "Pengalih Tugas"
+
+#: package/contents/ui/MoreOptions.qml:69
+#, kde-format
+msgid "Splash Screen"
+msgstr "Layar Splash"
+
+#: package/contents/ui/MoreOptions.qml:70
+#, kde-format
+msgid "Lock Screen"
+msgstr "Layar Penguncian"
+
+#: package/contents/ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "Hal-hal berikut akan diterapkan oleh Tema Global ini:"
+
+#: package/contents/ui/SimpleOptions.qml:32
+#, kde-format
+msgid "Appearance settings"
+msgstr "Pengaturan penampilan"
+
+#: package/contents/ui/SimpleOptions.qml:42
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• Pengaturan penampilan"
+
+#: package/contents/ui/SimpleOptions.qml:70
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop layout"
+msgstr "• Tataletak Desktop"
+
+#: package/contents/ui/SimpleOptions.qml:87
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"Tema Global ini tidak menyediakan pengaturan yang berlaku. Silakan hubungi "
+"pengelola Tema Global ini karena ini mungkin rusak."

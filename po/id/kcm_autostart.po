@@ -1,0 +1,113 @@
+# Indonesian translations for kcm_autostart package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_autostart package.
+#
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010-2014.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019.
+# Linerly <linerly@protonmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-05 00:46+0000\n"
+"PO-Revision-Date: 2022-03-03 12:50+0700\n"
+"Last-Translator: Linerly <linerly@protonmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: autostartmodel.cpp:288
+#, kde-format
+msgid "\"%1\" is not an absolute url."
+msgstr "\"%1\" bukan alur mutlak."
+
+#: autostartmodel.cpp:291
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "\"%1\" tidak ada."
+
+#: autostartmodel.cpp:294
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "\"%1\" bukan sebuah file."
+
+#: autostartmodel.cpp:297
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "\"%1\" bukan dapat dibaca."
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Properties"
+msgstr "&Properti..."
+
+#: package/contents/ui/main.qml:68
+#, kde-format
+msgid "Remove"
+msgstr "&Hapus"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Login Scripts"
+msgstr "Skrip Masuk"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Pre-startup Scripts"
+msgstr "Skip Prahidup"
+
+#: package/contents/ui/main.qml:88
+#, kde-format
+msgid "Logout Scripts"
+msgstr "Skrip Keluar"
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "No user-specified autostart items"
+msgstr "Tidak ada item pemulaian otomatis yang dispesifikasikan oleh pengguna"
+
+#: package/contents/ui/main.qml:98
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add…</interface> button below to add some"
+msgstr ""
+"Klik tombol <interface>Tambahkan...</interface> untuk menambahkan beberapa "
+"hal"
+
+#: package/contents/ui/main.qml:112
+#, kde-format
+msgid "Choose Login Script"
+msgstr "Pilih Skrip Masuk"
+
+#: package/contents/ui/main.qml:133
+#, kde-format
+msgid "Choose Logout Script"
+msgstr "Pilih Skip Keluar"
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgid "Add…"
+msgstr "Tambahkan..."
+
+#: package/contents/ui/main.qml:166
+#, kde-format
+msgid "Add Application…"
+msgstr "Tambahkan Aplikasi..."
+
+#: package/contents/ui/main.qml:172
+#, kde-format
+msgid "Add Login Script…"
+msgstr "Tambah Skrip Masuk..."
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgid "Add Logout Script…"
+msgstr "Tambah Skrip Keluar..."

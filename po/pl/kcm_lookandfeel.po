@@ -1,0 +1,256 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-16 00:46+0000\n"
+"PO-Revision-Date: 2022-04-30 20:58+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.03.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: kcm.cpp:571
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "Zmiany zostaną zastosowane dopiero po ponownym uruchomieniu Plazmy."
+
+#: kcm.cpp:572
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Ustawienia wskaźnika uległy zmienianie"
+
+#: lnftool.cpp:33
+#, kde-format
+msgid "Global Theme Tool"
+msgstr "Narzędzie globalnego wyglądu"
+
+#: lnftool.cpp:35
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Narzędzie wiersza poleceń do stosowania pakietów globalnego wyglądu do "
+"zmiany wyglądu i odczuć."
+
+#: lnftool.cpp:37
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: lnftool.cpp:38
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lnftool.cpp:38
+#, kde-format
+msgid "Maintainer"
+msgstr "Opiekun"
+
+#: lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr "Wyszczególnij dostępne globalne pakiety wyglądu"
+
+#: lnftool.cpp:49
+#, kde-format
+msgid ""
+"Apply a global theme package. This can be the name of a package, or a full "
+"path to an installed package, at which point this tool will ensure it is a "
+"global theme package and then attempt to apply it"
+msgstr ""
+"Zastosuj pakiet globalnego wyglądu. Może to być nazwa pakietu lub pełna "
+"ścieżka do wgranego pakietu, z tym, że narzędzie to upewni się, że jest to "
+"pakiet globalnego wyglądu, a następnie spróbuje go zastosować"
+
+#: lnftool.cpp:51
+#, kde-format
+msgid "packagename"
+msgstr "nazwa pakietu"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Wyzeruj układ pulpitu Plazmy"
+
+#. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
+#: lookandfeelsettings.kcfg:9
+#, kde-format
+msgid "Global look and feel"
+msgstr "Globalny wygląd"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr "Ten moduł umożliwia nadanie wyglądu globalnie."
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Contains Desktop layout"
+msgstr "Zawiera układ pulpitu"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Preview Theme"
+msgstr "Podgląd wyglądu"
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgctxt ""
+"Confirmation question about applying the Global Theme - %1 is the Global "
+"Theme's name"
+msgid "Apply %1?"
+msgstr "Zastosować %1?"
+
+#: package/contents/ui/main.qml:101
+#, kde-format
+msgid "Choose what to apply…"
+msgstr "Wybierz co wprowadzić..."
+
+#: package/contents/ui/main.qml:101
+#, kde-format
+msgid "Show fewer options…"
+msgstr "Pokaż mniej ustawień..."
+
+#: package/contents/ui/main.qml:118
+#, kde-format
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: package/contents/ui/main.qml:129
+#, kde-format
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: package/contents/ui/main.qml:146
+#, kde-format
+msgid "Get New Global Themes…"
+msgstr "Pobierz nowe globalne wyglądy..."
+
+#: package/contents/ui/MoreOptions.qml:28
+#, kde-format
+msgid "Layout settings:"
+msgstr "Ustawienia układu:"
+
+#: package/contents/ui/MoreOptions.qml:29
+#: package/contents/ui/SimpleOptions.qml:47
+#, kde-format
+msgid "Desktop layout"
+msgstr "Układ pulpitu"
+
+#: package/contents/ui/MoreOptions.qml:49
+#: package/contents/ui/SimpleOptions.qml:75
+#, kde-format
+msgid ""
+"Applying a Desktop layout replaces your current configuration of desktops, "
+"panels, and widgets"
+msgstr ""
+"Wprowadzenie układu pulpitu zmieni twój bieżący układ pulpitów, pasków oraz "
+"elementów interfejsu"
+
+#: package/contents/ui/MoreOptions.qml:58
+#, kde-format
+msgid "Appearance settings:"
+msgstr "Ustawienia wyglądu:"
+
+#: package/contents/ui/MoreOptions.qml:61
+#, kde-format
+msgid "Colors"
+msgstr "Barwy"
+
+#: package/contents/ui/MoreOptions.qml:62
+#, kde-format
+msgid "Application Style"
+msgstr "Wygląd programów"
+
+#: package/contents/ui/MoreOptions.qml:63
+#, kde-format
+msgid "Window Decorations"
+msgstr "Wygląd okien"
+
+#: package/contents/ui/MoreOptions.qml:64
+#, kde-format
+msgid "Icons"
+msgstr "Ikony"
+
+#: package/contents/ui/MoreOptions.qml:65
+#, kde-format
+msgid "Plasma Style"
+msgstr "Wygląd Plazmy"
+
+#: package/contents/ui/MoreOptions.qml:66
+#, kde-format
+msgid "Cursors"
+msgstr "Wskaźniki"
+
+#: package/contents/ui/MoreOptions.qml:67
+#, kde-format
+msgid "Fonts"
+msgstr "Czcionki"
+
+#: package/contents/ui/MoreOptions.qml:68
+#, kde-format
+msgid "Task Switcher"
+msgstr "Przełącznik zadań"
+
+#: package/contents/ui/MoreOptions.qml:69
+#, kde-format
+msgid "Splash Screen"
+msgstr "Ekran powitalny"
+
+#: package/contents/ui/MoreOptions.qml:70
+#, kde-format
+msgid "Lock Screen"
+msgstr "Zablokuj ekran"
+
+#: package/contents/ui/SimpleOptions.qml:19
+#, kde-format
+msgid "The following will be applied by this Global Theme:"
+msgstr "Ten globalny wygląd wprowadzi następujące rzeczy:"
+
+#: package/contents/ui/SimpleOptions.qml:32
+#, kde-format
+msgid "Appearance settings"
+msgstr "Ustawienia wyglądu"
+
+#: package/contents/ui/SimpleOptions.qml:42
+#, kde-format
+msgctxt "List item"
+msgid "• Appearance settings"
+msgstr "• Ustawienia wyglądu"
+
+#: package/contents/ui/SimpleOptions.qml:70
+#, kde-format
+msgctxt "List item"
+msgid "• Desktop layout"
+msgstr "• Układ pulpitu"
+
+#: package/contents/ui/SimpleOptions.qml:87
+#, kde-format
+msgid ""
+"This Global Theme does not provide any applicable settings. Please contact "
+"the maintainer of this Global Theme as it might be broken."
+msgstr ""
+"Globalny wygląd nie dostarcza żadnych ustawień do wprowadzenia. Napisz do "
+"jego opiekuna, bo może być uszkodzony."

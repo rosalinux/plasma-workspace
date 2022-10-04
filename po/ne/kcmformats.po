@@ -1,0 +1,133 @@
+# translation of kcmlocale.po to Nepali
+# Nabin Gautam <nabin@mpp.org.np>, 2006, 2007.
+# Mahesh Subedi <submanesh@gmail.com>, 2007.
+# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2007-11-01 20:23+0545\n"
+"Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nabin Gautam, श्यामकृष्ण बल"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nabin@mpp.org.np,shyamkrishna_bal@yahoo.com"
+
+#: exampleutility.cpp:41
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (long format)"
+msgstr "छोटो मिति ढाँचा:"
+
+#: exampleutility.cpp:42
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "छोटो मिति ढाँचा:"
+
+#: exampleutility.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "इम्पेरियल"
+
+#: exampleutility.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "इम्पेरियल"
+
+#: exampleutility.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "मेट्रिक"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr ""
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "@item:intext Country"
+#| msgid "Default"
+msgid "Default"
+msgstr "पूर्वानिर्धारित"
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr ""
+
+#: optionsmodel.cpp:18
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "Numbers"
+msgstr "नम्बर:"
+
+#: optionsmodel.cpp:19
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "Time"
+msgstr "समय:"
+
+#: optionsmodel.cpp:20
+#, fuzzy, kde-format
+#| msgid "Currency symbol:"
+msgid "Currency"
+msgstr "मुद्रा प्रतीक:"
+
+#: optionsmodel.cpp:21
+#, fuzzy, kde-format
+#| msgid "Measure system:"
+msgid "Measurement"
+msgstr "मापन प्रणाली:"

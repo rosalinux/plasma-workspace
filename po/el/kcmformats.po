@@ -1,0 +1,144 @@
+# translation of kcmlocale.po to greek
+# translation of kcmlocale.po to
+# Copyright (C) 2002,2003, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+# Dimitris Kamenopoulos <el97146@mail.ntua.gr>, 2000-2002.
+# Stergios Dramis <sdramis@egnatia.ee.auth.gr>, 2002-2003.
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2005, 2007.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2005, 2007, 2008, 2009.
+# Spiros Georgaras <sng@hellug.gr>, 2007.
+# Σπύρος Γεωργαράς <sngeorgaras@otenet.gr>, 2008.
+# Petros Vidalis <p_vidalis@hotmail.com>, 2009, 2010.
+# Nikos Pantazis <pantazisnikolaos@gmail.com>, 2011.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011, 2012, 2014.
+# Stelios <sstavra@gmail.com>, 2012.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2016-01-13 23:56+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Σπύρος Γεωργαράς, Τούσης Μανώλης, Πανταζής Νίκος"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"sngeorgaras@otenet.gr, manolis@koppermind.homelinux.org, "
+"pantazisnikolaos@gmail.com"
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (εκτενής μορφή)"
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (σύντομη μορφή)"
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Βρετανικό αυτοκρατορικό σύστημα"
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Βρετανικό αυτοκρατορικό σύστημα"
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Μετρικό"
+
+#: kcmformats.cpp:28
+#, fuzzy, kde-format
+#| msgid "Form"
+msgctxt "@title"
+msgid "Formats"
+msgstr "Φόρμα"
+
+#: kcmformats.cpp:32
+#, fuzzy, kde-format
+#| msgid "Copyright 2010 John Layt"
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr "Πνευματικά δικαιώματα 2010 John Layt"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr ""
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: kcmformats.cpp:37
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>Formats</h1>You can configure the formats used for time, dates, money "
+#| "and other numbers here."
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+"<h1>Μορφές</h1>Εδώ μπορείτε να διαμορφώσετε τις μορφές ώρας, ημερομηνίας, "
+"νομίσματος και άλλων αριθμών."
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "%1 = default language name"
+#| msgid "%1 (Default)"
+msgid "Default"
+msgstr "%1 (Προεπιλεγμένο)"
+
+#: optionsmodel.cpp:17
+#, fuzzy, kde-format
+#| msgid "Re&gion:"
+msgid "Region"
+msgstr "Περιο&χή:"
+
+#: optionsmodel.cpp:18
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "Numbers"
+msgstr "Αριθμοί:"
+
+#: optionsmodel.cpp:19
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "Time"
+msgstr "Ώρα:"
+
+#: optionsmodel.cpp:20
+#, fuzzy, kde-format
+#| msgid "Currency:"
+msgid "Currency"
+msgstr "Νόμισμα:"
+
+#: optionsmodel.cpp:21
+#, fuzzy, kde-format
+#| msgid "Measurement Units:"
+msgid "Measurement"
+msgstr "Μονάδες μέτρησης:"

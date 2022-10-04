@@ -1,0 +1,207 @@
+# Translation for kcm_nightcolor.po to Euskara/Basque (eu).
+# Copyright (C) 2018, Free Software Foundation.
+# Copyright (C) 2019-2022, This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2018, 2019, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-30 02:14+0000\n"
+"PO-Revision-Date: 2022-08-11 20:46+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+
+#: package/contents/ui/LocationsFixedView.qml:22
+#, kde-format
+msgid "Latitude:"
+msgstr "Latitudea:"
+
+#: package/contents/ui/LocationsFixedView.qml:40
+#, kde-format
+msgid "Longitude:"
+msgstr "Longitudea:"
+
+#: package/contents/ui/LocationsFixedView.qml:54
+#, kde-format
+msgid "Detect Location"
+msgstr "Hauteman kokapena"
+
+#: package/contents/ui/LocationsFixedView.qml:70
+#, kde-format
+msgid ""
+"The device's location will be detected using GPS (if available), or by "
+"sending network information to <a href=\"https://location.services.mozilla."
+"com\">Mozilla Location Service</a>."
+msgstr ""
+"Gailuaren kokapena GPSa erabiliz (erabilgarri balego), edo <a href=\"https://"
+"location.services.mozilla.com\">Mozillaren kokapen zerbitzura</a> sareko "
+"informazioa bidaliz aurkituko da."
+
+#: package/contents/ui/main.qml:80
+#, kde-format
+msgid ""
+"Night Color makes the colors on the screen warmer to reduce eye strain at "
+"the time of your choosing."
+msgstr ""
+"Gaueko koloreak pantailako koloreak epelagoak egiten ditu begien nekea "
+"gutxitzeko, zuk erabakitako orduetan."
+
+#: package/contents/ui/main.qml:89
+#, kde-format
+msgid "Activate Night Color"
+msgstr "Aktibatu gaueko kolorea"
+
+#: package/contents/ui/main.qml:108
+#, kde-format
+msgid "Night Color Temperature:"
+msgstr "Gaueko koloreko tenperatura:"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgctxt "Color temperature in Kelvin"
+msgid "%1K"
+msgstr "%1K"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr "Epela"
+
+#: package/contents/ui/main.qml:155
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr "Hotza"
+
+#: package/contents/ui/main.qml:162
+#, kde-format
+msgid "This is what Night Color will look like when active."
+msgstr "Gaueko koloreak itxura hau izango du aktibatuta dagoenean."
+
+#: package/contents/ui/main.qml:197
+#, kde-format
+msgid "Activation time:"
+msgstr "Aktibazio ordua:"
+
+#: package/contents/ui/main.qml:200
+#, kde-format
+msgid "Sunset to sunrise at current location"
+msgstr "Iluntzetik egunsentira uneko kokalekuan"
+
+#: package/contents/ui/main.qml:201
+#, kde-format
+msgid "Sunset to sunrise at manual location"
+msgstr "Iluntzetik egunsentira eskuz ezarritako kokalekuan"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Custom time"
+msgstr "Norberak finkatutako ordua"
+
+#: package/contents/ui/main.qml:203
+#, kde-format
+msgid "Always on"
+msgstr "Beti piztuta"
+
+#: package/contents/ui/main.qml:244
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The device's location will be periodically updated using GPS (if available), "
+"or by sending network information to <link url='https://location.services."
+"mozilla.com'>Mozilla Location Service</link>."
+msgstr ""
+"Gailuaren kokapena aldian-aldian eguneratuko da GPSa erabiliz (erabilgarri "
+"balego), edo<link url='https://location.services.mozilla.com'>Mozillaren "
+"kokapen zerbitzura</link> sareko informazioa bidaliz."
+
+#: package/contents/ui/main.qml:263
+#, kde-format
+msgid "Latitude: %1°   Longitude: %2°"
+msgstr "Latitudea: %1°   Longitudea: %2º"
+
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgid "Turn on at:"
+msgstr "Noiz piztu:"
+
+#: package/contents/ui/main.qml:286 package/contents/ui/main.qml:309
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "Sarrerako formatua: HH:MM"
+
+#: package/contents/ui/main.qml:296
+#, kde-format
+msgid "Turn off at:"
+msgstr "Noiz itzali:"
+
+#: package/contents/ui/main.qml:318
+#, kde-format
+msgid "Transition duration:"
+msgstr "Iragaite iraupena:"
+
+#: package/contents/ui/main.qml:327
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "minutu %1"
+msgstr[1] "%1 minutu"
+
+#: package/contents/ui/main.qml:340
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Sarrera minututan - txikiena 1, handiena 600"
+
+#: package/contents/ui/main.qml:358
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "Errorea: Iragaite denbora gainezartzen da."
+
+#: package/contents/ui/TimingsView.qml:32
+#, kde-format
+msgid "Night Color begins changing at %1 and is fully changed by %2"
+msgstr ""
+"Gaueko kolorea %1(r)etan aldatzen hasiko da eta %2(r)etarako erabat aldatuta "
+"egongo da"
+
+#: package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Night Color begins changing back at %1 and ends at %2"
+msgstr ""
+"Gaueko kolorea %1(r)etan atzera aldatzen hasiko da eta %2(r)etan amaituko da"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Proiektuaren arduraduna edo programatzailea izan behar du.

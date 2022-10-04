@@ -1,0 +1,693 @@
+# translation of plasma_engine_soliddevice.po to Icelandic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_engine_soliddevice\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-10 00:46+0000\n"
+"PO-Revision-Date: 2011-03-25 08:56+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <kde-isl@molar.is>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: soliddeviceengine.cpp:114
+msgid "Parent UDI"
+msgstr ""
+
+#: soliddeviceengine.cpp:115
+#, fuzzy
+msgid "Vendor"
+msgstr "Framleiðandi"
+
+#: soliddeviceengine.cpp:116
+#, fuzzy
+msgid "Product"
+msgstr "Vara"
+
+#: soliddeviceengine.cpp:117
+msgid "Description"
+msgstr ""
+
+#: soliddeviceengine.cpp:118
+#, fuzzy
+msgid "Icon"
+msgstr "Táknmynd"
+
+#: soliddeviceengine.cpp:119 soliddeviceengine.cpp:592
+#, fuzzy
+msgid "Emblems"
+msgstr "Merkimiðar"
+
+#: soliddeviceengine.cpp:120 soliddeviceengine.cpp:476
+#: soliddeviceengine.cpp:482 soliddeviceengine.cpp:495
+#, fuzzy
+msgid "State"
+msgstr "Er með stöðu"
+
+#: soliddeviceengine.cpp:121 soliddeviceengine.cpp:477
+#: soliddeviceengine.cpp:483 soliddeviceengine.cpp:491
+#: soliddeviceengine.cpp:493
+msgid "Operation result"
+msgstr ""
+
+#: soliddeviceengine.cpp:122
+msgid "Timestamp"
+msgstr ""
+
+#: soliddeviceengine.cpp:130
+#, fuzzy
+msgid "Processor"
+msgstr "Örgjörvi"
+
+#: soliddeviceengine.cpp:131
+#, fuzzy
+msgid "Number"
+msgstr "Númer"
+
+#: soliddeviceengine.cpp:132
+#, fuzzy
+msgid "Max Speed"
+msgstr "Макс. скорост"
+
+#: soliddeviceengine.cpp:133
+#, fuzzy
+msgid "Can Change Frequency"
+msgstr "Може да променя честотата"
+
+#: soliddeviceengine.cpp:141
+#, fuzzy
+msgid "Block"
+msgstr "Blokk"
+
+#: soliddeviceengine.cpp:142
+#, fuzzy
+msgid "Major"
+msgstr "Major"
+
+#: soliddeviceengine.cpp:143
+#, fuzzy
+msgid "Minor"
+msgstr "Minor"
+
+#: soliddeviceengine.cpp:144
+#, fuzzy
+msgid "Device"
+msgstr "Tæki"
+
+#: soliddeviceengine.cpp:152
+#, fuzzy
+msgid "Storage Access"
+msgstr "Aðgengi geymslumiðils"
+
+#: soliddeviceengine.cpp:153 soliddeviceengine.cpp:507
+#: soliddeviceengine.cpp:606
+#, fuzzy
+msgid "Accessible"
+msgstr "Достъпен"
+
+#: soliddeviceengine.cpp:154 soliddeviceengine.cpp:508
+#, fuzzy
+msgid "File Path"
+msgstr "Skráarslóð"
+
+#: soliddeviceengine.cpp:169
+#, fuzzy
+msgid "Storage Drive"
+msgstr "Geymsludrif"
+
+#: soliddeviceengine.cpp:172
+msgid "Ide"
+msgstr ""
+
+#: soliddeviceengine.cpp:172
+msgid "Usb"
+msgstr ""
+
+#: soliddeviceengine.cpp:172
+msgid "Ieee1394"
+msgstr ""
+
+#: soliddeviceengine.cpp:173
+msgid "Scsi"
+msgstr ""
+
+#: soliddeviceengine.cpp:173
+msgid "Sata"
+msgstr ""
+
+#: soliddeviceengine.cpp:173
+#, fuzzy
+msgid "Platform"
+msgstr "Stýrikerfi"
+
+#: soliddeviceengine.cpp:175
+#, fuzzy
+msgid "Hard Disk"
+msgstr "Harður diskur"
+
+#: soliddeviceengine.cpp:175
+msgid "Cdrom Drive"
+msgstr ""
+
+#: soliddeviceengine.cpp:175
+#, fuzzy
+msgid "Floppy"
+msgstr "Disklingadrif"
+
+#: soliddeviceengine.cpp:176
+#, fuzzy
+msgid "Tape"
+msgstr "Segulband"
+
+#: soliddeviceengine.cpp:176
+#, fuzzy
+msgid "Compact Flash"
+msgstr "Compact Flash"
+
+#: soliddeviceengine.cpp:176
+#, fuzzy
+msgid "Memory Stick"
+msgstr "Memory Stick"
+
+#: soliddeviceengine.cpp:177
+#, fuzzy
+msgid "Smart Media"
+msgstr "Smart Media"
+
+#: soliddeviceengine.cpp:177
+msgid "SdMmc"
+msgstr ""
+
+#: soliddeviceengine.cpp:177
+#, fuzzy
+msgid "Xd"
+msgstr "Xd"
+
+#: soliddeviceengine.cpp:179
+#, fuzzy
+msgid "Bus"
+msgstr "Rás (bus)"
+
+#: soliddeviceengine.cpp:180
+#, fuzzy
+msgid "Drive Type"
+msgstr "Тип устройство"
+
+#: soliddeviceengine.cpp:181 soliddeviceengine.cpp:194
+#: soliddeviceengine.cpp:362 soliddeviceengine.cpp:376
+#, fuzzy
+msgid "Removable"
+msgstr "Útskiptanlegir"
+
+#: soliddeviceengine.cpp:182 soliddeviceengine.cpp:195
+#: soliddeviceengine.cpp:363 soliddeviceengine.cpp:377
+#, fuzzy
+msgid "Hotpluggable"
+msgstr "Hraðtengjanlegt (hotplug)"
+
+#: soliddeviceengine.cpp:204
+#, fuzzy
+msgid "Optical Drive"
+msgstr "Geisladrif"
+
+#: soliddeviceengine.cpp:209
+#, fuzzy
+msgid "CD-R"
+msgstr "CD-R"
+
+#: soliddeviceengine.cpp:212
+#, fuzzy
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: soliddeviceengine.cpp:215
+#, fuzzy
+msgid "DVD"
+msgstr "DVD"
+
+#: soliddeviceengine.cpp:218
+#, fuzzy
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: soliddeviceengine.cpp:221
+#, fuzzy
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: soliddeviceengine.cpp:224
+#, fuzzy
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: soliddeviceengine.cpp:227
+#, fuzzy
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: soliddeviceengine.cpp:230
+#, fuzzy
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: soliddeviceengine.cpp:233
+msgid "DVD+DL"
+msgstr ""
+
+#: soliddeviceengine.cpp:236
+msgid "DVD+DLRW"
+msgstr ""
+
+#: soliddeviceengine.cpp:239
+msgid "BD"
+msgstr ""
+
+#: soliddeviceengine.cpp:242
+#, fuzzy
+msgid "BD-R"
+msgstr "BD-R"
+
+#: soliddeviceengine.cpp:245
+#, fuzzy
+msgid "BD-RE"
+msgstr "BD-RE"
+
+#: soliddeviceengine.cpp:248
+#, fuzzy
+msgid "HDDVD"
+msgstr "HDDVD"
+
+#: soliddeviceengine.cpp:251
+msgid "HDDVD-R"
+msgstr ""
+
+#: soliddeviceengine.cpp:254
+#, fuzzy
+msgid "HDDVD-RW"
+msgstr "HDDVD-RW"
+
+#: soliddeviceengine.cpp:256
+#, fuzzy
+msgid "Supported Media"
+msgstr "Поддържа медия"
+
+#: soliddeviceengine.cpp:258
+#, fuzzy
+msgid "Read Speed"
+msgstr "Скорост на четене"
+
+#: soliddeviceengine.cpp:259
+#, fuzzy
+msgid "Write Speed"
+msgstr "Скорост на запис"
+
+#: soliddeviceengine.cpp:267
+#, fuzzy
+msgid "Write Speeds"
+msgstr "Скорости на четене"
+
+#: soliddeviceengine.cpp:275
+#, fuzzy
+msgid "Storage Volume"
+msgstr "Geymslumiðill"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "Other"
+msgstr "Annað"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "Unused"
+msgstr "Ónotað"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "File System"
+msgstr "Skráakerfi"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "Partition Table"
+msgstr "Disksneiðatafla"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "Raid"
+msgstr "RAID"
+
+#: soliddeviceengine.cpp:278
+#, fuzzy, kde-format
+msgid "Encrypted"
+msgstr "Dulritað"
+
+#: soliddeviceengine.cpp:281 soliddeviceengine.cpp:283
+#, fuzzy
+msgid "Usage"
+msgstr "Notkun"
+
+#: soliddeviceengine.cpp:283
+#, fuzzy, kde-format
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: soliddeviceengine.cpp:286
+#, fuzzy
+msgid "Ignored"
+msgstr "Hunsað"
+
+#: soliddeviceengine.cpp:287
+msgid "File System Type"
+msgstr ""
+
+#: soliddeviceengine.cpp:288
+#, fuzzy
+msgid "Label"
+msgstr "Merki"
+
+#: soliddeviceengine.cpp:289
+#, fuzzy
+msgid "UUID"
+msgstr "UUID"
+
+#: soliddeviceengine.cpp:298
+#, fuzzy
+msgid "Encrypted Container"
+msgstr "Dulritaður gagnageymir"
+
+#: soliddeviceengine.cpp:310
+msgid "OpticalDisc"
+msgstr ""
+
+#: soliddeviceengine.cpp:316
+#, fuzzy
+msgid "Audio"
+msgstr "Hljóð"
+
+#: soliddeviceengine.cpp:319
+#, fuzzy
+msgid "Data"
+msgstr "Gögn"
+
+#: soliddeviceengine.cpp:322
+#, fuzzy
+msgid "Video CD"
+msgstr "Vídeódiskur CD"
+
+#: soliddeviceengine.cpp:325
+#, fuzzy
+msgid "Super Video CD"
+msgstr "Súper vídeódiskur"
+
+#: soliddeviceengine.cpp:328
+#, fuzzy
+msgid "Video DVD"
+msgstr "Vídeó DVD"
+
+#: soliddeviceengine.cpp:331
+msgid "Video Blu Ray"
+msgstr ""
+
+#: soliddeviceengine.cpp:333
+#, fuzzy
+msgid "Available Content"
+msgstr "Налично съдържание"
+
+#: soliddeviceengine.cpp:336
+msgid "Unknown Disc Type"
+msgstr ""
+
+#: soliddeviceengine.cpp:336
+msgid "CD Rom"
+msgstr ""
+
+#: soliddeviceengine.cpp:336
+msgid "CD Recordable"
+msgstr ""
+
+#: soliddeviceengine.cpp:337
+msgid "CD Rewritable"
+msgstr ""
+
+#: soliddeviceengine.cpp:337
+msgid "DVD Rom"
+msgstr ""
+
+#: soliddeviceengine.cpp:337
+msgid "DVD Ram"
+msgstr ""
+
+#: soliddeviceengine.cpp:338
+msgid "DVD Recordable"
+msgstr ""
+
+#: soliddeviceengine.cpp:338
+msgid "DVD Rewritable"
+msgstr ""
+
+#: soliddeviceengine.cpp:339
+msgid "DVD Plus Recordable"
+msgstr ""
+
+#: soliddeviceengine.cpp:339
+msgid "DVD Plus Rewritable"
+msgstr ""
+
+#: soliddeviceengine.cpp:340
+msgid "DVD Plus Recordable Duallayer"
+msgstr ""
+
+#: soliddeviceengine.cpp:340
+msgid "DVD Plus Rewritable Duallayer"
+msgstr ""
+
+#: soliddeviceengine.cpp:341
+msgid "Blu Ray Rom"
+msgstr ""
+
+#: soliddeviceengine.cpp:341
+msgid "Blu Ray Recordable"
+msgstr ""
+
+#: soliddeviceengine.cpp:342
+msgid "Blu Ray Rewritable"
+msgstr ""
+
+#: soliddeviceengine.cpp:342
+msgid "HD DVD Rom"
+msgstr ""
+
+#: soliddeviceengine.cpp:343
+msgid "HD DVD Recordable"
+msgstr ""
+
+#: soliddeviceengine.cpp:343
+msgid "HD DVD Rewritable"
+msgstr ""
+
+#: soliddeviceengine.cpp:345
+#, fuzzy
+msgid "Disc Type"
+msgstr "Тип диск"
+
+#: soliddeviceengine.cpp:346
+#, fuzzy
+msgid "Appendable"
+msgstr "Незавършен диск"
+
+#: soliddeviceengine.cpp:347
+#, fuzzy
+msgid "Blank"
+msgstr "Tómt"
+
+#: soliddeviceengine.cpp:348
+#, fuzzy
+msgid "Rewritable"
+msgstr "Презаписваем диск"
+
+#: soliddeviceengine.cpp:349
+#, fuzzy
+msgid "Capacity"
+msgstr "Rýmd"
+
+#: soliddeviceengine.cpp:357
+#, fuzzy
+msgid "Camera"
+msgstr "Myndavél"
+
+#: soliddeviceengine.cpp:359 soliddeviceengine.cpp:373
+#, fuzzy
+msgid "Supported Protocols"
+msgstr "Поддържани протоколи"
+
+#: soliddeviceengine.cpp:360 soliddeviceengine.cpp:374
+#, fuzzy
+msgid "Supported Drivers"
+msgstr "Поддържани драйвери"
+
+#: soliddeviceengine.cpp:371
+#, fuzzy
+msgid "Portable Media Player"
+msgstr "Færanlegur margmiðlunarspilari"
+
+#: soliddeviceengine.cpp:385
+#, fuzzy
+msgid "Battery"
+msgstr "Rafhlaða"
+
+#: soliddeviceengine.cpp:388
+msgid "Unknown Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:388
+msgid "PDA Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:388
+msgid "UPS Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:389
+msgid "Primary Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:389
+msgid "Mouse Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:390
+msgid "Keyboard Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:390
+msgid "Keyboard Mouse Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:391
+msgid "Camera Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:391
+#, fuzzy
+msgid "Phone Battery"
+msgstr "Rafhlaða"
+
+#: soliddeviceengine.cpp:391
+#, fuzzy
+msgid "Monitor Battery"
+msgstr "Rafhlaða"
+
+#: soliddeviceengine.cpp:392
+msgid "Gaming Input Battery"
+msgstr ""
+
+#: soliddeviceengine.cpp:392
+#, fuzzy
+msgid "Bluetooth Battery"
+msgstr "Rafhlaða"
+
+#: soliddeviceengine.cpp:395
+#, fuzzy
+msgid "Not Charging"
+msgstr "Í hleðslu"
+
+#: soliddeviceengine.cpp:395
+#, fuzzy
+msgid "Charging"
+msgstr "Í hleðslu"
+
+#: soliddeviceengine.cpp:395
+#, fuzzy
+msgid "Discharging"
+msgstr "Afhleðst"
+
+#: soliddeviceengine.cpp:396
+msgid "Fully Charged"
+msgstr ""
+
+#: soliddeviceengine.cpp:398
+msgid "Plugged In"
+msgstr ""
+
+#: soliddeviceengine.cpp:399
+#, fuzzy
+msgid "Type"
+msgstr "Tegund"
+
+#: soliddeviceengine.cpp:400
+#, fuzzy
+msgid "Charge Percent"
+msgstr "Зареждане (%)"
+
+#: soliddeviceengine.cpp:401
+#, fuzzy
+msgid "Rechargeable"
+msgstr "Презаредима"
+
+#: soliddeviceengine.cpp:402
+#, fuzzy
+msgid "Charge State"
+msgstr "Състояние на зареждането"
+
+#: soliddeviceengine.cpp:427
+msgid "Type Description"
+msgstr ""
+
+#: soliddeviceengine.cpp:432
+msgid "Device Types"
+msgstr ""
+
+#: soliddeviceengine.cpp:456 soliddeviceengine.cpp:553
+#, fuzzy
+msgid "Size"
+msgstr "Stærð"
+
+#: soliddeviceengine.cpp:535
+#, kde-format
+msgid "Filesystem is not responding"
+msgstr ""
+
+#: soliddeviceengine.cpp:535
+#, kde-format
+msgid "Filesystem mounted at '%1' is not responding"
+msgstr ""
+
+#: soliddeviceengine.cpp:551
+#, fuzzy
+msgid "Free Space"
+msgstr "Laust pláss"
+
+#: soliddeviceengine.cpp:552
+#, fuzzy
+msgid "Free Space Text"
+msgstr "Laust pláss"
+
+#: soliddeviceengine.cpp:554
+#, fuzzy
+msgid "Size Text"
+msgstr "Stærð"
+
+#: soliddeviceengine.cpp:580
+#, fuzzy
+msgid "Temperature"
+msgstr "Hitastig"
+
+#: soliddeviceengine.cpp:581
+msgid "Temperature Unit"
+msgstr ""
+
+#: soliddeviceengine.cpp:625 soliddeviceengine.cpp:629
+msgid "In Use"
+msgstr ""

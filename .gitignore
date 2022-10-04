@@ -26,3 +26,11 @@ CMakeLists.txt.user*
 .clangd
 /cmake-build*
 .cache
+rpm/BUILD
+rpm/RPMS
+rpm/BUILDROOT
+rpm/SRPMS
+
+rpm/plasma-workspace-*.tar.gz
+rpm/plasma-workspace*.buildlog
+

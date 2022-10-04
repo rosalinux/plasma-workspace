@@ -1,0 +1,119 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Eloy Cuadra <ecuadra@eloihr.net>, 2014, 2015, 2017, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2022-01-11 19:30+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net"
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (formato largo)"
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (formato corto)"
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Imperial del Reino Unido"
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Imperial de Estados Unidos"
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Métrico"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr "Formatos"
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr "Copyright 2021 Han Young"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr "Han Young"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+"Aquí puede configurar los formatos usados para la hora, las fechas, la "
+"moneda y otros números."
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr "Por omisión"
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr "Región"
+
+#: optionsmodel.cpp:18
+#, kde-format
+msgid "Numbers"
+msgstr "Números"
+
+#: optionsmodel.cpp:19
+#, kde-format
+msgid "Time"
+msgstr "Hora"
+
+#: optionsmodel.cpp:20
+#, kde-format
+msgid "Currency"
+msgstr "Símbolo monetario"
+
+#: optionsmodel.cpp:21
+#, kde-format
+msgid "Measurement"
+msgstr "Medida"

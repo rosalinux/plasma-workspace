@@ -1,0 +1,130 @@
+# translation of kcmtranslations.po to Slovak
+# Roman Paholík <wizzardsk@gmail.com>, 2014, 2015.
+# Mthw <jari_45@hotmail.com>, 2018.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2019, 2021.
+# Dušan Kazik <prescott66@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmtranslations\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-11-30 00:46+0000\n"
+"PO-Revision-Date: 2021-09-15 18:45+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.08.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: package/contents/ui/main.qml:20
+#, kde-format
+msgid "Language"
+msgstr "Jazyk"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Languages"
+msgstr "Pridanie jazykov"
+
+#: package/contents/ui/main.qml:116
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Pridať"
+
+#: package/contents/ui/main.qml:142
+#, kde-format
+msgctxt "@info"
+msgid "There are no additional languages available on this system."
+msgstr "V tomto systéme nie sú dostupné žiadne dodatočné jazyky."
+
+#: package/contents/ui/main.qml:152
+#, kde-format
+msgctxt "@info"
+msgid "Your changes will take effect the next time you log in."
+msgstr "Vaše zmeny sa prejavia pri najbližšom prihlásení."
+
+#: package/contents/ui/main.qml:153
+#, kde-format
+msgctxt "@info"
+msgid "There are currently no preferred languages configured."
+msgstr "Nie sú nastavené žiadne uprednostňované jazyky."
+
+#: package/contents/ui/main.qml:170
+#, kde-format
+msgctxt "@info %2 is the language code"
+msgid ""
+"The translation files for the language with the code '%2' could not be "
+"found. The language will be removed from your configuration. If you want to "
+"add it back, please install the localization files for it and add the "
+"language again."
+msgid_plural ""
+"The translation files for the languages with the codes '%2' could not be "
+"found. These languages will be removed from your configuration. If you want "
+"to add them back, please install the localization files for it and add the "
+"languages again."
+msgstr[0] ""
+"Súbory prekladu pre jazyk s kódom \"%2\" nie je možné nájsť. Jazyk bol "
+"odstránený z vašej konfigurácie. Ak ho chcete pridať späť, prosím "
+"nainštalujte jeho lokalizačné súbory a pridajte ho znova."
+msgstr[1] ""
+"Súbory prekladu pre jazyky s kódmi '%2' nie je možné nájsť. Jazyky boli "
+"odstránené z vašej konfigurácie. Ak ich chcete pridať späť, prosím "
+"nainštalujte ich lokalizačné súbory a pridajte ich znova."
+msgstr[2] ""
+"Súbory prekladu pre jazyky s kódmi '%2' nie je možné nájsť. Jazyky boli "
+"odstránené z vašej konfigurácie. Ak ich chcete pridať späť, prosím "
+"nainštalujte ich lokalizačné súbory a pridajte ich znova."
+
+#: package/contents/ui/main.qml:173
+#, kde-format
+msgctxt "@info separator in list of language codes"
+msgid "', '"
+msgstr "', '"
+
+#: package/contents/ui/main.qml:184
+#, kde-format
+msgid ""
+"The language at the top of this list is the one you want to see and use most "
+"often."
+msgstr ""
+"Jazyk navrchu zoznamu je ten, ktorý chcete vidieť a používať najčastejšie."
+
+#: package/contents/ui/main.qml:256
+#, kde-format
+msgctxt "@item:inlistbox 1 = Language name"
+msgid "%1 (Default)"
+msgstr "%1 (Predvolený)"
+
+#: package/contents/ui/main.qml:268
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Install Missing Packages"
+msgstr "Inštalovať chýbajúce balíky"
+
+#: package/contents/ui/main.qml:275
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Promote to default"
+msgstr "Povýšiť na predvolený"
+
+#: package/contents/ui/main.qml:281
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: package/contents/ui/main.qml:303
+#, kde-format
+msgctxt "@action:button"
+msgid "Add languages…"
+msgstr "Pridať jazyky..."
+
+#: translationsmodel.cpp:85 translationsmodel.cpp:96
+#, kde-format
+msgctxt "%1 is language name, %2 is language code name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"

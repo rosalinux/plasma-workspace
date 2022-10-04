@@ -1,0 +1,420 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Kishore G <kishore96@gmail.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-05-01 00:52+0000\n"
+"PO-Revision-Date: 2022-02-27 16:32+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: package/contents/config/config.qml:19
+#, kde-format
+msgid "Appearance"
+msgstr "தோற்றம்"
+
+#: package/contents/config/config.qml:24
+#, kde-format
+msgid "Calendar"
+msgstr "நாள்காட்டி"
+
+#: package/contents/config/config.qml:29
+#: package/contents/ui/CalendarView.qml:517
+#, kde-format
+msgid "Time Zones"
+msgstr "கால மண்டலங்கள்"
+
+#: package/contents/ui/CalendarView.qml:90
+#, kde-format
+msgid "Events"
+msgstr "நிகழ்வுகள் "
+
+#: package/contents/ui/CalendarView.qml:96
+#, kde-format
+msgctxt "@action:button Add event"
+msgid "Add…"
+msgstr "சேர்…"
+
+#: package/contents/ui/CalendarView.qml:133
+#, kde-format
+msgctxt "Format: month year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: package/contents/ui/CalendarView.qml:157
+#, kde-format
+msgid "Keep Open"
+msgstr "திறந்தே வைத்திரு"
+
+#: package/contents/ui/CalendarView.qml:172
+#, kde-format
+msgid "Days"
+msgstr "நாட்கள்"
+
+#: package/contents/ui/CalendarView.qml:177
+#, kde-format
+msgid "Months"
+msgstr "மாதங்கள்"
+
+#: package/contents/ui/CalendarView.qml:182
+#, kde-format
+msgid "Years"
+msgstr "வருடங்கள்"
+
+#: package/contents/ui/CalendarView.qml:203
+#, kde-format
+msgid "Previous month"
+msgstr "முந்தைய மாதம்"
+
+#: package/contents/ui/CalendarView.qml:205
+#, kde-format
+msgid "Previous year"
+msgstr "முந்தைய வருடம்"
+
+#: package/contents/ui/CalendarView.qml:207
+#, kde-format
+msgid "Previous decade"
+msgstr "முந்தைய பத்தாண்டு"
+
+#: package/contents/ui/CalendarView.qml:220
+#, kde-format
+msgctxt "Reset calendar to today"
+msgid "Today"
+msgstr "இன்று"
+
+#: package/contents/ui/CalendarView.qml:221
+#, kde-format
+msgid "Reset calendar to today"
+msgstr "நாள்காட்டியை இன்றைய தேதிக்கு மீட்டமை"
+
+#: package/contents/ui/CalendarView.qml:238
+#, kde-format
+msgid "Next month"
+msgstr "அடுத்த மாதம்"
+
+#: package/contents/ui/CalendarView.qml:240
+#, kde-format
+msgid "Next year"
+msgstr "அடுத்த வருடம்"
+
+#: package/contents/ui/CalendarView.qml:242
+#, kde-format
+msgid "Next decade"
+msgstr "அடுத்த பத்தாண்டு"
+
+#: package/contents/ui/CalendarView.qml:484
+#, kde-format
+msgid "No events for today"
+msgstr "இன்று எந்த நிகழ்வுகளும் இல்லை"
+
+#: package/contents/ui/CalendarView.qml:485
+#, kde-format
+msgid "No events for this day"
+msgstr "இந்த நாளுக்கு எந்த நிகழ்வுகளும் இல்லை"
+
+#: package/contents/ui/CalendarView.qml:524
+#, kde-format
+msgid "Switch…"
+msgstr "மாற்று..."
+
+#: package/contents/ui/CalendarView.qml:529
+#, kde-format
+msgid "Switch to another timezone"
+msgstr "இன்னொரு கால மண்டலத்துக்கு மாற்று"
+
+#: package/contents/ui/configAppearance.qml:54
+#, kde-format
+msgctxt "Use default font"
+msgid "Default"
+msgstr "இயல்பிருப்பு"
+
+#: package/contents/ui/configAppearance.qml:69
+#, kde-format
+msgid "Information:"
+msgstr "விவரங்கள்:"
+
+#: package/contents/ui/configAppearance.qml:73
+#, kde-format
+msgid "Show date"
+msgstr "தேதியை காட்டு"
+
+#: package/contents/ui/configAppearance.qml:81
+#, kde-format
+msgid "Adaptive location"
+msgstr "தானாக உணரப்படும் இடம்"
+
+#: package/contents/ui/configAppearance.qml:82
+#, kde-format
+msgid "Always beside time"
+msgstr "எப்போதும் நேரத்துக்கு பக்கத்தில்"
+
+#: package/contents/ui/configAppearance.qml:83
+#, kde-format
+msgid "Always below time"
+msgstr "எப்போதும் நேரத்துக்கு அடியில்"
+
+#: package/contents/ui/configAppearance.qml:91
+#, kde-format
+msgid "Show seconds"
+msgstr "நொடிகளை காட்டு"
+
+#: package/contents/ui/configAppearance.qml:99
+#, kde-format
+msgid "Show time zone:"
+msgstr "கால மண்டலத்தை காட்டு:"
+
+#: package/contents/ui/configAppearance.qml:104
+#, kde-format
+msgid "Only when different from local time zone"
+msgstr "தற்போதைய இருப்பிடத்தின் கால மண்டலமாக இல்லாத போது மட்டும்"
+
+#: package/contents/ui/configAppearance.qml:109
+#, kde-format
+msgid "Always"
+msgstr "எப்போதும்"
+
+#: package/contents/ui/configAppearance.qml:118
+#, kde-format
+msgid "Display time zone as:"
+msgstr "கால மண்டலத்தை இவ்வாறு காட்டு:"
+
+#: package/contents/ui/configAppearance.qml:123
+#, kde-format
+msgid "Code"
+msgstr "குறிமுறையாக"
+
+#: package/contents/ui/configAppearance.qml:124
+#, kde-format
+msgid "City"
+msgstr "நகரமாக"
+
+#: package/contents/ui/configAppearance.qml:125
+#, kde-format
+msgid "Offset from UTC time"
+msgstr "UTC நேரத்திலிருந்து உள்ள வித்தியாசமாக"
+
+#: package/contents/ui/configAppearance.qml:137
+#, kde-format
+msgid "Time display:"
+msgstr "நேரம் காட்டப்படுவது:"
+
+#: package/contents/ui/configAppearance.qml:142
+#, kde-format
+msgid "12-Hour"
+msgstr "12-மணிநேரம்"
+
+#: package/contents/ui/configAppearance.qml:143
+#: package/contents/ui/configCalendar.qml:51
+#, kde-format
+msgid "Use Region Defaults"
+msgstr "வட்டார இயல்பிருப்பு"
+
+#: package/contents/ui/configAppearance.qml:144
+#, kde-format
+msgid "24-Hour"
+msgstr "24-மணிநேரம்"
+
+#: package/contents/ui/configAppearance.qml:151
+#, kde-format
+msgid "Change Regional Settings…"
+msgstr "வட்டார அமைப்புகளை மாற்று…"
+
+#: package/contents/ui/configAppearance.qml:162
+#, kde-format
+msgid "Date format:"
+msgstr "தேதி எவ்வாறு காட்டப்படும்:"
+
+#: package/contents/ui/configAppearance.qml:170
+#, kde-format
+msgid "Long Date"
+msgstr "விவரமான தேதி"
+
+#: package/contents/ui/configAppearance.qml:175
+#, kde-format
+msgid "Short Date"
+msgstr "சுருக்கமான தேதி"
+
+#: package/contents/ui/configAppearance.qml:180
+#, kde-format
+msgid "ISO Date"
+msgstr "ISO தேதி"
+
+#: package/contents/ui/configAppearance.qml:185
+#, kde-format
+msgctxt "custom date format"
+msgid "Custom"
+msgstr "வேறு"
+
+#: package/contents/ui/configAppearance.qml:216
+#, kde-format
+msgid ""
+"<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+"\">Time Format Documentation</a>"
+msgstr ""
+"<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+"\">தேதி/நேர வடிவத்திற்கான கையேடு</a>"
+
+#: package/contents/ui/configAppearance.qml:238
+#, kde-format
+msgid "Font style:"
+msgstr "எழுத்துரு வகை:"
+
+#: package/contents/ui/configAppearance.qml:262
+#, kde-format
+msgid "Bold text"
+msgstr "தடித்த எழுத்து"
+
+#: package/contents/ui/configAppearance.qml:272
+#, kde-format
+msgid "Italic text"
+msgstr "சாய்வெழுத்து"
+
+#: package/contents/ui/configCalendar.qml:37
+#, kde-format
+msgid "General:"
+msgstr "பொதுவானவை:"
+
+#: package/contents/ui/configCalendar.qml:38
+#, kde-format
+msgid "Show week numbers"
+msgstr "வார எண்களைக் காட்டு"
+
+#: package/contents/ui/configCalendar.qml:43
+#, kde-format
+msgid "First day of week:"
+msgstr "வாரத்தின் முதல் நாள்:"
+
+#: package/contents/ui/configCalendar.qml:66
+#, kde-format
+msgid "Available Plugins:"
+msgstr "பயன்படுத்தக்கூடிய செருகுநிரல்கள்:"
+
+#: package/contents/ui/configTimeZones.qml:90
+#, kde-format
+msgid "Clock is currently using this time zone"
+msgstr "கடிகாரம் இப்போது இந்த கால மண்டலத்தை பயன்படுத்துகிறது"
+
+#: package/contents/ui/configTimeZones.qml:100
+#, kde-format
+msgid "Switch Local Time Zone…"
+msgstr "வட்டார கால மண்டலத்தை மாற்று..."
+
+#: package/contents/ui/configTimeZones.qml:109
+#, kde-format
+msgid "Remove this time zone"
+msgstr "இந்த கால மண்டலத்தை நீக்கு"
+
+#: package/contents/ui/configTimeZones.qml:118
+#, kde-format
+msgid "System's Local Time Zone"
+msgstr "கணினியின் வட்டார கால மண்டலம்"
+
+#: package/contents/ui/configTimeZones.qml:118
+#, kde-format
+msgid "Additional Time Zones"
+msgstr "கூடுதல் கால மண்டலங்கள்"
+
+#: package/contents/ui/configTimeZones.qml:131
+#, kde-format
+msgid ""
+"Add more time zones to display all of them in the applet's pop-up, or use "
+"one of them for the clock itself"
+msgstr ""
+"கூடுதல் கால மண்டலங்களை சேர்த்து அவற்றை கடிகாரத்தின் தெரித்தெழும் பட்டியில் காணுங்கள், "
+"அல்லது அவற்றில் ஒன்றை கடிகாரத்திற்கே பயன்படுத்துங்கள்"
+
+#: package/contents/ui/configTimeZones.qml:138
+#, kde-format
+msgid "Add Time Zones…"
+msgstr "கால மண்டலங்களை சேர்…"
+
+#: package/contents/ui/configTimeZones.qml:149
+#, kde-format
+msgid "Switch displayed time zone by scrolling over clock applet"
+msgstr "கடிகாரத்தின் மீது சுட்டியின் சக்கரத்தை உருட்டி காட்டப்படும் கால மண்டலத்தை மாற்றுங்கள்"
+
+#: package/contents/ui/configTimeZones.qml:160
+#, kde-format
+msgid ""
+"Note that using a different time zone for the clock does not change the "
+"systemwide local time zone. When you travel, switch the local time zone "
+"instead."
+msgstr ""
+"கடிகாரத்தின் கால மண்டலத்தை மாற்றுதல், கணினியின் கால மண்டலத்தை மாற்றாது என்பதை நினைவில் "
+"கொள்ளுங்கள். பயணிக்கும்போது, பதிலாக கணினியின் வட்டார கால மண்டலத்தையே மாற்றி அமையுங்கள்."
+
+#: package/contents/ui/configTimeZones.qml:189
+#, kde-format
+msgid "Add More Timezones"
+msgstr "கூடுதல் கால மண்டலங்களை சேர்த்தல்"
+
+#: package/contents/ui/configTimeZones.qml:200
+#, kde-format
+msgid ""
+"At least one time zone needs to be enabled. Your local timezone was enabled "
+"automatically."
+msgstr ""
+"ஒரு கால மண்டலமாவது இயக்கப்பட்டிருக்க வேண்டும். உங்கள் வட்டார கால மண்டலம் தானாக "
+"இயக்கப்பட்டது."
+
+#: package/contents/ui/configTimeZones.qml:225
+#, kde-format
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: package/contents/ui/configTimeZones.qml:225
+#, kde-format
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: package/contents/ui/main.qml:121
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "பிடிப்புப்பலகைக்கு நகலெடு"
+
+#: package/contents/ui/main.qml:126
+#, kde-format
+msgid "Adjust Date and Time…"
+msgstr "தேதி மற்றும் நேரத்தை மாற்று..."
+
+#: package/contents/ui/main.qml:129
+#, kde-format
+msgid "Set Time Format…"
+msgstr "நேரத்தின் வடிவத்தை மாற்று..."
+
+#: plugin/clipboardmenu.cpp:107
+#, kde-format
+msgid "Other Calendars"
+msgstr "மற்ற நாள்காட்டிகள்"
+
+#: plugin/clipboardmenu.cpp:115
+#, kde-format
+msgctxt "unix timestamp (seconds since 1.1.1970)"
+msgid "%1 (UNIX Time)"
+msgstr "%1 (யூனிக்ஸ் நேரம்)"
+
+#: plugin/clipboardmenu.cpp:118
+#, kde-format
+msgctxt "for astronomers (days and decimals since ~7000 years ago)"
+msgid "%1 (Julian Date)"
+msgstr "%1 (Julian நேரம்)"
+
+#: plugin/timezonemodel.cpp:141
+#, kde-format
+msgctxt "This means \"Local Timezone\""
+msgid "Local"
+msgstr "வட்டாரம்"
+
+#: plugin/timezonemodel.cpp:143
+#, kde-format
+msgid "System's local time zone"
+msgstr "கணினியின் வட்டார கால மண்டலம்"

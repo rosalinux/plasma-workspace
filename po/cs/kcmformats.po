@@ -1,0 +1,121 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2014, 2016, 2017.
+# Vit Pelcak <vpelcak@suse.cz>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-11 00:45+0000\n"
+"PO-Revision-Date: 2021-10-08 14:29+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.08.1\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org"
+
+#: exampleutility.cpp:41
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (dlouhý formát)"
+
+#: exampleutility.cpp:42
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (krátký formát)"
+
+#: exampleutility.cpp:54
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Imperiální UK"
+
+#: exampleutility.cpp:56
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Imperiální US"
+
+#: exampleutility.cpp:58
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Metrická"
+
+#: kcmformats.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "Formats"
+msgstr "Formáty"
+
+#: kcmformats.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2021 Han Young"
+msgstr "Copyright 2021 Han Young"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Han Young"
+msgstr "Han Young"
+
+#: kcmformats.cpp:34
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: kcmformats.cpp:37
+#, kde-format
+msgid ""
+"You can configure the formats used for time, dates, money and other numbers "
+"here."
+msgstr ""
+"Zde můžete nastavovat formáty času, data, měn a jiných číselných hodnot."
+
+#: localelistmodel.cpp:28 optionsmodel.cpp:98 optionsmodel.cpp:131
+#, kde-format
+msgid "Default"
+msgstr "Výchozí"
+
+#: optionsmodel.cpp:17
+#, kde-format
+msgid "Region"
+msgstr "Region"
+
+#: optionsmodel.cpp:18
+#, kde-format
+msgid "Numbers"
+msgstr "Čísla"
+
+#: optionsmodel.cpp:19
+#, kde-format
+msgid "Time"
+msgstr "Čas"
+
+#: optionsmodel.cpp:20
+#, kde-format
+msgid "Currency"
+msgstr "Měna"
+
+#: optionsmodel.cpp:21
+#, kde-format
+msgid "Measurement"
+msgstr "Měření"
